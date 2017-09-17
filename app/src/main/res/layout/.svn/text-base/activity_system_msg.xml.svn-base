@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/bg_white"
+        >
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/rl_back"/>
+
+        <TextView
+            android:id="@+id/txt_tltle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/bg_text_black"
+            android:textSize="16sp"
+            android:text="系统通知" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/lr_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white">
+
+        <com.lvgou.distribution.refresh.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pull_refresh_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/gray_normal"
+            android:dividerPadding="1dp"
+            android:scrollbars="none"
+            ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+            ptr:ptrMode="both" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/empty_view"
+        layout="@layout/none_data_layout"
+        />
+</LinearLayout>

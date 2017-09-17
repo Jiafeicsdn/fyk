@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white">
+
+    <ImageView
+        android:id="@+id/img_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_thirty"
+        android:background="@mipmap/baobei_local" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_twelve"
+        android:layout_marginTop="@dimen/margin_twenty_five"
+        android:layout_toRightOf="@+id/img_01"
+        android:text="杭州博物馆"
+        android:textColor="@color/baobei_black_text"
+        android:textSize="@dimen/fourteen" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_marginTop="@dimen/margin_eight"
+        android:layout_toRightOf="@+id/img_01"
+        android:text="杭州市杭州路100号"
+        android:textColor="@color/bg_goods_search_text"
+        android:textSize="@dimen/twelve" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_address"
+        android:layout_marginTop="@dimen/margin_twelve"
+        android:background="@color/bg_line" />
+</RelativeLayout>

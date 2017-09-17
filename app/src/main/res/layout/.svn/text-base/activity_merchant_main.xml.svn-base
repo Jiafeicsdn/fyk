@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- <com.lvgou.distribution.view.MerchantViewLayout
+             android:id="@+id/scroll_layout"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">-->
+        <com.lvgou.distribution.utils.ScrollableLayout
+            android:id="@+id/sl_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/im_bg_top"
+                android:layout_width="match_parent"
+                android:layout_height="252dp"
+                android:scaleType="centerCrop"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <LinearLayout
+                android:id="@+id/layout_topView"
+                android:layout_width="match_parent"
+                android:layout_height="252dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<com.lvgou.distribution.view.DragScaleImageView xmlns:dragscaleimageview="http://schemas.android.com/apk/res/com.lvgou.distribution"-->
+                    <!--android:id="@+id/drag_imgview"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="252dp"-->
+                    <!--dragscaleimageview:scale_image="@mipmap/merchant_bg"/>-->
+
+                    <!--  <ImageView
+                          android:id="@+id/bg_img_back"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="left"
+                          android:padding="10dp"
+                          android:src="@mipmap/mq_ic_back_white" />-->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="252dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:id="@+id/fm_head_layout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone"
+                                android:layout_marginTop="30dp">
+
+                                <com.lvgou.distribution.view.CircleImageView
+                                    android:id="@+id/img_user_head"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp" />
+
+                                <ImageView
+                                    android:id="@+id/img_teacher_label"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom|right"
+                                    android:src="@mipmap/icon_merchant_rz" />
+                            </FrameLayout>
+
+
+                            <TextView
+                                android:id="@+id/txt_user_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="110dp"
+                                android:text="哈哈"
+                                android:textColor="@color/bg_white"
+                                android:textSize="18sp" />
+
+
+                            <TextView
+                                android:id="@+id/txt_merchant_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="68dp"
+                                android:layout_marginRight="63dp"
+                                android:layout_marginTop="28dp"
+                                android:drawableLeft="@mipmap/icon_address_merchant"
+                                android:ellipsize="end"
+                                android:maxLines="2"
+                                android:gravity="center"
+                                android:textColor="@color/bg_white"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_path_guide"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="17dp"
+                            android:background="@mipmap/icon_path_bg"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_pathlength"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawablePadding="10dp"
+                                android:drawableRight="@mipmap/icon_path_guide"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/text_color_333333"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@color/bg_line"-->
+            <!--/>-->
+            <com.lvgou.distribution.view.HorizontalListView
+                android:id="@+id/id_horizontalmenu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bg_white"
+                android:layout_below="@+id/layout_topView"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:focusable="true"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+
+            <View
+                android:id="@+id/view_line"
+                android:layout_below="@+id/id_horizontalmenu"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="@color/backround" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@id/id_viewpager"
+                android:layout_below="@+id/view_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingRight="33dp"
+                android:paddingLeft="33dp"
+                />
+
+        </com.lvgou.distribution.utils.ScrollableLayout>
+        <!--</com.lvgou.distribution.view.MerchantViewLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/rl_top_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#cc000000"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@mipmap/mq_ic_back_white" />
+
+            <TextView
+                android:id="@+id/top_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:visibility="gone"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/top_cirlce_follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

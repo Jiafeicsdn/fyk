@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_news" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/bg_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_rectangle23" />
+
+        <TextView
+            android:id="@+id/txt_navigation_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/fourteen" />
+    </LinearLayout>
+
+    <com.lvgou.distribution.view.ListViewForScrollView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:divider="@color/bg_white"
+        android:dividerHeight="0dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/empty_view"
+        layout="@layout/activity_none_comment_list_one" />
+</LinearLayout>

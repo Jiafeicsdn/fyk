@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:drawable="@mipmap/school_chat_right_playaudio1"
+        android:duration="150"></item>
+    <item
+        android:drawable="@mipmap/school_chat_right_playaudio2"
+        android:duration="150"></item>
+    <item
+        android:drawable="@mipmap/school_chat_right_playaudio"
+        android:duration="150"></item>
+</animation-list>

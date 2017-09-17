@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event
+END
+OnGroupClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnGroupClick.java
+END
+OnItemClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnItemClick.java
+END
+OnLongClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnLongClick.java
+END
+OnItemSelected.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnItemSelected.java
+END
+OnScrollStateChanged.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnScrollStateChanged.java
+END
+OnStopTrackingTouch.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnStopTrackingTouch.java
+END
+OnTabChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnTabChange.java
+END
+OnProgressChanged.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnProgressChanged.java
+END
+OnNothingSelected.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnNothingSelected.java
+END
+OnGroupCollapse.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnGroupCollapse.java
+END
+EventBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/EventBase.java
+END
+OnTouch.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnTouch.java
+END
+OnStartTrackingTouch.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnStartTrackingTouch.java
+END
+OnPreferenceChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnPreferenceChange.java
+END
+OnItemLongClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnItemLongClick.java
+END
+OnPreferenceClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnPreferenceClick.java
+END
+OnFocusChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnFocusChange.java
+END
+OnClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnClick.java
+END
+OnKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnKey.java
+END
+OnRadioGroupCheckedChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnRadioGroupCheckedChange.java
+END
+OnChildClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnChildClick.java
+END
+OnGroupExpand.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnGroupExpand.java
+END
+OnCompoundButtonCheckedChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnCompoundButtonCheckedChange.java
+END
+OnScroll.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/annotation/event/OnScroll.java
+END

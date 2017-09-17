@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_twenty_five"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="兑换"
+            android:textColor="@color/bg_text_black"
+            android:textSize="@dimen/eighteen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5元红包"
+            android:textColor="@color/bg_code_number"
+            android:textSize="@dimen/eighteen" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:text="兑换的红包将直接放入该手机帐号中"
+        android:textColor="@color/bg_text_grey"
+        android:textSize="@dimen/fourteen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/margin_ten"
+            android:layout_weight="1.3"
+            android:background="@drawable/et_register_shpae"
+            android:hint="输入买家手机号"
+            android:inputType="phone"
+            android:lines="1"
+            android:maxLength="11"
+            android:paddingLeft="@dimen/margin_ten"
+            android:textColorHint="@color/bg_text_grey"
+            android:textSize="@dimen/fourteen" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/bg_code_shape">
+
+            <TextView
+                android:id="@+id/tv_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_1"
+                android:text="验证(120)"
+                android:textColor="#858585"
+                android:textSize="@dimen/sixteen" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_code_number"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@drawable/et_register_shpae"
+        android:hint="输入验证码"
+        android:inputType="phone"
+        android:lines="1"
+        android:maxLength="4"
+        android:paddingLeft="@dimen/margin_ten"
+        android:textColorHint="@color/bg_text_grey"
+        android:textSize="@dimen/fourteen" />
+
+    <Button
+        android:id="@+id/btn_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/margin_twenty"
+        android:layout_marginLeft="@dimen/margin_twenty_five"
+        android:layout_marginRight="@dimen/margin_twenty_five"
+        android:layout_marginTop="@dimen/margin_thirty"
+        android:background="@drawable/btn_orange_shpae"
+        android:text="兑换"
+        android:textColor="@color/bg_text_white"
+        android:textSize="@dimen/fifteen" />
+</LinearLayout>

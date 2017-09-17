@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/bg_white">
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_fifteen"
+                android:text="我的团币："
+                android:textColor="@color/bg_text_grey"
+                android:textSize="@dimen/fourteen" />
+
+            <TextView
+                android:id="@+id/tv_tuanbi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_1"
+                android:text=""
+                android:textColor="@color/bg_code_number"
+                android:textSize="@dimen/twenty" />
+
+            <TextView
+                android:id="@+id/tv_exchange_record"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_fifteen"
+                android:gravity="center_vertical"
+                android:text="兑换记录"
+                android:textColor="@color/bg_text_grey"
+                android:textSize="@dimen/fourteen"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_eight"
+            android:background="@color/bg_white">
+            <TextView
+                android:id="@+id/tv_001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_twenty"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:text="使用流程："
+                android:textColor="@color/bg_new_guide_black"
+                android:textSize="@dimen/thirteen" />
+
+            <ImageView
+                android:id="@+id/img01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:layout_toRightOf="@+id/tv_001"
+                android:background="@mipmap/bg_task_exchange_top" />
+
+            <TextView
+                android:id="@+id/tv_002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img01"
+                android:layout_marginLeft="@dimen/margin_twenty"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:text="注意事项:"
+                android:textColor="@color/bg_new_guide_black"
+                android:textSize="@dimen/thirteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img01"
+                android:layout_marginLeft="@dimen/margin_fifteen"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:layout_toRightOf="@+id/tv_002"
+                android:text="红包不可拆分使用,每单最多使用一个红包"
+                android:textColor="@color/bg_text_grey"
+                android:textSize="@dimen/thirteen" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_002"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:background="@color/bg_line" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_ten">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_five"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_eight"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_five" />
+
+                    <TextView
+                        android:id="@+id/tv_exchange"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_ten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_ten">
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_exchange_1"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_twenty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_twenty">
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_exchange_2"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_fifty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_fifty">
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_exchange_3"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_one_hundred"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_one_hundred">
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_exchange_5"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_hundred_fifty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_hundred_fifty">
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_exchange_6"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_two_hundred"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_two_hundred">
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_exchange_7"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_five_hundred"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_five_hundred">
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_exchange_8"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_fifteen">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_thousand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/yellow_thousand" />
+
+                    <TextView
+                        android:id="@+id/tv_exchange_9"
+                        android:layout_width="85dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_twenty_five"
+                        android:background="@drawable/bg_task_orange_shape"
+                        android:gravity="center"
+                        android:text="立即兑换"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <include layout="@layout/dialog_exchange" />
+</RelativeLayout>

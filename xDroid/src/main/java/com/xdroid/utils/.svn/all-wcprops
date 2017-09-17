@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils
+END
+ChildWidgetAnimationKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/ChildWidgetAnimationKit.java
+END
+BitmapCreate.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/BitmapCreate.java
+END
+UIKitHandlerPoster.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/UIKitHandlerPoster.java
+END
+UIKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/UIKit.java
+END
+UIKitSyncPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/UIKitSyncPost.java
+END
+XDroidException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/XDroidException.java
+END
+AppManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/AppManager.java
+END
+BlurNative.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/BlurNative.java
+END
+BitmapHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/BitmapHelper.java
+END
+BlurKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/utils/BlurKit.java
+END

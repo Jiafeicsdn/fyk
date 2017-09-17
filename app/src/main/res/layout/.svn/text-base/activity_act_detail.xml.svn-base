@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.lvgou.distribution.utils.ScrollableLayout
+        android:id="@+id/sl_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@mipmap/pictures_no"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_scroll_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv_title">
+
+
+            <com.flyco.tablayout.SlidingTabLayout
+                android:id="@+id/tl_4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffffff"
+                tl:tl_indicator_color="#444444"
+                tl:tl_indicator_corner_radius="10dp"
+                tl:tl_indicator_height="4dp"
+                tl:tl_indicator_width="18dp"
+                tl:tl_tab_padding="50dp"
+                tl:tl_tab_space_equal="true"
+                tl:tl_textSelectColor="#000000"
+                tl:tl_textUnselectColor="#999999"
+                tl:tl_textsize="16sp"
+                tl:tl_underline_color="#f0f0f0"
+                tl:tl_underline_height="4dp"
+
+                />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tl_4"
+                android:background="#00000000" />
+        </RelativeLayout>
+
+    </com.lvgou.distribution.utils.ScrollableLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#cc000000">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="60dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/mq_ic_back_white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_share"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/share_act_detail" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_spit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="张三李四王五"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/tv_apply"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#d5aa5f"
+            android:gravity="center"
+            android:text="立即报名"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/ll_bottom"
+        layout="@layout/layout_bottom_publish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/ll_comment_view"
+        layout="@layout/comment_popupwindow_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <include layout="@layout/dialog_share_new" />
+</RelativeLayout>

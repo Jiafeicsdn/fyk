@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white_one">
+
+    <ImageView
+        android:id="@+id/img_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:background="@mipmap/dingwei_black" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_twelve"
+        android:layout_toRightOf="@+id/img_02"
+        android:text="sdfsdfsdfgdfg"
+        android:textColor="@color/bg_balck_three"
+        android:textSize="@dimen/fourteen" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/img_02"
+        android:text="dfgdgdfgdf"
+        android:textColor="@color/bg_gray_two"
+        android:textSize="@dimen/twelve" />
+
+    <ImageView
+        android:id="@+id/img_select_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:background="@mipmap/check_address"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_none_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:text=""
+        android:textColor="@color/bg_balck_three"
+        android:textSize="@dimen/fourteen"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_address"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:background="@color/bg_line" />
+</RelativeLayout>

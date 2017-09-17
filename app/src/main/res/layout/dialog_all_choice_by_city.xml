@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white_one"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:text="热门城市"
+            android:textColor="@color/bg_hint_color"
+            android:textSize="@dimen/thirteen" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:background="@color/bg_white_one">
+
+            <GridView
+                android:id="@+id/grid_hot_city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="4" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:background="@color/bg_white_one" />
+    </LinearLayout>
+</LinearLayout>

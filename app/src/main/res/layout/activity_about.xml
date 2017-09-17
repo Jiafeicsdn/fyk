@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfcfd"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_thirty_five"
+                android:background="@mipmap/about_tugou" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textColor="@color/bg_push_time"
+                android:textSize="@dimen/fourteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_thirty"
+                android:layout_marginRight="@dimen/margin_thirty"
+                android:layout_marginTop="@dimen/margin_fifteen"
+                android:lineSpacingExtra="3dp"
+                android:text="蜂优客，国内领先的导游移动工作平台，属杭州途购网络科技有限公司旗下，是一款为导游量身打造，集“在线学习+带团工具服务+行业社区”于一体的APP。目前已有1000000+导游用户选择使用蜂优客作为自己的带团工作交流平台。"
+                android:textColor="@color/bg_about_black"
+                android:textSize="@dimen/fourteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_thirty"
+                android:layout_marginRight="@dimen/margin_thirty"
+                android:layout_marginTop="@dimen/margin_twenty_five"
+                android:lineSpacingExtra="3dp"
+                android:text="主营板块：\n蜂优学院：导游在线学习平台。\n名师线上直播授课，导游移动学习交流。\n蜂优学院开课类型：\n蜂优公开课：免费学习，畅听无阻。\n蜂优众筹课：尊重知识和经验的价值。"
+                android:textColor="@color/bg_about_black"
+                android:textSize="@dimen/fourteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_thirty"
+                android:layout_marginTop="@dimen/margin_twenty_five"
+                android:lineSpacingExtra="3dp"
+                android:text="蜂圈：导游专属的实名交流社区。\n让导游获取更多信息，结交全国同行，树立行业个人品牌。"
+                android:textColor="@color/bg_about_black"
+                android:textSize="@dimen/fourteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_thirty"
+                android:layout_marginRight="@dimen/margin_thirty"
+                android:layout_marginTop="@dimen/margin_twenty_five"
+                android:lineSpacingExtra="3dp"
+                android:text="蜂圈头条：展现导游文采，分享专业技能。\n蜂圈话题：交流业内时事和导游心声。"
+                android:textColor="@color/bg_about_black"
+                android:textSize="@dimen/fourteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_thirty"
+                android:layout_marginRight="@dimen/margin_thirty"
+                android:layout_marginTop="@dimen/margin_twenty_five"
+                android:lineSpacingExtra="3dp"
+                android:text="蜂优客本着“用心为用户”的理念，将一直为导游提供优质的服务体验。"
+                android:textColor="@color/bg_about_black"
+                android:textSize="@dimen/fourteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_thirty"
+                android:layout_marginRight="@dimen/margin_thirty"
+                android:layout_marginTop="@dimen/margin_twenty_five"
+               android:lineSpacingExtra="3dp"
+                android:text="杭州途购网络科技有限公司，于2015年7月创立，是国内领先的团游服务者工作的移动平台，由前淘宝特色中国高管、智游宝技术总监等人以及知名VC共同投资创办。"
+                android:textColor="@color/bg_about_black"
+                android:textSize="@dimen/fourteen" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

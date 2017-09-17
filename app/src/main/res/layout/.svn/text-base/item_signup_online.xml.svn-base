@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@color/bg_white">
+
+        <ImageView
+            android:id="@+id/img_binner"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:id="@+id/rl_daojishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:background="@mipmap/daojishi_online_bg">
+
+            <TextView
+                android:id="@+id/tv_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_fifteen"
+                android:text="开课倒计时:"
+                android:textColor="@color/bg_baoming_yellow"
+                android:textSize="@dimen/fifteen" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_toRightOf="@+id/tv_01"
+                android:text=""
+                android:textColor="@color/bg_baoming_yellow"
+                android:textSize="@dimen/fifteen" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_binner"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_twelve"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text=""
+            android:textColor="@color/bg_profit_gray"
+            android:textSize="@dimen/thirteen" />
+
+        <TextView
+            android:id="@+id/tv_tuanbi_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_content"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:text=""
+            android:textColor="@color/bg_daoliu_yellow_one"
+            android:textSize="@dimen/fifteen" />
+
+        <TextView
+            android:id="@+id/tv_comment_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_content"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:text=""
+            android:textColor="@color/bg_online_num_gray"
+            android:textSize="@dimen/thirteen" />
+
+        <ImageView
+            android:id="@+id/img_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:layout_toLeftOf="@+id/tv_comment_num"
+            android:background="@mipmap/comment_num_icon" />
+
+        <TextView
+            android:id="@+id/tv_people_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_content"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:layout_toLeftOf="@+id/img_01"
+            android:text=""
+            android:textColor="@color/bg_online_num_gray"
+            android:textSize="@dimen/thirteen" />
+
+        <ImageView
+            android:id="@+id/img_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:layout_toLeftOf="@+id/tv_people_num"
+            android:background="@mipmap/seek_people_num" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_tuanbi_num"
+            android:layout_marginTop="@dimen/margin_fifteen" />
+    </RelativeLayout>
+</LinearLayout>

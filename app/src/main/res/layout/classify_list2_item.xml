@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/im_picture"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+
+            android:background="@mipmap/pictures_no"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/im_state"
+            android:layout_width="50dp"
+            android:layout_height="17dp"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/classify_zhiboz"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="你好啊你好啊你好啊你好啊你好啊"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxEms="5"
+            android:singleLine="true"
+            android:text="爱丽丝"
+            android:textColor="#a5a5a5"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/im_renshu"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/tv_name"
+            android:background="@mipmap/live_renshu_icon" />
+
+        <TextView
+            android:id="@+id/tv_renshu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/im_renshu"
+            android:text="0人已报名"
+            android:textColor="#a3a3a3"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="免费"
+            android:textColor="#ff9900"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

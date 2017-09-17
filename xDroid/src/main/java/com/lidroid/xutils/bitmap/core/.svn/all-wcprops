@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/bitmap/core
+END
+AsyncDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/bitmap/core/AsyncDrawable.java
+END
+BitmapCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/bitmap/core/BitmapCache.java
+END
+BitmapDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/bitmap/core/BitmapDecoder.java
+END
+BitmapSize.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/bitmap/core/BitmapSize.java
+END

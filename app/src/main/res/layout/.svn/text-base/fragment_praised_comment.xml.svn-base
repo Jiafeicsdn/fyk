@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color_fbfcfd"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_visibilty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.lvgou.distribution.refresh.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pull_refresh_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/bg_white"
+            android:dividerPadding="0dp"
+            android:scrollbars="none"
+            ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+            ptr:ptrMode="both" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rl_none_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_fifty_five"
+                android:layout_marginTop="120dp"
+                android:background="@mipmap/bg_none_nothings" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_twenty"
+                android:background="@mipmap/bg_none_bee" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

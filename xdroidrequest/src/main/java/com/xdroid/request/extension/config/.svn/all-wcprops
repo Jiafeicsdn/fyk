@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xdroidrequest/src/main/java/com/xdroid/request/extension/config
+END
+Priority.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xdroidrequest/src/main/java/com/xdroid/request/extension/config/Priority.java
+END
+TimeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xdroidrequest/src/main/java/com/xdroid/request/extension/config/TimeController.java
+END
+CacheConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xdroidrequest/src/main/java/com/xdroid/request/extension/config/CacheConfig.java
+END
+RequestMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xdroidrequest/src/main/java/com/xdroid/request/extension/config/RequestMethod.java
+END
+DataType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xdroidrequest/src/main/java/com/xdroid/request/extension/config/DataType.java
+END

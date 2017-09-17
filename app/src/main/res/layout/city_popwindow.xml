@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/half_transparent_black">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#a0342C2C"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_list"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="@dimen/margin_twenty_five"
+        android:background="@color/bg_white"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_twelve"
+            android:text="热门城市"
+            android:textColor="@color/bg_popwindow_city_grey"
+            android:textSize="@dimen/sixteen" />
+
+        <GridView
+            android:id="@+id/lv_first_classifying"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="@dimen/margin_twenty"
+            android:layout_weight="1"
+            android:numColumns="4"
+            android:visibility="visible" />
+    </LinearLayout>
+</RelativeLayout>

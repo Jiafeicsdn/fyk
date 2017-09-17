@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:text="【万事利】"
+        android:textColor="@color/bg_text_black"
+        android:textSize="@dimen/sixteen" />
+
+    <TextView
+        android:id="@+id/tv_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_toRightOf="@+id/tv_name"
+        android:text="-杭州"
+        android:textColor="@color/bg_text_black" />
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_ten"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@mipmap/ic_launcher" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/img_icon"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:background="@color/bg_line" />
+</RelativeLayout>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv
+END
+DragSortItemView.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv/DragSortItemView.java
+END
+DragSortItemViewCheckable.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv/DragSortItemViewCheckable.java
+END
+DragSortCursorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv/DragSortCursorAdapter.java
+END
+SimpleFloatViewManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv/SimpleFloatViewManager.java
+END
+DragSortController.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv/DragSortController.java
+END
+DragSortListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv/DragSortListView.java
+END
+ResourceDragSortCursorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv/ResourceDragSortCursorAdapter.java
+END
+SimpleDragSortCursorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/dslv/SimpleDragSortCursorAdapter.java
+END

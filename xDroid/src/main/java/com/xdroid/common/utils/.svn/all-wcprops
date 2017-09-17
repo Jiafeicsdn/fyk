@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/FileUtils.java
+END
+HttpUrlConnUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/HttpUrlConnUtils.java
+END
+VersionUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/VersionUtils.java
+END
+MethodsCompat.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/MethodsCompat.java
+END
+ToastUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ToastUtils.java
+END
+DialogUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/DialogUtils.java
+END
+SDCardUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/SDCardUtils.java
+END
+PreferencesUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/PreferencesUtils.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/StringUtils.java
+END
+ObjectUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ObjectUtils.java
+END
+JSONUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/JSONUtils.java
+END
+CipherUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/CipherUtils.java
+END
+ZipAndUnZipUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ZipAndUnZipUtils.java
+END
+ArrayUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ArrayUtils.java
+END
+ScreenUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ScreenUtils.java
+END
+AnimationUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/AnimationUtils.java
+END
+DensityUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/DensityUtils.java
+END
+DigestUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/DigestUtils.java
+END
+AppUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/AppUtils.java
+END
+ImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ImageUtils.java
+END
+SystemUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/SystemUtils.java
+END
+FunctionUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/FunctionUtils.java
+END
+MathUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/MathUtils.java
+END
+PreferenceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/PreferenceHelper.java
+END
+TimeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/TimeUtils.java
+END
+DownloadManagerPro.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/DownloadManagerPro.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/Base64.java
+END
+ErrHandleUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ErrHandleUtils.java
+END
+TempUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/TempUtils.java
+END
+AssetDatabaseOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/AssetDatabaseOpenHelper.java
+END
+ViewHolderUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ViewHolderUtils.java
+END
+SizeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/SizeUtils.java
+END
+ViewUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ViewUtils.java
+END
+ListUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/ListUtils.java
+END
+MapUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/common/utils/MapUtils.java
+END

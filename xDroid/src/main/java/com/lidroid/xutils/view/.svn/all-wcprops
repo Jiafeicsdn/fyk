@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view
+END
+ResLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/ResLoader.java
+END
+EventListenerManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/EventListenerManager.java
+END
+ViewFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/ViewFinder.java
+END
+ViewInjectInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/ViewInjectInfo.java
+END
+ResType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/view/ResType.java
+END

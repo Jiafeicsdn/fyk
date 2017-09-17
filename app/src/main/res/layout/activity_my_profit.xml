@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backround">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="50dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:background="@color/bg_white">
+
+                    <TextView
+                        android:id="@+id/tv_001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:text="最近七日收益   (元)"
+                        android:textColor="@color/bg_main_marquee"
+                        android:textSize="@dimen/fourteen" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_table"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_001"
+                        android:layout_marginBottom="@dimen/margin_ten"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/view_1"
+                    android:layout_below="@+id/rl_01"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@color/bg_white">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_fifteen"
+                            android:text="今日收益:"
+                            android:textColor="@color/bg_goods_manger_black"
+                            android:textSize="@dimen/thirteen" />
+
+                        <TextView
+                            android:id="@+id/tv_today_profit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/margin_fifteen"
+                            android:text=""
+                            android:textColor="@color/bg_profit_text_red"
+                            android:textSize="@dimen/thirteen" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/bg_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@color/bg_white">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_fifteen"
+                            android:text="累计利益:"
+                            android:textColor="@color/bg_goods_manger_black"
+                            android:textSize="@dimen/thirteen" />
+
+                        <TextView
+                            android:id="@+id/tv_cumulative_profit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/margin_fifteen"
+                            android:text=""
+                            android:textColor="@color/bg_profit_text_red"
+                            android:textSize="@dimen/thirteen" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@color/bg_white">
+
+                        <TextView
+                            android:id="@+id/tv_01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_fifteen"
+                            android:layout_marginTop="@dimen/margin_fifteen"
+                            android:text="未提现总收益:"
+                            android:textColor="@color/bg_goods_manger_black"
+                            android:textSize="@dimen/thirteen" />
+
+                        <TextView
+                            android:id="@+id/tv_02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_01"
+                            android:layout_marginLeft="@dimen/margin_fifteen"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:text="(包含订单收益和随时赚收益)"
+                            android:textColor="@color/bg_profit_text_gray"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:id="@+id/tv_total_profit_yet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/margin_fifteen"
+                            android:text=""
+                            android:textColor="@color/bg_profit_text_red"
+                            android:textSize="@dimen/thirteen" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@+id/tv_02"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:background="@color/bg_line" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bg_white">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_fifteen">
+
+                            <TextView
+                                android:id="@+id/tv_03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/margin_twenty_five"
+                                android:text="未提现订单收益:"
+                                android:textColor="@color/bg_profit_text_gray_top"
+                                android:textSize="@dimen/thirteen" />
+
+                            <TextView
+                                android:id="@+id/tv_seek_order_record"
+                                android:layout_width="85dp"
+                                android:layout_height="18dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/margin_eight"
+                                android:layout_toRightOf="@+id/tv_03"
+                                android:background="@drawable/bg_seek_shape"
+                                android:gravity="center"
+                                android:text="查看订单记录"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/ten" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tv_002"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rl_02"
+                            android:layout_marginLeft="@dimen/margin_twenty_five"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:text="包含可提现收益和暂不可提现收益"
+                            android:textColor="@color/bg_profit_text_gray"
+                            android:textSize="@dimen/twelve" />
+
+                        <RelativeLayout
+                            android:id="@+id/rl_open"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="@dimen/margin_twenty_five">
+
+                            <ImageView
+                                android:id="@+id/img_indicator"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/margin_fifteen"
+                                android:background="@mipmap/bg_profit_down" />
+
+                            <TextView
+                                android:id="@+id/tv_tixian_total_profit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:layout_toLeftOf="@+id/img_indicator"
+                                android:text=""
+                                android:textColor="@color/bg_profit_text_red"
+                                android:textSize="@dimen/thirteen" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@+id/tv_002"
+                            android:layout_marginLeft="@dimen/margin_twenty_five"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:background="@color/bg_line" />
+
+                        <RelativeLayout
+                            android:id="@+id/rl_child_profit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_002"
+                            android:background="@mipmap/bg_profit"
+                            android:visibility="gone">
+
+                            <RelativeLayout
+                                android:id="@+id/rl_5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_twenty_five"
+                                android:layout_marginTop="@dimen/margin_twenty_five">
+
+                                <TextView
+                                    android:id="@+id/tv_5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:text="暂不可提现收益:"
+                                    android:textColor="@color/bg_profit_text_gray_top"
+                                    android:textSize="@dimen/thirteen" />
+
+                                <TextView
+                                    android:id="@+id/tv_6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_toRightOf="@+id/tv_5"
+                                    android:text="(进行中的交易)"
+                                    android:textColor="@color/bg_profit_text_gray"
+                                    android:textSize="@dimen/twelve" />
+
+                                <TextView
+                                    android:id="@+id/tv_notcan_profit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="@dimen/margin_thirty_five"
+                                    android:text=""
+                                    android:textColor="@color/bg_profit_text_red"
+                                    android:textSize="@dimen/thirteen" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/rl_5"
+                                android:layout_marginLeft="@dimen/margin_twenty_five"
+                                android:layout_marginTop="@dimen/margin_fifteen">
+
+                                <TextView
+                                    android:id="@+id/tv_7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:text="可提现收益:"
+                                    android:textColor="@color/bg_profit_text_gray_top"
+                                    android:textSize="@dimen/thirteen" />
+
+                                <TextView
+                                    android:id="@+id/tv_8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_toRightOf="@+id/tv_7"
+                                    android:text="(已完成的交易)"
+                                    android:textColor="@color/bg_profit_text_gray"
+                                    android:textSize="@dimen/twelve" />
+
+                                <TextView
+                                    android:id="@+id/tv_can_profit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="@dimen/margin_thirty_five"
+                                    android:text="+3000.00"
+                                    android:textColor="@color/bg_profit_text_red"
+                                    android:textSize="@dimen/thirteen" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bg_white">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_fifteen">
+
+                            <TextView
+                                android:id="@+id/tv_04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_twenty_five"
+                                android:text="未提现随时赚收益:"
+                                android:textColor="@color/bg_profit_text_gray_top"
+                                android:textSize="@dimen/thirteen" />
+
+                            <TextView
+                                android:id="@+id/tv_seek_tuiguang_record"
+                                android:layout_width="85dp"
+                                android:layout_height="18dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/margin_eight"
+                                android:layout_toRightOf="@+id/tv_04"
+                                android:background="@drawable/bg_seek_shape"
+                                android:gravity="center"
+                                android:text="查看推广记录"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/ten" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tv_004"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rl_03"
+                            android:layout_marginLeft="@dimen/margin_twenty_five"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:text="收益可即时提现"
+                            android:textColor="@color/bg_profit_text_gray"
+                            android:textSize="@dimen/twelve" />
+
+                        <ImageView
+                            android:id="@+id/img_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/margin_fifteen"
+                            android:background="@mipmap/goods_up"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/tv_make_total_profit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_toLeftOf="@+id/img_1"
+                            android:text=""
+                            android:textColor="@color/bg_profit_text_red"
+                            android:textSize="@dimen/thirteen" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@+id/tv_004"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:background="@color/bg_line" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/bg_profit_bottom"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_ketixian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_fifty"
+                    android:text="可提现总收益:"
+                    android:textColor="@color/bg_bottom_gray"
+                    android:textSize="@dimen/twelve"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_withdrawals_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tv_ketixian"
+                    android:text="无提现现金额"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fifteen"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_withdrawals_no_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="无可提现金额"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/bg_bottom_gray"
+                    android:textSize="@dimen/fifteen"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_withdrawals"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="申请提现"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

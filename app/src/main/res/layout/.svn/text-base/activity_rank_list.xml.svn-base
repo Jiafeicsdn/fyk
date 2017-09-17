@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_white">
+
+        <RelativeLayout
+            android:id="@+id/rl_day"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="日统计"
+                android:textColor="@color/bg_bottom_gray"
+                android:textSize="@dimen/fourteen" />
+
+            <View
+                android:id="@+id/view_day"
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tv_day"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:background="@color/bg_baoming_yellow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_week"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="周统计"
+                android:textColor="@color/bg_bottom_gray"
+                android:textSize="@dimen/fourteen" />
+
+            <View
+                android:id="@+id/view_week"
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tv_week"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:background="@color/bg_baoming_yellow"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_month"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="月统计"
+                android:textColor="@color/bg_bottom_gray"
+                android:textSize="@dimen/fourteen" />
+
+            <View
+                android:id="@+id/view_month"
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tv_month"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:background="@color/bg_baoming_yellow"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/flaow_bg">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_fifty"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/falow" />
+
+            <TextView
+                android:id="@+id/tv_rank_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_twenty"
+                android:text=""
+                android:textColor="@color/bg_rank_top_num"
+                android:textSize="@dimen/eighteen" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_thirty_five">
+
+            <TextView
+                android:id="@+id/tv_003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:text="今日获得佣金"
+                android:textColor="@color/bg_rank_top_money"
+                android:textSize="@dimen/twelve" />
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/tv_003"
+                android:text=""
+                android:textColor="@color/bg_rank_top_money"
+                android:textSize="@dimen/eighteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:layout_toRightOf="@+id/tv_money"
+                android:text="元"
+                android:textColor="@color/bg_rank_top_money"
+                android:textSize="@dimen/twelve" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="排名"
+                android:textColor="@color/bg_button_text_black"
+                android:textSize="@dimen/fourteen" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:text="昵称"
+                android:textColor="@color/bg_button_text_black"
+                android:textSize="@dimen/fourteen" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="获得佣金(元)"
+                android:textColor="@color/bg_button_text_black"
+                android:textSize="@dimen/fourteen" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_rank_order_num" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/bg_white"
+        android:dividerHeight="0dp" />
+</LinearLayout>

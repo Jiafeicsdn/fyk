@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/api
+END
+IServiceAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/api/IServiceAPI.java
+END
+Api.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/api/Api.java
+END
+IIMServiceAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/api/IIMServiceAPI.java
+END
+Api2.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/api/Api2.java
+END
+ICallBackListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/api/ICallBackListener.java
+END
+DeserializerData.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/api/DeserializerData.java
+END

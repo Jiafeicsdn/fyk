@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs
+END
+ITaskDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/ITaskDAO.java
+END
+DLDBManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLDBManager.java
+END
+DLThreadInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLThreadInfo.java
+END
+IThreadDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/IThreadDAO.java
+END
+DLDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLDBHelper.java
+END
+IDLThreadListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/IDLThreadListener.java
+END
+DLHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLHeader.java
+END
+DLError.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLError.java
+END
+DLInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/71/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLInfo.java
+END
+DLException.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLException.java
+END
+DLCons.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLCons.java
+END
+DLTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLTask.java
+END
+TaskDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/TaskDAO.java
+END
+DLThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLThread.java
+END
+DLManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLManager.java
+END
+ThreadDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/ThreadDAO.java
+END
+DLUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/src/main/java/cn/aigestudio/downloader/bizs/DLUtil.java
+END

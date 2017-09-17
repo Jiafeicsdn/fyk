@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></WebView>
+
+    <include layout="@layout/layout_navigation_title" />
+
+    <com.lvgou.distribution.view.ListViewForScrollView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.lvgou.distribution.view.ListViewForScrollView>
+
+    <include
+        android:id="@+id/empty_view"
+        layout="@layout/activity_none_comment_list" />
+</LinearLayout>

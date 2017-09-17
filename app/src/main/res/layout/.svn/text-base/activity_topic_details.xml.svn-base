@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_white_one"
+    tools:context="com.lvgou.distribution.activity.TopicDetailsActivity">
+
+    <com.lvgou.distribution.refresh.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/layout_comment_zan"
+        android:layout_below="@+id/rl_top_title"
+        android:scrollbars="none"
+        android:showDividers="none"
+        ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+        ptr:ptrMode="both" />
+
+
+    <ImageView
+        android:id="@+id/img_comment"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/fabu_activity_icon" />
+
+    <include layout="@layout/dialog_comment_show_one" />
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="18dp"
+                android:background="@mipmap/mq_ic_back_white" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</FrameLayout>

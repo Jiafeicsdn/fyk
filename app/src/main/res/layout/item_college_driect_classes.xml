@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white_one">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@drawable/bg_picture_conner_shape">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp" />
+
+            <ImageView
+                android:id="@+id/img_course_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:src="@mipmap/icon_course_apply_state"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_twelve"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:layout_toRightOf="@+id/rl_01"
+        android:text="讲师:"
+        android:textColor="@color/bg_balck_three"
+        android:textSize="@dimen/fifteen" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_eight"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:layout_toRightOf="@+id/tv_01"
+        android:text=""
+        android:textColor="@color/bg_balck_three"
+        android:textSize="@dimen/fifteen" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/margin_twelve"
+        android:layout_marginRight="@dimen/margin_thirty_five"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/rl_01"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/bg_balck_three"
+        android:textSize="@dimen/fourteen" />
+
+    <TextView
+        android:id="@+id/tv_sign_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="@dimen/margin_twelve"
+        android:layout_marginTop="@dimen/margin_eight"
+        android:layout_toRightOf="@+id/rl_01"
+        android:text=""
+        android:textColor="@color/bg_gray_one"
+        android:textSize="@dimen/thirteen" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_sign_num"
+        android:layout_marginLeft="@dimen/margin_twelve"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:layout_toRightOf="@+id/rl_01"
+        android:text=""
+        android:textColor="@color/bg_daoliu_yellow_one"
+        android:textSize="@dimen/thirteen" />
+
+    <TextView
+        android:id="@+id/tv_sign_up"
+        android:layout_width="70dp"
+        android:layout_height="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_sign_num"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_conner_signup_shape"
+        android:gravity="center"
+        android:text="立即报名"
+        android:textColor="@color/bg_white"
+        android:textSize="@dimen/twelve" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rl_01"
+        android:layout_marginTop="@dimen/margin_twenty" />
+</RelativeLayout>

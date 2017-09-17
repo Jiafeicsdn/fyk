@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fbfcfd"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_long_pass"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_daojishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="松开发送"
+            android:textColor="#d5aa5f"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_daojishinum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_daojishi"
+            android:text="(120s)"
+            android:textColor="#d5aa5f"
+            android:textSize="13sp" />
+
+        <ProgressBar
+            android:id="@+id/changan_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:max="120"
+            android:progress="120"
+            android:progressDrawable="@drawable/progressbar" />
+        <!--
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#fc4d30"/>-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/title_short_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_short_miao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="(50s)"
+            android:textColor="#fd780c"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/danji_animation"
+            android:layout_width="130dp"
+            android:layout_height="12dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/danji_voice1" />
+
+        <!--<ImageView
+            android:layout_width="61dp"
+            android:layout_height="7dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@id/tv_short_miao"
+            android:background="@mipmap/icon_melody" />-->
+
+
+        <TextView
+            android:id="@+id/short_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="取消"
+            android:textColor="#fd780c"
+            android:textSize="13sp" />
+
+        <ProgressBar
+            android:id="@+id/danji_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:max="120"
+            android:progress="120"
+            android:progressDrawable="@drawable/progressbar" />
+        <!--    <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="#d5aa5f"/>-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/title_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/bg_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <EditText
+                    android:id="@+id/et_content"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/btn_sendmesage"
+                    android:layout_weight="2.5"
+                    android:background="@null"
+                    android:hint="发表下你的想法吧..."
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/margin_ten"
+                    android:textColor="@color/bg_new_guide_black"
+                    android:textColorHint="@color/bg_bottom_gray"
+                    android:textSize="@dimen/fifteen" />
+
+                <TextView
+                    android:id="@+id/btn_sendmesage"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0.6"
+                    android:background="#CCCCCC"
+                    android:gravity="center"
+                    android:text="发送"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_banned"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#30000000"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="--禁言中--"
+                    android:textSize="15sp"
+                    android:textColor="#444444"
+                    android:layout_weight="2.5"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_menu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_voice_small"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/voice_small_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/send_message_voice_icon" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_emoji_small"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/ima_emoji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/send_message_smile_icon" />
+
+                <ImageView
+                    android:id="@+id/img_keyboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/school_chat_keybord"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_pic_small"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/send_message_pic_icon" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_shoot_small"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/send_message_shoot_icon" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/bg_line" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rl_emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/face_viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp" />
+
+        <LinearLayout
+            android:id="@+id/msg_face_index_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_voice_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="28dp">
+
+            <ImageView
+                android:id="@+id/bg_vp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_ovil_vp"
+                android:visibility="gone" />
+
+            <com.lvgou.distribution.view.MyViewPage
+                android:id="@+id/voice_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="90dp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom_voice_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_danji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="17dp"
+                android:text="单击模式"
+                android:textColor="#d5aa5f"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_changan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:text="长按模式"
+                android:textColor="#777777"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

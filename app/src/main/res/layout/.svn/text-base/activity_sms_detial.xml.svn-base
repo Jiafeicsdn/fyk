@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text=""
+                    android:textColor="@color/bg_notice_gray"
+                    android:textSize="@dimen/twelve" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_white">
+
+                <TextView
+                    android:id="@+id/tv_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:text="短信模版"
+                    android:textColor="@color/bg_sms_gray"
+                    android:textSize="@dimen/fourteen" />
+
+                <TextView
+                    android:id="@+id/tv_model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_twenty"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:layout_toRightOf="@+id/tv_01"
+                    android:text=""
+                    android:textColor="@color/bg_goods_manger_black"
+                    android:textSize="@dimen/fourteen" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/tv_01"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:background="@color/bg_line" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_white"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:text="团队分组"
+                    android:textColor="@color/bg_sms_gray"
+                    android:textSize="@dimen/fourteen" />
+
+                <TextView
+                    android:id="@+id/tv_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_twenty"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:layout_toRightOf="@+id/tv_02"
+                    android:text=""
+                    android:textColor="@color/bg_goods_manger_black"
+                    android:textSize="@dimen/fourteen" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/tv_02"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:background="@color/bg_line" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_white">
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_twenty"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginRight="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:text=""
+                    android:textColor="@color/bg_goods_manger_black"
+                    android:textSize="@dimen/twelve" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_line" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:background="@color/bg_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/bg_white">
+
+                <com.lvgou.distribution.view.MyGridView
+                    android:id="@+id/grid_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_fifteen"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginRight="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:numColumns="3"
+                    android:scrollbars="none" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_line" />
+
+            <TextView
+                android:id="@+id/tv_send"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/grid_view"
+                android:layout_marginBottom="@dimen/margin_twenty"
+                android:layout_marginLeft="@dimen/margin_fifteen"
+                android:layout_marginRight="@dimen/margin_fifteen"
+                android:layout_marginTop="@dimen/margin_twenty_five"
+                android:background="@drawable/bg_radius_apply"
+                android:gravity="center"
+                android:text="编辑发送"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/sixteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="针对以上手机号码，再次编辑短信内容"
+                android:textColor="#fc4d30"
+                android:textSize="@dimen/twelve" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_fifty"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

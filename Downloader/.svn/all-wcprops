@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/.gitignore
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/proguard-rules.pro
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/build.gradle
+END
+Downloader.iml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Android/!svn/ver/15/trunk/FYK-Android/Downloader/Downloader.iml
+END

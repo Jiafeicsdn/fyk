@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_invite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_invite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="邀请团员"
+                android:textColor="@color/bg_bottom_gray"
+                android:textSize="@dimen/fourteen" />
+
+            <View
+                android:id="@+id/view_invite"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/bg_baoming_yellow"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_my_group"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="我的团员"
+                android:textColor="@color/bg_bottom_gray"
+                android:textSize="@dimen/fourteen" />
+
+            <View
+                android:id="@+id/view_group"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/bg_baoming_yellow"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_invite_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bg_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="@dimen/margin_thirty_five"
+                    android:background="@color/backround">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/bg_main_clissfy_text" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/bg_main_clissfy_text" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/bg_main_clissfy_text" />
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/bg_main_clissfy_text" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/bg_main_clissfy_text" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/bg_main_clissfy_text" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/bg_main_clissfy_text" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/bg_main_clissfy_text" />
+
+                    <ImageView
+                        android:id="@+id/img_scanning"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/margin_ten" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:layout_marginTop="@dimen/margin_thirty"
+                    android:text="蜂优客，一款属于你的创业神器!"
+                    android:textColor="@color/bg_text_black"
+                    android:textSize="@dimen/fourteen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:text="让服务兑现价值!"
+                    android:textColor="@color/bg_main_gray"
+                    android:textSize="@dimen/fourteen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:text="让人脉搭建事业!"
+                    android:textColor="@color/bg_main_gray"
+                    android:textSize="@dimen/fourteen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:text="让团长发挥自我的闲置才能!"
+                    android:textColor="@color/bg_main_gray"
+                    android:textSize="@dimen/fourteen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:text="加入蜂优客，实现你的创业梦!"
+                    android:textColor="@color/bg_main_gray"
+                    android:textSize="@dimen/fourteen" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_press_long"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="点击复制"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我的团号"
+                        android:textColor="@color/bg_main_gray"
+                        android:textSize="@dimen/fourteen" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_team_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:layout_marginRight="@dimen/margin_thirty"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="@drawable/text_invited_show"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/bg_text_black"
+                    android:textSize="@dimen/fourteen" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_press_long_scanning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="点击复制或扫码"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="立即邀请"
+                        android:textColor="@color/bg_main_gray"
+                        android:textSize="@dimen/fourteen" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_net_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:layout_marginRight="@dimen/margin_thirty"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="@drawable/text_invited_show"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/bg_text_black"
+                    android:textSize="@dimen/fourteen" />
+
+                <TextView
+                    android:id="@+id/tv_save_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="@dimen/margin_thirty_five"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:layout_marginRight="@dimen/margin_thirty"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="@drawable/text_invited_show"
+                    android:gravity="center"
+                    android:text="保存二维码"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_my_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_visibilty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <com.lvgou.distribution.refresh.PullToRefreshGridView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/pull_refresh_grid"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@color/bg_white"
+                android:dividerPadding="0dp"
+                android:gravity="fill"
+                android:horizontalSpacing="1dp"
+                android:numColumns="2"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1dp"
+                ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+                ptr:ptrMode="both" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include layout="@layout/none_data_layout" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

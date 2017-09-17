@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white_one">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:text=""
+        android:textColor="@color/bg_balck_three"
+        android:textSize="@dimen/fourteen" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginTop="@dimen/margin_eight"
+        android:text=""
+        android:textColor="@color/bg_gray_two"
+        android:textSize="@dimen/twelve" />
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:text=""
+        android:textColor="@color/bg_code_number"
+        android:textSize="@dimen/fourteen" />
+
+    <TextView
+        android:id="@+id/tv_tuanbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_state"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:textColor="@color/bg_daoliu_yellow_one"
+        android:textSize="@dimen/thirteen" />
+
+    <View
+        android:id="@+id/view_01"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_tuanbi"
+        android:layout_marginTop="@dimen/margin_twenty" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/view_01"
+        android:background="@color/bg_line" />
+</RelativeLayout>

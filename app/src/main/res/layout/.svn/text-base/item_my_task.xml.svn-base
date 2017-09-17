@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_1"
+                        android:text="5"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_02"
+                        android:text="10"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_1"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_1"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_1"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_03"
+                        android:text="100"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_2"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_2"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_2"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_0003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_0003"
+                        android:text="500"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_004"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_3"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_3"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_3"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_05"
+                        android:text="500"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_005"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_5"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_5"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_5"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_06"
+                        android:text="500"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_006"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_6"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_6"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_6"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_07"
+                        android:text="500"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_007"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_7"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_7"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_7"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_08"
+                        android:text="500"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_008"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_8"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_8"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_8"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_ten"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="#FFB8B8">
+
+                    <TextView
+                        android:id="@+id/tv_09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_twenty_five"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="￥"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/sixteen" />
+
+                    <TextView
+                        android:id="@+id/tv_money_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_09"
+                        android:text="500"
+                        android:textColor="@color/bg_white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_009"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_9"
+                        android:text="元"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:layout_toRightOf="@+id/tv_money_9"
+                        android:text=".兑换所需50币"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_exchange_9"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@drawable/bg_exchange_shape"
+                    android:gravity="center"
+                    android:text="立即兑换"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fourteen" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

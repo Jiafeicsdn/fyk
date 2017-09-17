@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_thirty_five"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/bg_invite_bottom_backround"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_prepare"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_prepare_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:text="0"
+                            android:textColor="@color/bg_daoliu_yellow_one"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_prepare_num"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/margin_eight"
+                            android:layout_marginTop="3dp"
+                            android:text="待审核"
+                            android:textColor="@color/bg_new_guide_black"
+                            android:textSize="@dimen/twelve" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/bg_line" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_success"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_success_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:text=""
+                            android:textColor="@color/bg_bottom_gray"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_success_num"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/margin_eight"
+                            android:layout_marginTop="3dp"
+                            android:text="成功邀请"
+                            android:textColor="@color/bg_new_guide_black"
+                            android:textSize="@dimen/twelve" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/bg_line" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_tuanbi_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:text=""
+                            android:textColor="@color/bg_bottom_gray"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_tuanbi_num"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="@dimen/margin_eight"
+                            android:layout_marginTop="3dp"
+                            android:text="共获团币"
+                            android:textColor="@color/bg_new_guide_black"
+                            android:textSize="@dimen/twelve" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bg_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="165dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_thirty_five"
+                        android:background="@drawable/bg_invitenum_shape">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true">
+
+                            <TextView
+                                android:id="@+id/tv_001"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="邀请码:"
+                                android:textColor="@color/bg_white"
+                                android:textSize="@dimen/fourteen" />
+
+                            <TextView
+                                android:id="@+id/tv_invition_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/margin_fifteen"
+                                android:layout_toRightOf="@+id/tv_001"
+                                android:text=""
+                                android:textColor="@color/bg_baoming_yellow"
+                                android:textSize="@dimen/eighteen" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:text="邀请朋友加入蜂优客,审核通过后"
+                        android:textColor="@color/bg_profit_gray"
+                        android:textSize="@dimen/fourteen" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="你获得"
+                            android:textColor="@color/bg_profit_gray"
+                            android:textSize="@dimen/fourteen" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="20"
+                            android:textColor="@color/bg_invite_orange"
+                            android:textSize="@dimen/fourteen" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="团币,"
+                            android:textColor="@color/bg_profit_gray"
+                            android:textSize="@dimen/fourteen" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="  他获得"
+                            android:textColor="@color/bg_profit_gray"
+                            android:textSize="@dimen/fourteen" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="10"
+                            android:textColor="@color/bg_invite_orange"
+                            android:textSize="@dimen/fourteen" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="团币,"
+                            android:textColor="@color/bg_profit_gray"
+                            android:textSize="@dimen/fourteen" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/img_002"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/margin_thirty_five"
+                            android:background="@mipmap/moeny_bag" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@+id/img_002"
+                            android:layout_marginLeft="@dimen/margin_thirty_five"
+                            android:layout_marginRight="@dimen/margin_thirty_five"
+                            android:background="@color/bg_line" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/img_code"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_twenty_five" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:text="(点击二维码可下载)"
+                        android:textColor="@color/bg_invite_orange"
+                        android:textSize="@dimen/thirteen" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_thirty_five"
+                        android:layout_marginRight="@dimen/margin_thirty_five"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@color/bg_line" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/margin_thirty"
+                            android:layout_marginRight="@dimen/margin_thirty"
+                            android:text="您还可以"
+                            android:textColor="@color/bg_main_gray"
+                            android:textSize="@dimen/thirteen" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@color/bg_line" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_thirty_five"
+                        android:layout_marginRight="@dimen/margin_thirty_five"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/tv_share"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_success_yellow_shape"
+                                android:gravity="center"
+                                android:text="分享邀请"
+                                android:textColor="@color/bg_button_text_black"
+                                android:textSize="@dimen/fifteen" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="0.3" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/tv_copy"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/bg_success_yellow_shape"
+                                android:gravity="center"
+                                android:text="复制链接"
+                                android:textColor="@color/bg_button_text_black"
+                                android:textSize="@dimen/fifteen" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:background="@color/bg_line" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <include layout="@layout/dialog_share_new" />
+    </RelativeLayout>
+</LinearLayout>

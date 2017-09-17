@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white">
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_item_report">
+
+        <RelativeLayout
+            android:id="@+id/rl_img_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <com.lvgou.distribution.view.CircleImageView
+                android:id="@+id/img_usully_icon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="@dimen/margin_fifteen"
+                android:layout_marginTop="@dimen/margin_twenty_four"
+                android:src="@mipmap/icon_merchant_head_defult"
+                android:background="@drawable/bg_black_circle_shape"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_report_shopname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_twelve"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:layout_toRightOf="@+id/rl_img_icon"
+            android:text=""
+            android:textColor="@color/bg_goods_manger_black"
+            android:textSize="@dimen/fifteen" />
+        <ImageView
+            android:id="@+id/img_guide_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_twelve"
+            android:layout_marginTop="@dimen/sixteen"
+            android:layout_toRightOf="@+id/tv_report_shopname"
+            android:src="@mipmap/icon_guide_policy"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_report_shopaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_report_shopname"
+            android:layout_marginLeft="@dimen/margin_twelve"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/tv_report_juli"
+            android:layout_toRightOf="@id/rl_img_icon"
+            android:text=""
+            android:textColor="@color/bg_text_grey"
+            android:textSize="@dimen/thirteen" />
+
+        <LinearLayout
+            android:id="@+id/ll_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_report_shopaddress"
+            android:layout_marginLeft="@dimen/margin_twelve"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:layout_toRightOf="@id/rl_img_icon"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/bg_profit_gray"
+                android:textSize="@dimen/twelve" />
+
+            <LinearLayout
+                android:id="@+id/ll_addView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_guider"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margin_fourteen">
+
+            <ImageView
+                android:id="@+id/img_guider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/icon_guide_map" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_report_juli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_guider"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_ten"
+            android:text=""
+            android:textColor="@color/bg_bottom_gray"
+            android:textSize="@dimen/margin_twelve" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_report_shopaddress"
+            android:layout_marginLeft="@dimen/margin_twelve"
+            android:layout_marginTop="@dimen/margin_fourteen"
+            android:layout_toRightOf="@+id/rl_img_icon"
+            android:background="@color/bg_line" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget
+END
+SawtoothView.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/SawtoothView.java
+END
+FlowLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/FlowLayout.java
+END
+DatePickerView.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/DatePickerView.java
+END
+CustomDatePicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/CustomDatePicker.java
+END
+LamaAdViewPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/LamaAdViewPage.java
+END
+XHeaderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/XHeaderView.java
+END
+CellLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/CellLayout.java
+END
+MyHalfImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/12/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/MyHalfImageView.java
+END
+ExpandGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/ExpandGridView.java
+END
+XFooterView.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/XFooterView.java
+END
+AnimateFirstDisplayListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/AnimateFirstDisplayListener.java
+END
+FixedSpeedScroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/FixedSpeedScroller.java
+END
+PasteEditText.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/PasteEditText.java
+END
+XRecyclerView.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/26/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/XRecyclerView.java
+END
+XListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/widget/XListView.java
+END

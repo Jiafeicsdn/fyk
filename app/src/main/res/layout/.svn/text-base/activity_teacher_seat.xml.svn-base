@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround">
+
+    <View
+        android:id="@+id/view_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/search_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view_line_one"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:layout_marginTop="@dimen/margin_ten">
+
+        <EditText
+            android:id="@+id/et_search02"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/et_teacher_search_shape"
+            android:hint="请输入讲师姓名"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="@dimen/margin_fifty"
+            android:textColorHint="@color/bg_goods_search_text"
+            android:textSize="@dimen/twelve" />
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_twenty"
+            android:background="@mipmap/a_search_list" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_01"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/search_02"
+        android:layout_marginTop="@dimen/margin_ten" />
+
+    <LinearLayout
+        android:id="@+id/ll_visibilty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_01"
+        android:orientation="vertical">
+
+        <com.lvgou.distribution.refresh.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pull_refresh_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/bg_white"
+            android:dividerPadding="0dp"
+            android:scrollbars="none"
+            ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+            ptr:ptrMode="both" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_fifty"
+            android:background="@color/backround" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_1"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/none_data_layout" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_apply_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/margin_thirty"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:background="@mipmap/chengweijiangshi"
+        android:visibility="gone" />
+</RelativeLayout>

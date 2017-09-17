@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+
+    <RelativeLayout
+        android:id="@+id/rl_top_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/rl_back" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/img_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/ll_zan"
+            android:background="@mipmap/icon_collect"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:layout_toLeftOf="@+id/img_share">
+
+            <ImageView
+                android:id="@+id/img_zan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@mipmap/icon_zan" />
+
+            <TextView
+                android:id="@+id/txt_zan_numer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-4dp"
+                android:textColor="@color/black_deep"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:src="@mipmap/icon_share" />
+    </RelativeLayout>
+
+    <com.lvgou.distribution.refresh.PullToRefreshScrollView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_below="@+id/rl_top_title"
+        android:scrollbars="none"
+        ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+        ptr:ptrMode="both" />
+
+    <include layout="@layout/dialog_share_new"
+        android:id="@+id/include" />
+
+    <include layout="@layout/dialog_zhuanfa_tuankuang" />
+
+    <!--<include layout="@layout/dialog_comment_show_one" />-->
+    <include layout="@layout/layout_bottom_publish"
+        android:id="@+id/ll_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/include"
+        android:layout_toEndOf="@+id/include" />
+</RelativeLayout>
+

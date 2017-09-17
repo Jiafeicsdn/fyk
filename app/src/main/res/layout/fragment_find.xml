@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_filter"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/bg_white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:background="@mipmap/circle_tag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_toRightOf="@+id/img_01"
+            android:text="分类筛选"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/fourteen" />
+
+        <ImageView
+            android:id="@+id/img_top_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/bg_profit_down" />
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_line" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lr_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/bg_white">
+
+            <com.lvgou.distribution.refresh.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/pull_refresh_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@color/gray_normal"
+                android:dividerPadding="1dp"
+                android:scrollbars="none"
+                ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+                ptr:ptrMode="both" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_unread_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_black_radius"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <!-- <ImageView
+                 android:id="@+id/img_unread_head"
+                 android:layout_width="26dp"
+                 android:layout_height="26dp"
+                 android:layout_marginBottom="4dp"
+                 android:layout_marginLeft="4dp"
+                 android:layout_marginTop="4dp" />-->
+
+            <TextView
+                android:id="@+id/txt_unread_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/bg_white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/empty_view"
+        layout="@layout/none_data_layout" />
+</LinearLayout>

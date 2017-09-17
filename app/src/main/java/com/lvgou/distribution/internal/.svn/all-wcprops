@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/Utils.java
+END
+FlipLoadingLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/FlipLoadingLayout.java
+END
+OnAddToCartAnimationFinishListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/OnAddToCartAnimationFinishListener.java
+END
+IndicatorLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/IndicatorLayout.java
+END
+RotateLoadingLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/RotateLoadingLayout.java
+END
+LoadingLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/LoadingLayout.java
+END
+EmptyViewMethodAccessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/EmptyViewMethodAccessor.java
+END
+OnAddToCartClickListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/OnAddToCartClickListener.java
+END
+ViewCompat.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/internal/ViewCompat.java
+END

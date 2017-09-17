@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="@dimen/margin_eight"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@drawable/sms_phone_shape"
+        android:gravity="center"
+        android:paddingLeft="@dimen/margin_ten"
+        android:paddingRight="@dimen/margin_ten"
+        android:text="13112345678"
+        android:textColor="@color/bg_goods_manger_black"
+        android:textSize="@dimen/twelve" />
+</RelativeLayout>

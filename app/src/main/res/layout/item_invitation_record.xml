@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@color/bg_white">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:text="赵虎"
+        android:textColor="@color/bg_text_black"
+        android:textSize="@dimen/fourteen" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_marginTop="5dp"
+        android:text="注册 2015-10-12"
+        android:textColor="@color/bg_text_grey"
+        android:textSize="@dimen/twelve" />
+
+    <ImageView
+        android:id="@+id/img_ask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/tv_time"
+        android:background="@mipmap/wen_icon"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:background="@drawable/bg_blue_shape"
+        android:gravity="center"
+        android:text="获取奖励"
+        android:textColor="@color/bg_blue_reword" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_time"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:background="@color/bg_line" />
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_publish"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_fabu"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/viw_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/bg_line" />
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_evaluate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_weight="2.5"
+                android:background="@drawable/bg_baobei_edittext_shape"
+                android:hint="在这里说点什么吧..."
+                android:textColorHint="#bababa"
+                android:inputType="text"
+                android:paddingLeft="@dimen/margin_ten"
+                android:textSize="@dimen/twelve" />
+
+            <TextView
+                android:id="@+id/tv_sned"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.6"
+                android:background="#d5aa5f"
+                android:gravity="center"
+                android:text="发布"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/fourteen" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viw_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_line" />
+    </RelativeLayout>
+</LinearLayout>

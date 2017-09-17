@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_picture"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:id="@+id/im_picture"
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/pictures_no"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/im_bg"
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:background="#80000000" />
+
+            <RelativeLayout
+                android:id="@+id/rl_download_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/tv_downloading"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/downloading_icon" />
+
+                <TextView
+                    android:id="@+id/tv_download_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_downloading"
+                    android:layout_centerHorizontal="true"
+                    android:text="下载中"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/rl_picture"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="我是占位置的占位子占位子占位子"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <!-- <TextView
+             android:id="@+id/tv_state"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/tv_title"
+             android:layout_marginLeft="15dp"
+             android:layout_marginTop="15dp"
+             android:layout_toRightOf="@id/rl_picture"
+             android:text="已结束"
+             android:textColor="#777777"
+             android:textSize="12sp" />-->
+        <ProgressBar
+            android:id="@+id/down_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@id/rl_picture"
+            android:max="120"
+            android:progress="0"
+            android:progressDrawable="@drawable/downprogressbar" />
+        <ProgressBar
+            android:id="@+id/down_progress2"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@id/rl_picture"
+            android:visibility="gone"
+            android:max="120"
+            android:progress="0"
+            android:progressDrawable="@drawable/downprogressbar" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@id/rl_picture"
+            >
+
+            <TextView
+                android:id="@+id/tv_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0K/0M"
+                android:textColor="#a3a3a3"
+                android:textSize="11sp" />
+            <TextView
+                android:id="@+id/tv_size2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0K/0M"
+                android:visibility="gone"
+                android:textColor="#a3a3a3"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_delete"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="12dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/icon_delete" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#e5e5e5" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

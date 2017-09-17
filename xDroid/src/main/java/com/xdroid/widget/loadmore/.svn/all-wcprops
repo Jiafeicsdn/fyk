@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/loadmore
+END
+LoadMoreContainerBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/loadmore/LoadMoreContainerBase.java
+END
+LoadMoreHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/loadmore/LoadMoreHandler.java
+END
+LoadMoreDefaultFooterView.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/loadmore/LoadMoreDefaultFooterView.java
+END
+LoadMoreContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/loadmore/LoadMoreContainer.java
+END
+LoadMoreGridViewContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/loadmore/LoadMoreGridViewContainer.java
+END
+LoadMoreListViewContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/loadmore/LoadMoreListViewContainer.java
+END
+LoadMoreUIHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/loadmore/LoadMoreUIHandler.java
+END

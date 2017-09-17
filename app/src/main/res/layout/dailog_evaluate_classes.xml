@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RatingBar
+                android:id="@+id/room_ratingbar"
+                style="@style/evaluateRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_twenty"
+                android:layout_toRightOf="@+id/tv_01"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/tv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/room_ratingbar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_fifteen"
+                android:text="极好"
+                android:textColor="@color/bg_balck_three"
+                android:textSize="@dimen/fifteen" />
+
+            <EditText
+                android:id="@+id/et_evaluate_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/tv_level"
+                android:layout_marginTop="@dimen/margin_twenty"
+                android:background="@color/backround"
+                android:gravity="top|left"
+                android:hint="评论, 100字以内"
+                android:inputType="text"
+                android:paddingLeft="@dimen/margin_fifteen"
+                android:paddingTop="@dimen/margin_fifteen"
+                android:textColor="@color/bg_balck_three"
+                android:textColorHint="@color/bg_gray_two"
+                android:textSize="@dimen/twelve" />
+
+            <TextView
+                android:id="@+id/tv_commit"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/et_evaluate_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_twenty"
+                android:background="@drawable/bg_conner_yellow_dialog_shape"
+                android:gravity="center"
+                android:text="提交"
+                android:textColor="#333333"
+                android:textSize="@dimen/fifteen" />
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_commit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_twenty"
+                android:background="@color/bg_white_one" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

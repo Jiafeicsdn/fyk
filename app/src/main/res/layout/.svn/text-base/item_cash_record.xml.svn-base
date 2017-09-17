@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:text="申请提现"
+            android:textColor="@color/bg_new_guide_black"
+            android:textSize="@dimen/thirteen" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:text=""
+            android:textColor="@color/bg_new_guide_black"
+            android:textSize="@dimen/thirteen" />
+
+        <TextView
+            android:id="@+id/tv_time_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_marginRight="@dimen/margin_ten"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:layout_toRightOf="@+id/tv_1"
+            android:text=""
+            android:textColor="@color/bg_new_guide_black"
+            android:textSize="@dimen/thirteen" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_1"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:text="打款时间:"
+            android:textColor="@color/bg_notice_gray"
+            android:textSize="@dimen/thirteen" />
+
+        <TextView
+            android:id="@+id/tv_time_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_1"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:layout_toRightOf="@+id/tv_2"
+            android:text=""
+            android:textColor="@color/bg_notice_gray"
+            android:textSize="@dimen/thirteen" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_2"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:text=""
+                    android:textColor="@color/bg_notice_gray"
+                    android:textSize="@dimen/thirteen" />
+
+                <TextView
+                    android:id="@+id/tv_bank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:layout_toRightOf="@+id/tv_name"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/bg_notice_gray"
+                    android:textSize="@dimen/thirteen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5">
+
+                <TextView
+                    android:id="@+id/tv_order_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/bg_notice_gray"
+                    android:textSize="@dimen/thirteen" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_money"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:text=""
+            android:textColor="@color/bg_code_number"
+            android:textSize="@dimen/thirteen" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@color/bg_line" />
+</LinearLayout>

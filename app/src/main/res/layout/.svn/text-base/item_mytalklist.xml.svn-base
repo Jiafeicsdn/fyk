@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingTop="8dp">
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lineSpacingExtra="4dp"
+        android:maxLines="3"
+        android:padding="@dimen/margin_eight"
+        android:text=""
+        android:textColor="@color/bg_balck_three"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="#88333333"
+            android:textSize="12sp" />
+
+        <com.lvgou.distribution.ninegridview.NineGridView
+            android:id="@+id/nineGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:maxSize="9"
+            app:singleImageRatio="1"
+            app:singleImageScaleType="fit_start"
+            app:singleImageSize="250dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt_issue_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/fm_head_layout"
+            android:text="一天前"
+            android:textColor="@color/bg_gray_two"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/txt_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ly_view"
+            android:drawableLeft="@mipmap/img_like"
+            android:drawablePadding="8dp"
+            android:text="赞"
+            android:textColor="@color/bg_gray_two"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:id="@+id/ly_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txt_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:drawableLeft="@mipmap/icon_fengwen_comment"
+                android:drawablePadding="8dp"
+                android:text="评论"
+                android:textColor="@color/bg_gray_two"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/img_delete_fengwen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:padding="10dp"
+                android:src="@mipmap/icon_delete"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+</LinearLayout>

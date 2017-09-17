@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topmore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp">
+
+        <com.lvgou.distribution.utils.RoundedImageView
+            android:id="@+id/image"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/teacher_default_head"
+            app:riv_corner_radius="50dip" />
+
+        <ImageView
+            android:id="@+id/img_teacher_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/image"
+            android:layout_alignBottom="@id/image" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/image"
+            android:background="#ffffff"
+            android:text="张三"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/author"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/image"
+            android:background="#ffffff"
+            android:drawablePadding="5dp"
+            android:singleLine="true"
+            android:text="2天前"
+            android:textColor="#C5C5C5"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="不良人师拍摄中，回归青涩校园时代！"
+            android:textColor="#000000"
+            android:lineSpacingExtra="3dp"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/backround"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>

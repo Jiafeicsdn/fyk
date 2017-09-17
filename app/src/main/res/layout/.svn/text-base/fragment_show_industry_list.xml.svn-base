@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+        <ImageView
+            android:id="@+id/im_picture"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@mipmap/pictures_no"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im_picture"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:text="啊可是对方会卡激活"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_other"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/tv_content"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/live_state"
+                android:layout_width="52dp"
+                android:layout_height="20dp"
+                android:background="@drawable/live_text_orange_bg"
+                android:gravity="center"
+                android:text="报名中"
+                android:textColor="#FEA41B"
+                android:textSize="12sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/im_renshu"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/live_state"
+                android:background="@mipmap/live_renshu_icon" />
+
+            <TextView
+                android:id="@+id/tv_renshu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@id/im_renshu"
+                android:text="256人已报名"
+                android:textColor="#a3a3a3"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

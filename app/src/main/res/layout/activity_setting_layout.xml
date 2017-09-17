@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_update_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_white_one">
+
+        <ImageView
+            android:id="@+id/img_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:background="@mipmap/main_shcool"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_toRightOf="@+id/img_01"
+            android:text="修改密码"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/thirteen" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/main_small_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_renzheng"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_white_one">
+
+        <ImageView
+            android:id="@+id/img_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:background="@mipmap/main_shcool"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_toRightOf="@+id/img_02"
+            android:text="实名认证"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/thirteen" />
+
+        <ImageView
+            android:id="@+id/img_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/main_small_right" />
+
+        <TextView
+            android:id="@+id/tv_text_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_ten"
+            android:layout_toLeftOf="@+id/img_03"
+            android:text="实名认证有奖"
+            android:textColor="@color/bg_daoliu_yellow_one"
+            android:textSize="@dimen/thirteen" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_clear_cache"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_white_one">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_toRightOf="@+id/img_04"
+            android:text="清理缓存"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/thirteen" />
+
+        <ImageView
+            android:id="@+id/img_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/main_small_right" />
+
+        <TextView
+            android:id="@+id/tv_cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_ten"
+            android:layout_toLeftOf="@+id/img_05"
+            android:text="0.00M"
+            android:textColor="@color/bg_daoliu_yellow_one"
+            android:textSize="@dimen/thirteen" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_quit"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_fifty"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@drawable/bg_quit_shape"
+            android:gravity="center"
+            android:text="退出"
+            android:textColor="@color/bg_daoliu_yellow_one"
+            android:textSize="@dimen/thirteen" />
+    </RelativeLayout>
+</LinearLayout>

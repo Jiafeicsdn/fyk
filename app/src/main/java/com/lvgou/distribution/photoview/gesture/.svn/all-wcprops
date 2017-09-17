@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/photoview/gesture
+END
+OnGestureListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/photoview/gesture/OnGestureListener.java
+END
+CupcakeGestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/photoview/gesture/CupcakeGestureDetector.java
+END
+FroyoGestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/photoview/gesture/FroyoGestureDetector.java
+END
+VersionedGestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/photoview/gesture/VersionedGestureDetector.java
+END
+EclairGestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/photoview/gesture/EclairGestureDetector.java
+END
+GestureDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/photoview/gesture/GestureDetector.java
+END

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_teacher_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_selete_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:text="每日精选"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/view_pointer"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="6dp"
+            android:layout_toRightOf="@id/tv_selete_title"
+            android:layout_centerVertical="true"
+            android:background="@drawable/point_gray" />
+        <TextView
+            android:layout_toRightOf="@id/view_pointer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="小编为你推荐的优质圈主内容"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_teacher_more"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="17dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/selector_icon"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e5e5e5"/>
+
+</LinearLayout>

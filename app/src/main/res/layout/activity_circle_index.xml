@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backround"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bg_white">
+
+            <RelativeLayout
+                android:id="@+id/rl_search"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_ten">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/college_title_search" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_black_circle_shape"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/tv_find"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/bg_college_white_shape"
+                        android:gravity="center"
+                        android:text="发现"
+                        android:textColor="@color/bg_balck_three"
+                        android:textSize="@dimen/thirteen" />
+
+                    <TextView
+                        android:id="@+id/tv_recommend"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/bg_college_balck_shape"
+                        android:gravity="center"
+                        android:text="头条"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/thirteen" />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tv_follow"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/bg_college_white_shape"
+                            android:gravity="center"
+                            android:text="关注"
+                            android:textColor="@color/bg_balck_three"
+                            android:textSize="@dimen/thirteen" />
+
+                        <TextView
+                            android:id="@+id/txt_message_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|top"
+                            android:textColor="@color/bg_white"
+                            android:gravity="center"
+                            android:visibility="gone"
+                            android:background="@mipmap/icon_no_read" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_camera"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_ten">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/circle_camera" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_line" />
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></FrameLayout>
+    </LinearLayout>
+
+    <include layout="@layout/dialog_choujiang" />
+</RelativeLayout>

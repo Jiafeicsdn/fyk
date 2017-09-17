@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/rl_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/bg_text_black"
+            android:textSize="@dimen/sixteen" />
+
+        <RelativeLayout
+            android:id="@+id/rl_gold_notes"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tv_gold_notes"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="听课券"
+                android:textColor="#d5aa5f"
+                android:textSize="13sp" />
+
+          <!--  <TextView
+                android:id="@+id/notes_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/oval_number"
+                android:gravity="center"
+                android:paddingBottom="1dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="1dp"
+                android:text="12"
+                android:textSize="11sp" />-->
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_scroll_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/tl_4"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="#ffffff"
+            tl:tl_indicator_color="#444444"
+            tl:tl_indicator_height="6dp"
+            tl:tl_indicator_width="25dp"
+            tl:tl_tab_space_equal="true"
+            tl:tl_textSelectColor="#000000"
+            tl:tl_textUnselectColor="#999999"
+            tl:tl_textsize="14sp"
+            tl:tl_underline_color="#f0f0f0"
+            tl:tl_underline_height="2dp"
+
+            />
+        <!--    tl:tl_indicator_margin_left="25dp"
+            tl:tl_indicator_margin_right="25dp"-->
+        <!-- tl:tl_tab_width="60dp"-->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tl_4"
+            android:background="#00000000" />
+    </RelativeLayout>
+</LinearLayout>

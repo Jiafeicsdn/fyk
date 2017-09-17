@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/task
+END
+PriorityExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/task/PriorityExecutor.java
+END
+TaskHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/task/TaskHandler.java
+END
+Priority.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/task/Priority.java
+END
+PriorityAsyncTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/task/PriorityAsyncTask.java
+END
+PriorityObjectBlockingQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/task/PriorityObjectBlockingQueue.java
+END
+PriorityObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/task/PriorityObject.java
+END
+PriorityRunnable.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/task/PriorityRunnable.java
+END

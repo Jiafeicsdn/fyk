@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_content_view"
+    android:background="@color/bg_white">
+
+    <ImageView
+        android:id="@+id/img_head"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="@dimen/margin_twenty"
+        android:layout_marginTop="@dimen/margin_twenty" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:layout_toRightOf="@+id/img_head"
+        android:text="啦啦啦"
+        android:textColor="@color/bg_text_black_three"
+        android:textSize="@dimen/fifteen" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/img_head"
+        android:text="1小时前"
+        android:textColor="@color/bg_notice_gray"
+        android:textSize="@dimen/twelve" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_time"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:layout_toRightOf="@+id/img_head"
+        android:text=""
+        android:textColor="@color/bg_text_black_three"
+        android:textSize="@dimen/fourteen" />
+
+    <com.lvgou.distribution.view.RotateTextView
+        android:id="@+id/tv_paid_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_twenty"
+        android:layout_marginTop="@dimen/margin_twenty"
+        android:background="@mipmap/famous_shang_bg"
+        android:paddingLeft="@dimen/margin_twenty_three"
+        android:paddingTop="@dimen/margin_fifteen"
+        android:text="10团币"
+        android:textColor="@color/bg_daoliu_yellow_one"
+        android:textSize="@dimen/fourteen" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_content"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_marginTop="@dimen/margin_twenty"
+        android:layout_toRightOf="@+id/img_head"
+        android:background="@color/bg_line" />
+</RelativeLayout>

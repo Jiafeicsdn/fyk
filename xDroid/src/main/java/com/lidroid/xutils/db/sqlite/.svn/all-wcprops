@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite
+END
+ForeignLazyLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/ForeignLazyLoader.java
+END
+Selector.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/Selector.java
+END
+WhereBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/WhereBuilder.java
+END
+SqlInfoBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/SqlInfoBuilder.java
+END
+ColumnDbType.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/ColumnDbType.java
+END
+DbModelSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/DbModelSelector.java
+END
+SqlInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/SqlInfo.java
+END
+CursorUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/CursorUtils.java
+END
+FinderLazyLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/db/sqlite/FinderLazyLoader.java
+END

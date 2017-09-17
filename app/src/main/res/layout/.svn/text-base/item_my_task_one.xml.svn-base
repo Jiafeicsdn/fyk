@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_toRightOf="@+id/img_icon"
+            android:text="新手任务"
+            android:textColor="@color/bg_text_grey"
+            android:textSize="@dimen/sixteen" />
+
+        <RelativeLayout
+            android:id="@+id/rl_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_name"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="【完成情况"
+                android:textColor="@color/bg_text_grey"
+                android:textSize="@dimen/sixteen" />
+
+            <TextView
+                android:id="@+id/tv_num_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_03"
+                android:text="1"
+                android:textColor="@color/bg_code_number"
+                android:textSize="@dimen/sixteen" />
+
+            <TextView
+                android:id="@+id/tv_num_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_num_left"
+                android:text="/3】"
+                android:textColor="@color/bg_text_grey"
+                android:textSize="@dimen/sixteen" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_total_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_name">
+
+            <TextView
+                android:id="@+id/tv_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="【"
+                android:textColor="@color/bg_text_grey"
+                android:textSize="@dimen/sixteen" />
+
+            <TextView
+                android:id="@+id/tv_total_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_04"
+                android:text="已成交50单"
+                android:textColor="@color/bg_code_number"
+                android:textSize="@dimen/sixteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_total_number"
+                android:text="】"
+                android:textColor="@color/bg_text_grey"
+                android:textSize="@dimen/sixteen" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

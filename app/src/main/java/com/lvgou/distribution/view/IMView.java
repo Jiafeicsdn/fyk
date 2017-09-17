@@ -1,0 +1,48 @@
+package com.lvgou.distribution.view;
+
+import com.lvgou.distribution.bean.AddUser;
+import com.lvgou.distribution.bean.JoinChatGroupBean;
+import com.lvgou.distribution.bean.SmsBean;
+
+/**
+ * Created by Administrator on 2016/9/8.
+ */
+public interface IMView extends BaseView{
+    //实现自己的初始化方法
+    /**
+     * 获取参数
+     * @return
+     */
+    public AddUser getParamenters();
+    /**
+     * 获取参数
+     * @return
+     */
+    public JoinChatGroupBean getParamenters2();
+
+    public String getParamenters3();
+
+    //定义不同接口的返回参数
+    //添加新用户
+    public void addUser_response(String s);
+
+    //关联用户
+    public void JoinChatGroup_response(String s);
+
+    //获取服务器地址
+    public void getServer_response(String s);
+
+    //用户列表
+    public void member_list_response(String s);
+    //历史数据
+    public void GetGroupMessageExt_response(String s);
+    public void excuteGroupMessageFailedCallBack(String s);
+
+    public void getServer_error();
+
+    public void getNickNameResponse(String s);
+
+    public void prohibitlistResponse(String s);
+
+    public void ReleaseshutupResponse(String s);
+}

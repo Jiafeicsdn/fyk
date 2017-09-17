@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/rl_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="TITLE"
+            android:textColor="@color/bg_text_black"
+            android:textSize="@dimen/sixteen" />
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/college_search" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rl_delete"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/img_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_fifteen"
+                android:background="@mipmap/college_delete" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_toLeftOf="@+id/rl_delete"
+            android:background="@drawable/et_login_shape"
+            android:gravity="center_vertical"
+            android:hint="输入你想要的内容"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="40dp"
+            android:textSize="@dimen/fourteen" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_thirty"
+            android:background="@mipmap/red_serach" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_teacher_lecturing"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/img_teacher_lecturing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/bg_yellow_default_teacher" />
+
+                    <TextView
+                        android:id="@+id/tv_teacher_lecturing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_teacher_lecturing"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:text="名师开讲"
+                        android:textColor="@color/bg_main_clissfy_text"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_purchase_case"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/img_purchase_case"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/bg_yellow_default_goods" />
+
+                    <TextView
+                        android:id="@+id/tv_purchase_case"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_purchase_case"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:text="商品解读"
+                        android:textColor="@color/bg_main_clissfy_text"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_redskins_museum"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_fifteen"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/img_redskins_museum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:background="@mipmap/bg_yellow_default_guan" />
+
+                    <TextView
+                        android:id="@+id/tv_redskins_museum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_redskins_museum"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/margin_ten"
+                        android:text="红人案例"
+                        android:textColor="@color/bg_main_clissfy_text"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:background="@color/bg_line" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_visibilty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <com.lvgou.distribution.refresh.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/pull_refresh_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/bg_white"
+                android:dividerPadding="0dp"
+                android:scrollbars="none"
+                ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+                ptr:ptrMode="both" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:background="@mipmap/none_data" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:text="没有数据哦，到处逛一逛吧~"
+                android:textSize="@dimen/sixteen" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

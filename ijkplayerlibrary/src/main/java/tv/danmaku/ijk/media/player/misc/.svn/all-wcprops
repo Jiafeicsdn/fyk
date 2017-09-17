@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/misc
+END
+AndroidTrackInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/misc/AndroidTrackInfo.java
+END
+IMediaFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/misc/IMediaFormat.java
+END
+IMediaDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/misc/IMediaDataSource.java
+END
+IjkMediaFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/misc/IjkMediaFormat.java
+END
+AndroidMediaFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/misc/AndroidMediaFormat.java
+END
+ITrackInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/misc/ITrackInfo.java
+END
+IjkTrackInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/misc/IjkTrackInfo.java
+END

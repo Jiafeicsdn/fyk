@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/request
+END
+HttpUrlConnUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/request/HttpUrlConnUtils.java
+END
+RequestManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/request/RequestManager.java
+END
+CookieManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/request/CookieManager.java
+END
+RequestTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/request/RequestTask.java
+END

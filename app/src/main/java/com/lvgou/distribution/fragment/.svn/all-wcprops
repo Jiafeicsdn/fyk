@@ -1,0 +1,425 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment
+END
+SuccInviteFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/SuccInviteFragment.java
+END
+UserPersonFansFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/UserPersonFansFragment.java
+END
+UserPersonConcernFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/UserPersonConcernFragment.java
+END
+DiscussFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/DiscussFragment.java
+END
+AllGroupFrgmant.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/AllGroupFrgmant.java
+END
+IntroductionFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/IntroductionFragment.java
+END
+FragmentExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentExchange.java
+END
+PraisedListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/PraisedListFragment.java
+END
+StudentFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/StudentFragment.java
+END
+EndCreActFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/EndCreActFragment.java
+END
+MyZanListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/MyZanListFragment.java
+END
+ActivityFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/ActivityFragment.java
+END
+TextJokeFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/TextJokeFragment.java
+END
+CourseDiscussFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/CourseDiscussFragment.java
+END
+LiveFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/LiveFragment.java
+END
+FragmentDetial.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentDetial.java
+END
+CollecteJokeFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/CollecteJokeFragment.java
+END
+TeacherDataFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/TeacherDataFragment.java
+END
+ShowCardFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/ShowCardFragment.java
+END
+TeacherFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/TeacherFragment.java
+END
+RecordFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/RecordFragment.java
+END
+NewestDoggerelFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/NewestDoggerelFragment.java
+END
+FragmentDistributionMarket.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentDistributionMarket.java
+END
+FollowCircleFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FollowCircleFragment.java
+END
+RecommendBeeFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/RecommendBeeFragment.java
+END
+AllClassesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/AllClassesFragment.java
+END
+OpenClassFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/OpenClassFragment.java
+END
+CheckInviteFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/CheckInviteFragment.java
+END
+FragmentExchangeNew.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentExchangeNew.java
+END
+CarryGroupFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/CarryGroupFragment.java
+END
+CommentFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/72/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/CommentFragment.java
+END
+HottestDoggerelFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/HottestDoggerelFragment.java
+END
+ProfitFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/ProfitFragment.java
+END
+DownloadingFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/DownloadingFragment.java
+END
+FragmentTuanbiDetial.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentTuanbiDetial.java
+END
+FaXianFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FaXianFragment.java
+END
+FragmentMyTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentMyTask.java
+END
+NotUseVoucherFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/NotUseVoucherFragment.java
+END
+RecommendFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/RecommendFragment.java
+END
+FragmentRecommend.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/62/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentRecommend.java
+END
+UserPersonDynamicFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/UserPersonDynamicFragment.java
+END
+BaseFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/11/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/BaseFragment.java
+END
+ListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/ListFragment.java
+END
+NewestJokeFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/NewestJokeFragment.java
+END
+FragmentMyGoods.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentMyGoods.java
+END
+ListenClassFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/ListenClassFragment.java
+END
+UseVoucherFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/UseVoucherFragment.java
+END
+TeacherSeatFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/TeacherSeatFragment.java
+END
+PicTextJokeFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/PicTextJokeFragment.java
+END
+TeacherDynaminFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/TeacherDynaminFragment.java
+END
+TeacherCourseFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/TeacherCourseFragment.java
+END
+CourseIntrFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/CourseIntrFragment.java
+END
+MerchantFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/71/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/MerchantFragment.java
+END
+OtherCommentFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/OtherCommentFragment.java
+END
+MyCommentListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/MyCommentListFragment.java
+END
+ClassifyFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/ClassifyFragment.java
+END
+FindFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FindFragment.java
+END
+GoingCreActFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/GoingCreActFragment.java
+END
+AllCreClassFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/AllCreClassFragment.java
+END
+ZanFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/72/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/ZanFragment.java
+END
+GoingClassFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/GoingClassFragment.java
+END
+FragmentRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/FragmentRules.java
+END
+BoutiqueFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/BoutiqueFragment.java
+END
+UserPersonStudyFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/UserPersonStudyFragment.java
+END
+AllClassFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/AllClassFragment.java
+END
+CollecteDynamicFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/CollecteDynamicFragment.java
+END
+ApplicationFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/ApplicationFragment.java
+END
+CollecteDoggerelFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/CollecteDoggerelFragment.java
+END
+SendGroupFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/SendGroupFragment.java
+END
+EndFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/fragment/EndFragment.java
+END

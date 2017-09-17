@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/holder
+END
+ListViewDataAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/holder/ListViewDataAdapter.java
+END
+ViewHolderBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/holder/ViewHolderBase.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/holder/package-info.java
+END
+LazyViewHolderCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/holder/LazyViewHolderCreator.java
+END
+ViewHolderCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/holder/ViewHolderCreator.java
+END
+ListViewDataAdapterBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/holder/ListViewDataAdapterBase.java
+END

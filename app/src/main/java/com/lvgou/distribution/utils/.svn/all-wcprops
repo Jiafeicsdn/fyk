@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils
+END
+DatabaseManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DatabaseManager.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/Utils.java
+END
+DownloadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DownloadManager.java
+END
+ACache.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/ACache.java
+END
+WorksGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/WorksGridView.java
+END
+DataCleanManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DataCleanManager.java
+END
+TimeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/TimeInfo.java
+END
+BitmapUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/BitmapUtil.java
+END
+GoodsGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/GoodsGridView.java
+END
+DensityUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DensityUtil.java
+END
+CommonFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/CommonFunctions.java
+END
+PermissionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/PermissionManager.java
+END
+FaXianImageLoaderEmoji.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/FaXianImageLoaderEmoji.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/25/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/MD5.java
+END
+MsgFaceUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/MsgFaceUtils.java
+END
+CameraUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/CameraUtil.java
+END
+DistanceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DistanceUtil.java
+END
+PathUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/PathUtil.java
+END
+CalendarUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/CalendarUtils.java
+END
+SmileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/SmileUtils.java
+END
+AdViewpagerRightUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/AdViewpagerRightUtil.java
+END
+DashedLineView.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/18/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DashedLineView.java
+END
+AdViewpagerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/AdViewpagerUtil.java
+END
+ImageLoaderEmoji.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/ImageLoaderEmoji.java
+END
+Tools.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/7/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/Tools.java
+END
+GetPrepayIdTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/GetPrepayIdTask.java
+END
+MyToast.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/MyToast.java
+END
+RoundedDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/RoundedDrawable.java
+END
+ImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/ImageUtils.java
+END
+ViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/ViewHolder.java
+END
+PopWindows.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/22/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/PopWindows.java
+END
+PictureUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/PictureUtil.java
+END
+AMapUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/AMapUtil.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/25/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/Util.java
+END
+ScrollableLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/ScrollableLayout.java
+END
+TGmd5.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/TGmd5.java
+END
+ChString.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/ChString.java
+END
+ScrollableHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/11/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/ScrollableHelper.java
+END
+DownloadInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DownloadInfo.java
+END
+DownloadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/42/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DownloadService.java
+END
+AESUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/AESUtils.java
+END
+DateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/DateUtils.java
+END
+RoundedImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/RoundedImageView.java
+END
+UIUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/utils/UIUtils.java
+END

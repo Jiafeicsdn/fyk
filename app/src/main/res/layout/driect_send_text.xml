@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/margin_fifteen">
+
+    <TextView
+        android:id="@+id/tv_timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_timestamp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_ten"
+            android:layout_toLeftOf="@+id/view_1"
+            android:text="冯导游"
+            android:textColor="@color/bg_bottom_gray"
+            android:textSize="@dimen/fifteen" />
+
+        <View
+            android:layout_width="38dp"
+            android:layout_height="1dp"
+            android:layout_toRightOf="@+id/tv_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_01"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/img_head"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_ten"
+            android:background="@mipmap/bg_none_good" />
+
+        <TextView
+            android:id="@+id/tv_send_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/img_head"
+            android:background="@mipmap/direct_send_me"
+            android:padding="@dimen/margin_fifteen"
+            android:text="哈哈"
+            android:textColor="@color/bg_new_guide_black"
+            android:textSize="@dimen/fifteen" />
+    </RelativeLayout>
+</RelativeLayout>

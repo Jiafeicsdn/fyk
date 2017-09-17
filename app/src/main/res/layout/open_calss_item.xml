@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/im_picture"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/pictures_no"
+            android:scaleType="centerCrop" />
+        <RelativeLayout
+            android:id="@+id/rl_playvideo"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp">
+            <ImageView
+                android:id="@+id/videoView"
+                android:background="#80000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:id="@+id/im_video_play"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/video_play_icon"/>
+            <TextView
+                android:id="@+id/tv_current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:text="0"/>
+            <TextView
+                android:id="@+id/tv_total_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:text="0"/>
+
+            <ProgressBar
+                android:id="@+id/video_progress"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_toRightOf="@id/rl_picture"
+                android:max="100"
+                android:layout_alignParentBottom="true"
+                android:progress="0"
+                android:progressDrawable="@drawable/downprogressbar" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/im_picture"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="我是占位置的占位子占位子占位子"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/im_picture"
+            android:text="已结束"
+            android:textColor="#777777"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/tv_baoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/tv_state"
+            android:text="0人报名"
+            android:textColor="#a3a3a3"
+            android:textSize="11sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@id/im_picture"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="免费"
+                android:textSize="12sp"
+                android:layout_marginRight="10dp"
+                android:textColor="#ff9900"/>
+
+
+            <TextView
+                android:id="@+id/tv_fubi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0人付币"
+                android:textColor="#a3a3a3"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_more"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="3dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/more_icon" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#e5e5e5" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

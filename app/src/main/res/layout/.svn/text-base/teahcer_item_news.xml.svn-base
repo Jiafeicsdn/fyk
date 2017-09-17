@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white_one">
+
+    <RelativeLayout
+        android:id="@+id/rl_02"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/bg_white_one">
+
+        <RelativeLayout
+            android:id="@+id/rl_01"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_ten">
+
+            <com.lvgou.distribution.utils.RoundedImageView
+                android:id="@+id/image"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/teacher_default_head"
+                app:riv_corner_radius="50dip" />
+
+            <ImageView
+                android:id="@+id/img_user_identify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_name_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:layout_toRightOf="@+id/rl_01"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text=""
+                android:textColor="@color/bg_balck_three"
+                android:textSize="@dimen/fourteen" />
+
+            <ImageView
+                android:id="@+id/img_sex"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_eight"
+                android:layout_marginRight="@dimen/margin_twenty"
+                android:layout_toRightOf="@+id/tv_name"
+                android:background="@mipmap/icon_man" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_name_sex"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/rl_01"
+            android:text="课程:"
+            android:textColor="@color/bg_gray_two"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/tv_fengwen_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_name_sex"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tv_01"
+            android:text=""
+            android:textColor="@color/bg_gray_two"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_name_sex"
+            android:layout_marginLeft="@dimen/margin_twenty"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tv_fengwen_num"
+            android:text="学员:"
+            android:textColor="@color/bg_gray_two"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/tv_fans_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_name_sex"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tv_02"
+            android:text=""
+            android:textColor="@color/bg_gray_two"
+            android:textSize="@dimen/twelve" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rl_02"
+        android:layout_marginTop="5dp"
+        android:background="@color/bg_line" />
+</RelativeLayout>

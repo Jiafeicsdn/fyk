@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/Android/!svn/ver/70/trunk/FYK-Android
+END
+Distribution.iml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Android/!svn/ver/2/trunk/FYK-Android/Distribution.iml
+END
+import-summary.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Android/!svn/ver/2/trunk/FYK-Android/import-summary.txt
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Android/!svn/ver/2/trunk/FYK-Android/.gitignore
+END
+gradlew
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Android/!svn/ver/2/trunk/FYK-Android/gradlew
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Android/!svn/ver/2/trunk/FYK-Android/local.properties
+END
+FYK-Android.iml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Android/!svn/ver/71/trunk/FYK-Android/FYK-Android.iml
+END
+gradle.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Android/!svn/ver/2/trunk/FYK-Android/gradle.properties
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Android/!svn/ver/2/trunk/FYK-Android/build.gradle
+END
+settings.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Android/!svn/ver/16/trunk/FYK-Android/settings.gradle
+END

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 四角弧度可选的SelectableRoundedImageView开始 -->
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <!-- 四角弧度可选的SelectableRoundedImageView结束 -->
+
+
+    <!-- ProgressWheel开始 -->
+    <declare-styleable name="ProgressWheel">
+        <attr name="progressIndeterminate" format="boolean" />
+        <attr name="barColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="rimWidth" format="dimension" />
+        <attr name="spinSpeed" format="float" />
+        <attr name="barSpinCycleTime" format="integer" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="fillRadius" format="boolean" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="linearProgress" format="boolean" />
+    </declare-styleable>
+    <!-- ProgressWheel结束 -->
+
+
+    <!-- Button，Textview,Chexbox自定义控件开始 -->
+    <attr name="g_theme" format="reference" />
+    <attr name="g_fontFamily" format="string" />
+    <attr name="g_fontWeight" format="string" />
+    <attr name="g_fontExtension" format="string" />
+    <attr name="g_cornerRadius" format="dimension" />
+    <attr name="g_borderWidth" format="dimension" />
+    <attr name="g_textAppearance" format="integer">
+        <enum name="none" value="0" />
+        <enum name="dark" value="1" />
+        <enum name="light" value="2" />
+    </attr>
+
+    <declare-styleable name="GeniusButton">
+        <attr name="g_theme" />
+        <attr name="g_fontFamily" />
+        <attr name="g_fontWeight" />
+        <attr name="g_fontExtension" />
+        <attr name="g_textAppearance" />
+        <attr name="g_cornerRadius" />
+        <attr name="g_touchEffect" format="integer">
+            <enum name="none" value="0" />
+            <enum name="ease" value="1" />
+            <enum name="ripple" value="2" />
+            <enum name="move" value="3" />
+            <enum name="press" value="4" />
+        </attr>
+        <attr name="g_touchEffectColor" format="color" />
+        <attr name="g_blockButtonEffectHeight" format="dimension" />
+        <attr name="g_delayClick" format="boolean" />
+    </declare-styleable>
+
+    <!-- GeniusCheckBox -->
+    <declare-styleable name="GeniusCheckBox">
+        <attr name="g_theme" />
+        <attr name="g_ringWidth" format="dimension" />
+        <attr name="g_circleRadius" format="dimension" />
+        <attr name="g_checked" format="boolean" />
+        <attr name="g_enabled" format="boolean" />
+    </declare-styleable>
+
+    <!-- Flat Text View -->
+    <declare-styleable name="GeniusTextView">
+        <attr name="g_theme" />
+        <attr name="g_fontFamily" />
+        <attr name="g_fontWeight" />
+        <attr name="g_fontExtension" />
+        <attr name="g_cornerRadius" />
+        <attr name="g_borderWidth" />
+        <attr name="g_textColor" format="integer">
+            <enum name="darker" value="0" />
+            <enum name="dark" value="1" />
+            <enum name="main" value="2" />
+            <enum name="light" value="3" />
+        </attr>
+        <attr name="g_backgroundColor" format="integer">
+            <enum name="darker" value="0" />
+            <enum name="dark" value="1" />
+            <enum name="main" value="2" />
+            <enum name="light" value="3" />
+        </attr>
+        <attr name="g_customBackgroundColor" format="color" />
+    </declare-styleable>
+    <!-- Button，Textview,Chexbox自定义控件结束 -->
+
+
+    <!-- ptr开始 -->
+    <declare-styleable name="PtrFrameLayout">
+        <!-- Optional. If you put header and content in xml, you can you these to specify them. -->
+        <attr name="ptr_header" format="reference" />
+        <attr name="ptr_content" format="reference" />
+
+        <!-- the resistance when you are moving the frame -->
+        <attr name="ptr_resistance" format="float" />
+
+        <!-- the ration of the height of the header to trigger refresh -->
+        <attr name="ptr_ratio_of_header_height_to_refresh" format="float" />
+
+        <attr name="ptr_duration_to_close" format="integer" />
+        <attr name="ptr_duration_to_close_header" format="integer" />
+
+        <!-- pull to refresh, otherwise release to refresh, default is release to refresh -->
+        <attr name="ptr_pull_to_fresh" format="boolean" />
+
+        <!-- keep header when refreshing-->
+        <attr name="ptr_keep_header_when_refresh" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PtrClassicHeader">
+        <attr name="ptr_rotate_ani_time" format="integer" />
+    </declare-styleable>
+    <!-- ptr结束 -->
+    <!-- XDroidSlideSwitch开始 -->
+    <declare-styleable name="slideswitch">
+        <attr name="themeColor" format="color" />
+        <attr name="isOpen" format="boolean" />
+        <attr name="shape">
+            <enum name="rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+    </declare-styleable>
+    <!-- XDroidSlideSwitch开始 -->
+
+</resources>

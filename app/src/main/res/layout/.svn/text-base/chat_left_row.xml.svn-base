@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_timestamp"
+            style="@style/chat_text_date_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="昨天"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:visibility="gone" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_fifteen"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+        <com.lvgou.distribution.view.CircleImageView
+            android:id="@+id/img_head"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/faxian_user_comment_head" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_toRightOf="@id/img_head"
+            android:text="导游"
+            android:textColor="@color/bg_bottom_gray"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/tv_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_toRightOf="@id/tv_name"
+            android:text="主讲人"
+            android:visibility="gone"
+            android:textColor="#C0C0C1"
+            android:textSize="@dimen/twelve" />
+
+        <LinearLayout
+            android:id="@+id/rl_backround"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_marginRight="@dimen/margin_thirty_five"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/img_head"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_chat_radius"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="dsfsdfsffff"
+                        android:textColor="@color/bg_about_black"
+                        android:textSize="@dimen/fifteen"
+                        android:visibility="visible" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_dashang_text_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:id="@+id/ll_dashang_text_left"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="6dp"
+                            android:background="@mipmap/bg_dashang_left"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_dashang_name_left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:paddingLeft="10dp"
+                                android:textColor="#9e9e9e"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/tv_dashang_number_left"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="#fc4d30"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:paddingRight="10dp"
+                                android:text="团币"
+                                android:textColor="#9e9e9e"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_dashang_icon_left"
+                            android:layout_width="21.2dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_toRightOf="@id/ll_dashang_text_left"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/dashang_icon_left" />
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/voice_lin_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:id="@+id/voice_layout_bg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:background="@drawable/bg_chat_radius"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="30dp">
+
+                            <ImageView
+                                android:id="@+id/img_voice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/school_chat_left_playaudio"
+                                android:visibility="visible" />
+
+                            <ImageView
+                                android:id="@+id/img_voice2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/school_chat_left_playaudio"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_unread"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/school_chat_not_read"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/txt_voice_length"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="bottom"
+                                android:layout_marginBottom="4dp"
+                                android:gravity="bottom" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginLeft="5dp"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pic_frmlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone">
+
+                <com.lvgou.distribution.view.PowerImageView
+                    android:id="@+id/img_picature"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/bg_chat_radius"
+                    android:maxHeight="400dp"
+                    android:maxWidth="180dp"
+                    android:src="@mipmap/home_loading"
+                    android:visibility="visible" />
+
+                <com.lvgou.distribution.view.CircleProgress
+                    android:id="@+id/pic_circleProgress"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/fm_video"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/bg_chat_radius"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/img_video_cover"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/img_video_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/media_palyer"
+                    android:visibility="gone" />
+
+                <com.lvgou.distribution.view.CircleProgress
+                    android:id="@+id/circleProgress"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@color/transparent"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

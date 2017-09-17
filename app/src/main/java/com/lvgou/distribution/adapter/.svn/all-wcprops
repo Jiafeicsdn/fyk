@@ -1,0 +1,569 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter
+END
+Concern_FansAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/Concern_FansAdapter.java
+END
+ExpressionAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ExpressionAdapter.java
+END
+TopicCommentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TopicCommentAdapter.java
+END
+SkillsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/63/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/SkillsAdapter.java
+END
+ActDiscussListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ActDiscussListAdapter.java
+END
+DirectChatRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/13/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/DirectChatRowAdapter.java
+END
+MyCommentListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MyCommentListAdapter.java
+END
+RecommendRecordAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/RecommendRecordAdapter.java
+END
+TeacherResultAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TeacherResultAdapter.java
+END
+ClassfiyExpandAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ClassfiyExpandAdapter.java
+END
+ApplyViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ApplyViewAdapter.java
+END
+BuyBatchClassAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/42/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/BuyBatchClassAdapter.java
+END
+DoggerelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/60/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/DoggerelAdapter.java
+END
+ViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ViewPagerAdapter.java
+END
+ClassifyAdapter1.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ClassifyAdapter1.java
+END
+XiaoBianGridAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/XiaoBianGridAdapter.java
+END
+MyActivityAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MyActivityAdapter.java
+END
+ThemeGridViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ThemeGridViewAdapter.java
+END
+MyPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/10/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MyPagerAdapter.java
+END
+TeacherListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TeacherListAdapter.java
+END
+ChatRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ChatRowAdapter.java
+END
+ClassifyListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ClassifyListAdapter.java
+END
+OrderAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/OrderAdapter.java
+END
+ExpressionPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ExpressionPagerAdapter.java
+END
+ActivityFragmentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/73/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ActivityFragmentAdapter.java
+END
+MyListTestAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MyListTestAdapter.java
+END
+FengWenClassifyAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/FengWenClassifyAdapter.java
+END
+JokeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/60/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/JokeAdapter.java
+END
+ColegeDriectAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ColegeDriectAdapter.java
+END
+MarkAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MarkAdapter.java
+END
+SeriesBatchAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/SeriesBatchAdapter.java
+END
+CourseVoucherAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/CourseVoucherAdapter.java
+END
+RecommendFragmentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/45/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/RecommendFragmentAdapter.java
+END
+ToutiaoFengwenAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ToutiaoFengwenAdapter.java
+END
+Report_Search_ResultAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/Report_Search_ResultAdapter.java
+END
+ClassifyAdapter2.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ClassifyAdapter2.java
+END
+CollecteDynamicAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/60/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/CollecteDynamicAdapter.java
+END
+GridViewPathImageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/GridViewPathImageAdapter.java
+END
+ApplyActivityAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ApplyActivityAdapter.java
+END
+GridViewPathImageOneAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/GridViewPathImageOneAdapter.java
+END
+CollecteDoggerelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/60/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/CollecteDoggerelAdapter.java
+END
+MenuAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MenuAdapter.java
+END
+TuanbiDetialAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TuanbiDetialAdapter.java
+END
+Report_Result_MapAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/Report_Result_MapAdapter.java
+END
+LevelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/LevelAdapter.java
+END
+DiscussListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/43/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/DiscussListAdapter.java
+END
+NotUseVoucherAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/NotUseVoucherAdapter.java
+END
+DetailsMenuAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/DetailsMenuAdapter.java
+END
+VoucherAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/VoucherAdapter.java
+END
+GridViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/GridViewAdapter.java
+END
+LiveFragmentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/LiveFragmentAdapter.java
+END
+GridViewImageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/GridViewImageAdapter.java
+END
+FengCircleCommentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/42/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/FengCircleCommentAdapter.java
+END
+DefaultAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/DefaultAdapter.java
+END
+ZanListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/42/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ZanListAdapter.java
+END
+JokePicAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/JokePicAdapter.java
+END
+HomePageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/HomePageAdapter.java
+END
+CollectAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/CollectAdapter.java
+END
+ActBMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/59/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ActBMAdapter.java
+END
+MerchantMenuAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MerchantMenuAdapter.java
+END
+TDirectChatRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/13/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TDirectChatRowAdapter.java
+END
+ImageViewPagerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ImageViewPagerAdapter.java
+END
+CourseIntrAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/CourseIntrAdapter.java
+END
+InviteAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/InviteAdapter.java
+END
+ExtensionProfitAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ExtensionProfitAdapter.java
+END
+RecyclerViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/26/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/RecyclerViewHolder.java
+END
+TeacherSearchAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TeacherSearchAdapter.java
+END
+CollecteJokeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/60/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/CollecteJokeAdapter.java
+END
+SearchResultAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/SearchResultAdapter.java
+END
+BannedListAdapter1.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/BannedListAdapter1.java
+END
+TeacgerViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TeacgerViewAdapter.java
+END
+CollegeAdViewPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/CollegeAdViewPage.java
+END
+DownLoadAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/DownLoadAdapter.java
+END
+HuatiAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/62/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/HuatiAdapter.java
+END
+BoutiqueFragmentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/BoutiqueFragmentAdapter.java
+END
+ExchangeRecordAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ExchangeRecordAdapter.java
+END
+HotCourseGridAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/HotCourseGridAdapter.java
+END
+BannedListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/BannedListAdapter.java
+END
+ListenClassAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/ListenClassAdapter.java
+END
+MyFocusAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/71/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MyFocusAdapter.java
+END
+SeriesListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/SeriesListAdapter.java
+END
+DistributorDynaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/DistributorDynaAdapter.java
+END
+RecommendListImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/RecommendListImpl.java
+END
+OpenClassAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/OpenClassAdapter.java
+END
+SystemMsglistAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/SystemMsglistAdapter.java
+END
+TeacherDynaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TeacherDynaAdapter.java
+END
+MoreReminderAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MoreReminderAdapter.java
+END
+UseVoucherAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/UseVoucherAdapter.java
+END
+GridChildAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/GridChildAdapter.java
+END
+MyZanListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MyZanListAdapter.java
+END
+GamesAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/54/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/GamesAdapter.java
+END
+TeacherCourseAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/TeacherCourseAdapter.java
+END
+MytalklistAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MytalklistAdapter.java
+END
+MyFansAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/71/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/adapter/MyFansAdapter.java
+END

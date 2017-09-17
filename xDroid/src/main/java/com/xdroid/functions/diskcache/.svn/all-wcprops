@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/diskcache
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/diskcache/package-info.java
+END
+CacheEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/diskcache/CacheEntry.java
+END
+DiskCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/functions/diskcache/DiskCache.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/http/client/entity
+END
+DecompressingEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/http/client/entity/DecompressingEntity.java
+END
+FileUploadEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/http/client/entity/FileUploadEntity.java
+END
+UploadEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/http/client/entity/UploadEntity.java
+END
+GZipDecompressingEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/http/client/entity/GZipDecompressingEntity.java
+END
+InputStreamUploadEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/http/client/entity/InputStreamUploadEntity.java
+END
+BodyParamsEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/lidroid/xutils/http/client/entity/BodyParamsEntity.java
+END

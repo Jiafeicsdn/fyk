@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="240dp"
+    android:background="@drawable/dialog_bg_shape">
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="240dp"
+        android:layout_margin="10dp"
+        android:background="@color/bg_white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_fifteen">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="兑换"
+                    android:textColor="@color/bg_goods_manger_black"
+                    android:textSize="@dimen/sixteen" />
+
+                <TextView
+                    android:id="@+id/tv_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/eighteen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元红包"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/eighteen" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:text="兑换的红包将直接放入该手机账号中"
+            android:textColor="@color/bg_main_gray"
+            android:textSize="@dimen/fourteen" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/bg_exchange_input"
+                android:hint="输入买家手机号"
+                android:inputType="phone"
+                android:lines="1"
+                android:maxLength="11"
+                android:paddingLeft="@dimen/margin_ten"
+                android:textColorHint="@color/bg_main_gray"
+                android:textSize="@dimen/fourteen" />
+
+            <TextView
+                android:id="@+id/tv_test"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_weight="1.3"
+                android:background="@drawable/bg_test_shape"
+                android:gravity="center"
+                android:text="验证"
+                android:textColor="@color/bg_white"
+                android:textSize="@dimen/fourteen" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:background="@drawable/bg_exchange_input"
+            android:hint="输入验证码"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="4"
+            android:paddingLeft="@dimen/margin_ten"
+            android:textColorHint="@color/bg_main_gray"
+            android:textSize="@dimen/fourteen" />
+
+        <Button
+            android:id="@+id/btn_exchange"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:background="@drawable/btn_orange_shpae"
+            android:text="兑换"
+            android:textColor="@color/bg_white"
+            android:textSize="@dimen/fifteen" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/delete_x" />
+</RelativeLayout>

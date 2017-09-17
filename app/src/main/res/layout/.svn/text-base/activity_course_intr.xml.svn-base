@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.lvgou.distribution.utils.ScrollableLayout
+        android:id="@+id/sl_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_vp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.superplayer.library.SuperPlayer
+                android:id="@+id/view_super_player"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="#00000000"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/title_vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:id="@+id/ly_dots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/iv_title"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="#ffffff"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+                <com.superplayer.library.SuperPlayer
+                    android:id="@+id/view_super_player22"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#00000000"
+                    android:layout_alignParentBottom="true"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+
+            <!--<ImageView
+                android:id="@+id/img_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/college_play_icon"
+                android:visibility="gone" />-->
+            <RelativeLayout
+                android:id="@+id/rl_shikan"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <TextView
+                    android:id="@+id/tv_shikan"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="45dp"
+                    android:background="#30000000"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="您可免费试听5分钟，购买后可完整观看"
+                    android:textColor="#d5aa5f"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/app_video_bottom_boxxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#88000000"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/view_jky_player_leftxx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/app_video_playxx"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_play" />
+
+                        <TextView
+                            android:id="@+id/view_jky_player_tv_numberxx"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:drawableLeft="@drawable/ic_live_number"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:text="12"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/app_video_currentTimexx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/view_jky_player_leftxx"
+                        android:text="00:00"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <SeekBar
+                        android:id="@+id/app_video_seekBarxx"
+                        style="@style/SeekBarAppTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_toLeftOf="@+id/app_video_endTimexx"
+                        android:layout_toRightOf="@+id/app_video_currentTimexx" />
+
+                    <TextView
+                        android:id="@+id/app_video_endTimexx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="45dp"
+                        android:text="00:00"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/view_jky_player_fullscreenxx"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:padding="14dp"
+                        android:src="@drawable/ic_enlarge" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_scroll_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl_vp">
+
+
+            <com.flyco.tablayout.SlidingTabLayout
+                android:id="@+id/tl_4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffffff"
+                tl:tl_indicator_color="#444444"
+                tl:tl_indicator_corner_radius="10dp"
+                tl:tl_indicator_height="4dp"
+                tl:tl_indicator_width="18dp"
+                tl:tl_tab_padding="50dp"
+                tl:tl_tab_space_equal="true"
+                tl:tl_textSelectColor="#000000"
+                tl:tl_textUnselectColor="#999999"
+                tl:tl_textsize="16sp"
+                tl:tl_underline_color="#f0f0f0"
+                tl:tl_underline_height="4dp"
+
+                />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tl_4"
+                android:background="#00000000" />
+        </RelativeLayout>
+    </com.lvgou.distribution.utils.ScrollableLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#cc000000">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="60dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/mq_ic_back_white" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_spit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rl_share"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/share_act_detail" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_about"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@id/rl_share">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/course_warning_icon" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="张三李四王五"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e5e5e5" />
+
+        <TextView
+            android:id="@+id/tv_apply"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:background="#d5aa5f"
+            android:gravity="center"
+            android:text="报名"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_chakan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#fbfcfd"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ll_download"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="#fbfcfd"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/im_download"
+                    android:layout_width="12dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/download_clickab_icon" />
+
+                <TextView
+                    android:id="@+id/tv_download"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="下载"
+                    android:textColor="#333333"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_fubichakan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#d5aa5f"
+                android:gravity="center"
+                android:text="付币听课"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rl_fabu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_white"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view_linesd"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e5e5e5" />
+
+            <LinearLayout
+                android:id="@+id/ll_1"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_below="@id/view_linesd"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_evaluate"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_weight="2.5"
+                    android:background="@drawable/bg_baobei_edittext_shape"
+                    android:hint="输入你要说的内容..."
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/margin_ten"
+                    android:textSize="@dimen/twelve" />
+
+                <TextView
+                    android:id="@+id/tv_sned"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:background="#d5aa5f"
+                    android:gravity="center"
+                    android:text="发布"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/fourteen" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/viw_1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bg_line" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/im_gettuanbi"
+        android:layout_width="44dp"
+        android:layout_height="57dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:background="@mipmap/get_tuanbi_icon"
+        android:layout_alignParentRight="true"/>
+
+    <include layout="@layout/dialog_zanshang_show" />
+
+    <include
+        android:id="@+id/ll_comment_view"
+        layout="@layout/comment_popupwindow_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <include layout="@layout/dialog_share_new" />
+
+    <ImageView
+        android:id="@+id/im_once_course"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:background="@mipmap/bg_course_once"/>
+</RelativeLayout>

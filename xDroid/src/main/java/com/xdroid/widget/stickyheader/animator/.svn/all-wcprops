@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/stickyheader/animator
+END
+AnimatorBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/stickyheader/animator/AnimatorBuilder.java
+END
+HeaderStikkyAnimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/stickyheader/animator/HeaderStikkyAnimator.java
+END
+BaseStickyHeaderAnimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Android/!svn/ver/2/trunk/FYK-Android/xDroid/src/main/java/com/xdroid/widget/stickyheader/animator/BaseStickyHeaderAnimator.java
+END

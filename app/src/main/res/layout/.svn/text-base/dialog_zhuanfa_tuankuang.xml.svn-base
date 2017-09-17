@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_dialog_zhuangfa_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent_black"
+    android:clickable="true"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_zhuangfa_cotent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_white_one"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_dimiss_one"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@mipmap/circle_x" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_title_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="写评论"
+                    android:textColor="@color/bg_balck_three"
+                    android:textSize="@dimen/fourteen" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_fabu"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@mipmap/circle_publiash_white_icon" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="@dimen/margin_fifteen"
+                android:layout_marginRight="@dimen/margin_ten"
+                android:background="@color/bg_white_one"
+                android:gravity="top"
+                android:hint="想说点什么,就写在这里吧..."
+                android:inputType="text"
+                android:paddingTop="@dimen/margin_ten"
+                android:textSize="@dimen/fourteen" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

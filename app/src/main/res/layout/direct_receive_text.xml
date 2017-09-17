@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:paddingTop="@dimen/margin_fifteen">
+
+    <TextView
+        android:id="@+id/tv_timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_timestamp"
+        android:layout_marginLeft="@dimen/margin_fifty_five">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="冯导游"
+            android:textColor="@color/bg_bottom_gray"
+            android:textSize="@dimen/fifteen" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_head"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/rl_01"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/bg_none_good" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_01"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="@dimen/margin_thirty"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/img_head"
+        android:background="@mipmap/direct_text_small"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_fifteen"
+        android:text="啦啦啦啦啦啦啦啦啦啦啦啦"
+        android:textColor="@color/bg_new_guide_black"
+        android:textSize="@dimen/fifteen" />
+</RelativeLayout>

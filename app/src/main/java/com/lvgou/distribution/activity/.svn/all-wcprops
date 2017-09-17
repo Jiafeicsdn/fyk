@@ -1,0 +1,1223 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity
+END
+CollegeMangeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CollegeMangeActivity.java
+END
+TaskDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TaskDetialActivity.java
+END
+MyFocusActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyFocusActivity.java
+END
+ActBMActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/59/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ActBMActivity.java
+END
+GuideCollegeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GuideCollegeActivity.java
+END
+MyTuanBiActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyTuanBiActivity.java
+END
+MyAcActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/18/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyAcActivity.java
+END
+GamesWebActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/19/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GamesWebActivity.java
+END
+MyMessageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyMessageActivity.java
+END
+PersonalCentralActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PersonalCentralActivity.java
+END
+BaseCircleActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/BaseCircleActivity.java
+END
+MyFansActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyFansActivity.java
+END
+RegisterNewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RegisterNewActivity.java
+END
+InviteFrendsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/InviteFrendsActivity.java
+END
+PersonalSignActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/55/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PersonalSignActivity.java
+END
+TuanYuanActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TuanYuanActivity.java
+END
+FabuActActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/77/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FabuActActivity.java
+END
+SelectCityActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SelectCityActivity.java
+END
+TuanbiRuleActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TuanbiRuleActivity.java
+END
+Report_Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/Report_Activity.java
+END
+UserListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/UserListActivity.java
+END
+ActivityBMActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ActivityBMActivity.java
+END
+JoinGroupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/JoinGroupActivity.java
+END
+RegisterSuccessActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RegisterSuccessActivity.java
+END
+MyShopActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyShopActivity.java
+END
+NoticeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/NoticeActivity.java
+END
+SmsEditAddActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SmsEditAddActivity.java
+END
+DistributorHomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/DistributorHomeActivity.java
+END
+ReportSearchHistoryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ReportSearchHistoryActivity.java
+END
+PushSpeedDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/7/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PushSpeedDetialActivity.java
+END
+TopicDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TopicDetailsActivity.java
+END
+SelectProvinceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/41/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SelectProvinceActivity.java
+END
+FullScreenPlayActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FullScreenPlayActivity.java
+END
+TextOrcActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TextOrcActivity.java
+END
+JokeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/JokeActivity.java
+END
+SetActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SetActivity.java
+END
+CutActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CutActivity.java
+END
+SelectLocalAdressActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SelectLocalAdressActivity.java
+END
+WeatherWebActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/63/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/WeatherWebActivity.java
+END
+NewRecomFengWenDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/NewRecomFengWenDetailsActivity.java
+END
+AccountUpdateActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/AccountUpdateActivity.java
+END
+ExplainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ExplainActivity.java
+END
+MerchantCenterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/71/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MerchantCenterActivity.java
+END
+TeMeiActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TeMeiActivity.java
+END
+FenwenSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FenwenSearchActivity.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/38/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/LoginActivity.java
+END
+InvateGuidersActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/InvateGuidersActivity.java
+END
+FengHuaTiActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/62/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FengHuaTiActivity.java
+END
+BBSelectProviceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/BBSelectProviceActivity.java
+END
+EditAddGroupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/EditAddGroupActivity.java
+END
+PayDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PayDetailActivity.java
+END
+CutHeadActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CutHeadActivity.java
+END
+ApplySuccessActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ApplySuccessActivity.java
+END
+ExchangePresnetActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ExchangePresnetActivity.java
+END
+CertificationActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/80/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CertificationActivity.java
+END
+TeacherHomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TeacherHomeActivity.java
+END
+MyFansListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyFansListActivity.java
+END
+ImagePagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ImagePagerActivity.java
+END
+SystemMessageAcitivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SystemMessageAcitivity.java
+END
+UserSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/UserSearchActivity.java
+END
+CollegeManagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CollegeManagerActivity.java
+END
+IMChatActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/IMChatActivity.java
+END
+PublishGroupCarryDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PublishGroupCarryDetialActivity.java
+END
+ChouJiangActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ChouJiangActivity.java
+END
+AllTopicActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/57/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/AllTopicActivity.java
+END
+BBSelectCityActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/BBSelectCityActivity.java
+END
+EditActActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/EditActActivity.java
+END
+ImageReportActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ImageReportActivity.java
+END
+AuthenticationActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/AuthenticationActivity.java
+END
+MessageListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MessageListActivity.java
+END
+UserPersonalCenterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/UserPersonalCenterActivity.java
+END
+GroupIndexActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GroupIndexActivity.java
+END
+GuoNeiActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GuoNeiActivity.java
+END
+ApplyerInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ApplyerInfoActivity.java
+END
+MoreReminderActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MoreReminderActivity.java
+END
+SplashActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SplashActivity.java
+END
+ReportSearchShopActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ReportSearchShopActivity.java
+END
+VideoPlayActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/VideoPlayActivity.java
+END
+RecorderVideoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RecorderVideoActivity.java
+END
+InviteRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/InviteRecordActivity.java
+END
+TeacherSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TeacherSearchActivity.java
+END
+PersonalClassesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PersonalClassesActivity.java
+END
+ClassessBackActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ClassessBackActivity.java
+END
+SignatureActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SignatureActivity.java
+END
+MyCollectionActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyCollectionActivity.java
+END
+FreeSmsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FreeSmsActivity.java
+END
+ExchangeDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ExchangeDetialActivity.java
+END
+GoodsMnagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GoodsMnagerActivity.java
+END
+ClassLableActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ClassLableActivity.java
+END
+InvaterRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/InvaterRecordActivity.java
+END
+CodeExtensionActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CodeExtensionActivity.java
+END
+MyFengwenAcitivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyFengwenAcitivity.java
+END
+RecommendRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RecommendRecordActivity.java
+END
+FamousTeacherDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FamousTeacherDetialActivity.java
+END
+OrderActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/OrderActivity.java
+END
+ScanDownloadActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ScanDownloadActivity.java
+END
+CirclrFengActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CirclrFengActivity.java
+END
+CashReceiveActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CashReceiveActivity.java
+END
+PaySuccessActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PaySuccessActivity.java
+END
+OfficialHomePageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/OfficialHomePageActivity.java
+END
+SeekGoodsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SeekGoodsActivity.java
+END
+SelectHotCityActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SelectHotCityActivity.java
+END
+GuiderNewCollegeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GuiderNewCollegeActivity.java
+END
+SelectDistrictActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SelectDistrictActivity.java
+END
+DoggerelActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/DoggerelActivity.java
+END
+DynamicDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/DynamicDetailsActivity.java
+END
+AboutTugouActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/63/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/AboutTugouActivity.java
+END
+ReportSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ReportSearchActivity.java
+END
+ApplicationActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ApplicationActivity.java
+END
+IncomeMangerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/IncomeMangerActivity.java
+END
+MakeAnyTimeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MakeAnyTimeActivity.java
+END
+NewDynamicDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/66/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/NewDynamicDetailsActivity.java
+END
+ApplyCourseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ApplyCourseActivity.java
+END
+FansFollowListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FansFollowListActivity.java
+END
+RankInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RankInfoActivity.java
+END
+OpreatGuideActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/OpreatGuideActivity.java
+END
+BatchDownLoadActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/42/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/BatchDownLoadActivity.java
+END
+RechargeRecordListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RechargeRecordListActivity.java
+END
+SendSmsRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SendSmsRecordActivity.java
+END
+TuanbiMangerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TuanbiMangerActivity.java
+END
+CashRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CashRecordActivity.java
+END
+ToolActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/58/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ToolActivity.java
+END
+SeriesClassActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SeriesClassActivity.java
+END
+RegisterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RegisterActivity.java
+END
+FeedBackActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FeedBackActivity.java
+END
+RankingListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RankingListActivity.java
+END
+HomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/HomeActivity.java
+END
+MyZanListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyZanListActivity.java
+END
+FaXianAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FaXianAdapter.java
+END
+FengMarkActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/FengMarkActivity.java
+END
+CourseVoucherActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CourseVoucherActivity.java
+END
+GuideCollegeDetitalActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GuideCollegeDetitalActivity.java
+END
+SettingsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/55/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SettingsActivity.java
+END
+ExchageRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ExchageRecordActivity.java
+END
+NoticeDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/7/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/NoticeDetialActivity.java
+END
+TuanBiDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TuanBiDetialActivity.java
+END
+ReportShopActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ReportShopActivity.java
+END
+RecommendTeacherActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RecommendTeacherActivity.java
+END
+OrderCentralDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/OrderCentralDetialActivity.java
+END
+BindCodeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/BindCodeActivity.java
+END
+ExchangeTuanbiRecordDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ExchangeTuanbiRecordDetialActivity.java
+END
+TuanbiQuestionActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TuanbiQuestionActivity.java
+END
+WithdrawsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/WithdrawsActivity.java
+END
+NewFreeSmsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/NewFreeSmsActivity.java
+END
+CommitSuccessActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CommitSuccessActivity.java
+END
+ApplyTeacherActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ApplyTeacherActivity.java
+END
+SmsModelActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SmsModelActivity.java
+END
+PublishGroupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PublishGroupActivity.java
+END
+GiftVoucherActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/18/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GiftVoucherActivity.java
+END
+LiveDirectActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/LiveDirectActivity.java
+END
+MyCollectActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyCollectActivity.java
+END
+Report_Shop_Location_Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/Report_Shop_Location_Activity.java
+END
+SelectGroupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SelectGroupActivity.java
+END
+UpdatePwdActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/UpdatePwdActivity.java
+END
+IncomeDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/IncomeDetialActivity.java
+END
+NewGuidersDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/NewGuidersDetialActivity.java
+END
+ForgetPwdActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/38/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ForgetPwdActivity.java
+END
+MyClassesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyClassesActivity.java
+END
+TuanbiDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/61/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TuanbiDetailActivity.java
+END
+PublishGroupDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PublishGroupDetialActivity.java
+END
+PublishFengActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PublishFengActivity.java
+END
+MyTaskActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyTaskActivity.java
+END
+BaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/56/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/BaseActivity.java
+END
+ReportActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ReportActivity.java
+END
+TuanbiShopActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TuanbiShopActivity.java
+END
+UpdateShopNameActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/UpdateShopNameActivity.java
+END
+Report_SearchShop.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/Report_SearchShop.java
+END
+TestActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TestActivity.java
+END
+MyContactsListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyContactsListActivity.java
+END
+GuideCradMnagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GuideCradMnagerActivity.java
+END
+OrderCentralActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/OrderCentralActivity.java
+END
+ExchangeTuanbiRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ExchangeTuanbiRecordActivity.java
+END
+PersonalCenterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PersonalCenterActivity.java
+END
+BaseFamousActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/BaseFamousActivity.java
+END
+HomePageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/HomePageActivity.java
+END
+RecomFengWenDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RecomFengWenDetailsActivity.java
+END
+MoreFriendListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MoreFriendListActivity.java
+END
+RechargeMoneyActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/RechargeMoneyActivity.java
+END
+TeacherSeatActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TeacherSeatActivity.java
+END
+UseVoucherActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/UseVoucherActivity.java
+END
+ActDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ActDetailActivity.java
+END
+GamesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/19/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/GamesActivity.java
+END
+CarryGroupRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CarryGroupRecordActivity.java
+END
+CourseIntrActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CourseIntrActivity.java
+END
+ShowAccountActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ShowAccountActivity.java
+END
+LiveChatActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/LiveChatActivity.java
+END
+CollegeSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CollegeSearchActivity.java
+END
+ShopMnagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/7/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ShopMnagerActivity.java
+END
+MyCommentListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyCommentListActivity.java
+END
+SendGroupRecordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SendGroupRecordActivity.java
+END
+CirclrIndexActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/CirclrIndexActivity.java
+END
+MyCourseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyCourseActivity.java
+END
+TeacherListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/TeacherListActivity.java
+END
+WebViewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/WebViewActivity.java
+END
+PublishFenwenActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/PublishFenwenActivity.java
+END
+MyProfitActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyProfitActivity.java
+END
+Report_SearchShop_Result.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/Report_SearchShop_Result.java
+END
+SendRecordDetialActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SendRecordDetialActivity.java
+END
+ApplyClassActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/ApplyClassActivity.java
+END
+NewGuidersActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/NewGuidersActivity.java
+END
+MyGroupersActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/37/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyGroupersActivity.java
+END
+MyLevelActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/MyLevelActivity.java
+END
+SeeCertificationActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/activity/SeeCertificationActivity.java
+END

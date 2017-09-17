@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/rl_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="团币充值"
+            android:textColor="@color/bg_text_black"
+            android:textSize="@dimen/sixteen" />
+
+        <RelativeLayout
+            android:id="@+id/rl_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="充值记录"
+                android:layout_marginRight="15dp"
+                android:textColor="#777777"
+                android:textSize="14sp"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white_one"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_white_one">
+
+            <RelativeLayout
+                android:id="@+id/rl_01"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="@dimen/margin_twenty"
+                android:layout_marginTop="@dimen/margin_thirty"
+                android:background="@drawable/bg_head_circle_shape">
+
+                <ImageView
+                    android:id="@+id/img_teacher_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="1dp"
+                    android:scaleType="centerCrop" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_marginTop="@dimen/margin_thirty"
+                android:layout_toRightOf="@+id/rl_01"
+                android:text="123132"
+                android:textColor="@color/bg_balck_three"
+                android:textSize="@dimen/twenty" />
+
+            <ImageView
+                android:id="@+id/im_star"
+                android:layout_width="wrap_content"
+                android:layout_height="11dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="38dp"
+                android:layout_toRightOf="@+id/tv_name"
+                android:background="@mipmap/onelevel_light_icon" />
+
+            <TextView
+                android:id="@+id/tv_tuanbi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_marginTop="@dimen/margin_eight"
+                android:layout_toRightOf="@+id/rl_01"
+                android:text="sdfsdf"
+                android:textColor="@color/bg_gray_three"
+                android:textSize="@dimen/fourteen" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_tuanbi"
+                android:layout_marginTop="@dimen/margin_twenty_five"
+                android:background="@color/bg_line" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_tuanbi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:background="@color/bg_white_one"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_ten_yuan"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_twelve"
+                android:layout_weight="1"
+                android:background="@drawable/recharge_bg_text">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+
+                    <TextView
+                        android:id="@+id/tv_ten_zero_zero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="100团币"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/fifteen" />
+
+                    <TextView
+                        android:id="@+id/tv_ten_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_ten_zero_zero"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="售价:10元"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/twelve" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_twenty_yuan"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_weight="1"
+                android:background="@drawable/recharge_bg_text">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/tv_two_zero_five"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="205团币"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/fifteen" />
+
+                    <TextView
+                        android:id="@+id/tv_twenty_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_two_zero_five"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="售价:20元"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/twelve" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_thirty_yuan"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_marginRight="@dimen/margin_fifteen"
+                android:layout_weight="1"
+                android:background="@drawable/recharge_bg_text">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/tv_three_one_zero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="310团币"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/fifteen" />
+
+                    <TextView
+                        android:id="@+id/tv_thirty_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_three_one_zero"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="售价:30元"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/twelve" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_fifty_yuan"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_fifteen"
+                android:layout_weight="1"
+                android:background="@drawable/recharge_bg_text">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/tv_five_two_zero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="520团币"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/fifteen" />
+
+                    <TextView
+                        android:id="@+id/tv_fifty_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_five_two_zero"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="售价:50元"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/twelve" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_eighty_yuan"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_weight="1"
+                android:background="@drawable/recharge_bg_text">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/tv_eight_five_zero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="850团币"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/fifteen" />
+
+                    <TextView
+                        android:id="@+id/tv_eighty_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_eight_five_zero"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="售价:80元"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/twelve" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_handred_yuan"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_marginRight="@dimen/margin_fifteen"
+                android:layout_weight="1"
+                android:background="@drawable/recharge_bg_text">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/tv_one_one_zero_zero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="1100团币"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/fifteen" />
+
+                    <TextView
+                        android:id="@+id/tv_hundred_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_one_one_zero_zero"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="售价:100元"
+                        android:textColor="@color/bg_daoliu_yellow_one"
+                        android:textSize="@dimen/twelve" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_twenty_four" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="#f4f3f8" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/bg_white_one">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:text="支付方式:"
+            android:textColor="@color/bg_gray_three"
+            android:textSize="@dimen/thirteen" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_alipay"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/bg_white_one">
+
+        <ImageView
+            android:id="@+id/img_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:background="@mipmap/zhifubao_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_toRightOf="@+id/img_01"
+            android:text="支付宝支付"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/fourteen" />
+
+        <ImageView
+            android:id="@+id/im_alipay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/checkbox_check_icon" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e5e5e5" />
+
+    <RelativeLayout
+        android:id="@+id/rl_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/bg_white_one">
+
+        <ImageView
+            android:id="@+id/img_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:background="@mipmap/weixin_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_toRightOf="@+id/img_02"
+            android:text="微信支付"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/fourteen" />
+
+        <ImageView
+            android:id="@+id/im_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/checkbox_default_icon" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e5e5e5" />
+
+    <RelativeLayout
+        android:id="@+id/rl_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/one_point"
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_ovil_light" />
+
+        <TextView
+            android:id="@+id/tv_messagetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="目前您是最贵的lv1用户，享受9.8折充值优惠"
+            android:textColor="#d5aa5f"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/tv_sure_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d5aa5f"
+            android:gravity="center"
+            android:text="确认充值"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/fifteen" />
+    </RelativeLayout>
+</LinearLayout>

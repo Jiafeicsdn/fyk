@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_00034"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white">
+
+        <ImageView
+            android:id="@+id/img_custom_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/customer_icon_new" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="蜂优客"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/eighteen" />
+
+        <RelativeLayout
+            android:id="@+id/rl_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/img_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_fifteen"
+                android:background="@mipmap/ring_icon_one" />
+
+            <TextView
+                android:id="@+id/tv_ring_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_twenty_five"
+                android:layout_marginTop="@dimen/margin_eight"
+                android:background="@drawable/bg_ring_num_shape"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text=""
+                android:textColor="@color/bg_white"
+                android:textSize="@dimen/twelve"
+                android:visibility="gone" />
+
+            <com.lvgou.distribution.view.MarqueeTextView
+                android:id="@+id/tv_content"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_fifteen"
+                android:layout_toRightOf="@+id/tv_ring_num"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/bg_main_marquee"
+                android:textSize="@dimen/thirteen"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_007"
+            android:layout_width="20dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/img_custom_service"
+            android:layout_marginRight="@dimen/margin_seventy_five"
+            android:layout_marginTop="@dimen/margin_fifteen"
+            android:layout_toLeftOf="@+id/img_custom_service" />
+    </RelativeLayout>
+
+    <com.lvgou.distribution.refresh.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/gray_normal"
+        android:dividerPadding="1dp"
+        android:scrollbars="none"
+        ptr:ptrHeaderTextColor="@color/bg_main_clissfy_text"
+        ptr:ptrMode="both" />
+</LinearLayout>

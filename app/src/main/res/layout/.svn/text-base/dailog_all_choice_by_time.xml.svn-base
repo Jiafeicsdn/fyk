@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent_black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white_one"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:text="出团日期"
+            android:textColor="@color/bg_hint_color"
+            android:textSize="@dimen/thirteen" />
+
+        <RelativeLayout
+            android:id="@+id/rl_select_time"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_thirty_five">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/bg_text_black_three"
+                android:textSize="@dimen/eighteen" />
+
+            <RelativeLayout
+                android:id="@+id/rl_01"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/tv_date">
+
+                <TextView
+                    android:id="@+id/tv_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text=""
+                    android:textColor="@color/bg_hint_color"
+                    android:textSize="@dimen/twelve" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_next"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="@dimen/margin_ten"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/rl_01">
+
+                <ImageView
+                    android:id="@+id/img_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/income_left" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1.0" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1.1"
+                android:background="@color/bg_gray_two" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.9" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_sure"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_fifty"
+            android:background="@drawable/bg_green_select_button_shape"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/bg_white"
+            android:textSize="@dimen/fifteen" />
+
+        <TextView
+            android:id="@+id/btn_buxian"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_ten"
+            android:background="@drawable/bg_green_sellect_storke_shape"
+            android:gravity="center"
+            android:text="不限"
+            android:textColor="@color/bg_button_green"
+            android:textSize="@dimen/fifteen" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_ten" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>

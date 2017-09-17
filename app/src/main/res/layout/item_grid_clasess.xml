@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="125dp"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/margin_eight">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_course_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:src="@mipmap/icon_course_apply_state"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_production"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_01"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text=""
+        android:textColor="@color/bg_gray_two"
+        android:textSize="@dimen/twelve" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_production"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@color/bg_white_one" />
+</RelativeLayout>

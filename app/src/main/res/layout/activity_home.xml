@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@color/bg_white" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.5dp"
+                    android:background="@color/bg_line" />
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.0"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/home_radio_button_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/mq_chat_et_textColor"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/home_tab_index"
+                        style="@style/home_tab_bottom"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"
+                        android:checked="true"
+                        android:drawableTop="@drawable/bottom_index_shape"
+                        android:text="学院"
+                        android:textColor="@color/bg_baoming_yellow"
+                        android:textSize="@dimen/twelve" />
+
+                    <!-- <RadioButton
+                         android:id="@+id/home_tab_temai"
+                         style="@style/home_tab_bottom"
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="1"
+                         android:background="@color/transparent"
+                         android:drawableTop="@drawable/bottom_one_shape"
+                         android:text="蜂卖"
+                         android:textColor="@color/bg_bottom_gray"
+                         android:textSize="@dimen/twelve"
+                         android:visibility="visible" />-->
+
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/home_tab_college"
+                            style="@style/home_tab_bottom"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/transparent"
+                            android:drawableTop="@drawable/bottom_college_shape"
+                            android:text="蜂圈"
+                            android:textColor="@color/bg_bottom_gray"
+                            android:textSize="@dimen/twelve" />
+
+                        <TextView
+                            android:id="@+id/txt_no_read_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="24dp"
+                            android:background="@mipmap/icon_no_read"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="@color/bottom_text"
+                            android:visibility="gone" />
+                    </FrameLayout>
+
+                    <RadioButton
+                        android:id="@+id/home_tab_make_any"
+                        style="@style/home_tab_bottom"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"
+                        android:drawableTop="@drawable/bottom_make_any_shape"
+                        android:text="工具"
+                        android:textColor="@color/bg_bottom_gray"
+                        android:textSize="@dimen/twelve" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RadioButton
+                            android:id="@+id/home_tab_my"
+                            style="@style/home_tab_bottom"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/transparent"
+                            android:drawableTop="@drawable/bottom_my_shape"
+                            android:text="我的"
+                            android:textColor="@color/bg_bottom_gray"
+                            android:textSize="@dimen/twelve" />
+
+                        <View
+                            android:id="@+id/view_points"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="33dp"
+                            android:layout_marginTop="@dimen/margin_twelve"
+                            android:background="@drawable/red_circle_conner_shape"
+                            android:visibility="gone" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_badge_view"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:visibility="visible" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </RelativeLayout>
+    </TabHost>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/im_once_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:background="@mipmap/bg_personal_once"/>
+    <ImageView
+        android:id="@+id/im_once_act"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:background="@mipmap/bg_once_act"/>
+</RelativeLayout>

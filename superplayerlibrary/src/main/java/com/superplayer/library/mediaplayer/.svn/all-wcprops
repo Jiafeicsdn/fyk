@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/superplayerlibrary/src/main/java/com/superplayer/library/mediaplayer
+END
+IjkVideoView.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Android/!svn/ver/2/trunk/FYK-Android/superplayerlibrary/src/main/java/com/superplayer/library/mediaplayer/IjkVideoView.java
+END
+MeasureHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Android/!svn/ver/2/trunk/FYK-Android/superplayerlibrary/src/main/java/com/superplayer/library/mediaplayer/MeasureHelper.java
+END
+IRenderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Android/!svn/ver/2/trunk/FYK-Android/superplayerlibrary/src/main/java/com/superplayer/library/mediaplayer/IRenderView.java
+END
+SurfaceRenderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Android/!svn/ver/2/trunk/FYK-Android/superplayerlibrary/src/main/java/com/superplayer/library/mediaplayer/SurfaceRenderView.java
+END
+TextureRenderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Android/!svn/ver/2/trunk/FYK-Android/superplayerlibrary/src/main/java/com/superplayer/library/mediaplayer/TextureRenderView.java
+END
+IMediaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Android/!svn/ver/2/trunk/FYK-Android/superplayerlibrary/src/main/java/com/superplayer/library/mediaplayer/IMediaController.java
+END

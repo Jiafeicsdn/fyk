@@ -1,0 +1,3605 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/res/layout
+END
+dialog_call_phone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_call_phone.xml
+END
+dialog_dashang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_dashang.xml
+END
+fragment_application.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_application.xml
+END
+layout_bottom_publish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/layout_bottom_publish.xml
+END
+item_signup_online.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_signup_online.xml
+END
+fragment_downloading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_downloading.xml
+END
+dialog_all_choice_by_day.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_all_choice_by_day.xml
+END
+boutique_fragment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/boutique_fragment_item.xml
+END
+activity_feedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/19/trunk/FYK-Android/app/src/main/res/layout/activity_feedback.xml
+END
+listen_calss_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/listen_calss_item.xml
+END
+dialog_report_turn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_report_turn.xml
+END
+dialog_bg_pic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/res/layout/dialog_bg_pic.xml
+END
+course_intr_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/59/trunk/FYK-Android/app/src/main/res/layout/course_intr_header.xml
+END
+download_class_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/download_class_header.xml
+END
+item_teacher_seat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_teacher_seat.xml
+END
+activity_my_team.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_my_team.xml
+END
+horizontal_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/horizontal_item.xml
+END
+activity_new_guiders_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_new_guiders_detial.xml
+END
+fragment_openclass.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_openclass.xml
+END
+activity_seaout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_seaout.xml
+END
+activity_cost_for_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_cost_for_detial.xml
+END
+item_report_search_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_report_search_result.xml
+END
+item_report_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_report_search.xml
+END
+item_grid_clasess.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_grid_clasess.xml
+END
+item_classify_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_classify_listview.xml
+END
+activity_mycourse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/68/trunk/FYK-Android/app/src/main/res/layout/activity_mycourse.xml
+END
+activity_live_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/activity_live_header.xml
+END
+item_order_centrea_two.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_order_centrea_two.xml
+END
+dialog_all_choice_by_city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_all_choice_by_city.xml
+END
+report_parent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/report_parent.xml
+END
+activity_distributor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/activity_distributor.xml
+END
+dialog_zanshagn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/dialog_zanshagn.xml
+END
+activity_report_search_history.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_report_search_history.xml
+END
+activity_class_back.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_class_back.xml
+END
+user_home_top_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/user_home_top_view.xml
+END
+fragment_introduction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/59/trunk/FYK-Android/app/src/main/res/layout/fragment_introduction.xml
+END
+course_intr_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/21/trunk/FYK-Android/app/src/main/res/layout/course_intr_footer.xml
+END
+grid_xiaobian_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/grid_xiaobian_item.xml
+END
+notuse_fragment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/notuse_fragment_item.xml
+END
+item_publish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_publish.xml
+END
+dialog_choujiang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_choujiang.xml
+END
+layout_fragment_pullview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/layout_fragment_pullview.xml
+END
+banned_dialog1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/banned_dialog1.xml
+END
+activity_invitation_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_invitation_record.xml
+END
+activity_liveing_play.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_liveing_play.xml
+END
+dialog_show_check_stop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/dialog_show_check_stop.xml
+END
+activity_contact_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_contact_list.xml
+END
+messenger_button_send_white_round.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/messenger_button_send_white_round.xml
+END
+activity_doggerel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/19/trunk/FYK-Android/app/src/main/res/layout/activity_doggerel.xml
+END
+classify_list2_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/classify_list2_item.xml
+END
+activity_show_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_show_account.xml
+END
+dialog_show_menubottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_show_menubottom.xml
+END
+activity_sms_template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_sms_template.xml
+END
+fragment_teacher_intro.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/fragment_teacher_intro.xml
+END
+activity_college_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/75/trunk/FYK-Android/app/src/main/res/layout/activity_college_search.xml
+END
+activity_report_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_report_shop.xml
+END
+merchant_menuadapter_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/res/layout/merchant_menuadapter_view.xml
+END
+fragment_im_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_im_list.xml
+END
+adapter_system_msg_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/adapter_system_msg_view.xml
+END
+umeng_socialize_shareboard_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_shareboard_item.xml
+END
+activity_order_centre.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_order_centre.xml
+END
+item_grid_tuanyuan_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_grid_tuanyuan_one.xml
+END
+item_grid_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_grid_view.xml
+END
+fargment_shoppings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fargment_shoppings.xml
+END
+head_personal_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/head_personal_view.xml
+END
+layout_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/layout_fragment.xml
+END
+details_recom_fengwen_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/details_recom_fengwen_item.xml
+END
+toast_download_sign.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/32/trunk/FYK-Android/app/src/main/res/layout/toast_download_sign.xml
+END
+chat_right_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/res/layout/chat_right_row.xml
+END
+activity_my_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/activity_my_message.xml
+END
+activity_select_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_select_group.xml
+END
+umeng_socialize_facebook_login_activity_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_facebook_login_activity_layout.xml
+END
+driect_reveice_picture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/driect_reveice_picture.xml
+END
+activity_tuanbi_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/activity_tuanbi_new.xml
+END
+guider_four.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/guider_four.xml
+END
+activity_invite_frends.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_invite_frends.xml
+END
+activity_tuanyuan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_tuanyuan.xml
+END
+chat_left_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/res/layout/chat_left_row.xml
+END
+dialog_show_check_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_show_check_index.xml
+END
+item_detial_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_detial_grid.xml
+END
+umeng_bak_at_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_bak_at_list_item.xml
+END
+teahcer_item_news.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/teahcer_item_news.xml
+END
+item_report_search_result_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/item_report_search_result_new.xml
+END
+item_my_task.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_my_task.xml
+END
+super_video_media_controller.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/super_video_media_controller.xml
+END
+item_gridview_classify.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_gridview_classify.xml
+END
+notuse_voucher_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/notuse_voucher_fragment.xml
+END
+activity_fragment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_fragment_item.xml
+END
+activity_user_personalcenter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_user_personalcenter.xml
+END
+activity_test_orc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_test_orc.xml
+END
+fragment_show_industry_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_show_industry_list.xml
+END
+activity_rank_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_rank_list.xml
+END
+grid_apply_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/11/trunk/FYK-Android/app/src/main/res/layout/grid_apply_list_item.xml
+END
+grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/grid_item.xml
+END
+activity_system_msg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/41/trunk/FYK-Android/app/src/main/res/layout/activity_system_msg.xml
+END
+dialog_oneclick.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/dialog_oneclick.xml
+END
+activity_mytoast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/43/trunk/FYK-Android/app/src/main/res/layout/activity_mytoast.xml
+END
+activity_circlefeng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_circlefeng.xml
+END
+guide_thre.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/guide_thre.xml
+END
+activity_horizontalscrollview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_horizontalscrollview.xml
+END
+fragment_boutique.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_boutique.xml
+END
+fragment_allclass.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_allclass.xml
+END
+activity_merchant_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/activity_merchant_main.xml
+END
+dialog_comment_show_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_comment_show_one.xml
+END
+dialog_mian_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_mian_head.xml
+END
+activity_my_task_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_my_task_one.xml
+END
+fragment_act_discuss.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/fragment_act_discuss.xml
+END
+popwindow_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/popwindow_one.xml
+END
+fragment_faxian.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/fragment_faxian.xml
+END
+dialog_show_menubottom2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/res/layout/dialog_show_menubottom2.xml
+END
+circle_comment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/66/trunk/FYK-Android/app/src/main/res/layout/circle_comment_item.xml
+END
+acticity_direct_seeding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/acticity_direct_seeding.xml
+END
+activity_sign_up_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_sign_up_detial.xml
+END
+myzanlist_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/myzanlist_item_view.xml
+END
+dialog_danbiapply.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/dialog_danbiapply.xml
+END
+dialog_upload.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/56/trunk/FYK-Android/app/src/main/res/layout/dialog_upload.xml
+END
+layout_webview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/layout_webview.xml
+END
+banned_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/banned_dialog.xml
+END
+direct_received_video.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/direct_received_video.xml
+END
+series_batch_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/series_batch_item.xml
+END
+activity_invite_guider.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_invite_guider.xml
+END
+item_none_date.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_none_date.xml
+END
+activity_select_loacal_address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_select_loacal_address.xml
+END
+mycomment_itemlist_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/mycomment_itemlist_view.xml
+END
+activity_recommend_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_recommend_record.xml
+END
+app_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/app_main.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/main.xml
+END
+profile_content_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/profile_content_view.xml
+END
+item_order_centra.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_order_centra.xml
+END
+recommend_record_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/res/layout/recommend_record_item.xml
+END
+item_guider_college.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_guider_college.xml
+END
+item_phone_gridview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_phone_gridview.xml
+END
+pay_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/pay_main.xml
+END
+search_history_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/66/trunk/FYK-Android/app/src/main/res/layout/search_history_header.xml
+END
+activity_myfocus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/activity_myfocus.xml
+END
+activity_mycollect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_mycollect.xml
+END
+delete_shop_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/delete_shop_dialog.xml
+END
+umeng_bak_platform_selector_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_bak_platform_selector_dialog.xml
+END
+fragment_rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_rules.xml
+END
+item_out_sea.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_out_sea.xml
+END
+delete_comment_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/delete_comment_view.xml
+END
+direct_send_picture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/direct_send_picture.xml
+END
+app_user.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/app_user.xml
+END
+fragment_collection.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_collection.xml
+END
+activity_make_anytime.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_make_anytime.xml
+END
+nouse_fragment_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/18/trunk/FYK-Android/app/src/main/res/layout/nouse_fragment_header.xml
+END
+item_parent_seaout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_parent_seaout.xml
+END
+dialog_zhuanfa_tuankuang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_zhuanfa_tuankuang.xml
+END
+item_exchange_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/item_exchange_list.xml
+END
+use_fragment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/res/layout/use_fragment_item.xml
+END
+activity_topic_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_topic_details.xml
+END
+activity_surfaceview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_surfaceview.xml
+END
+app_share.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/app_share.xml
+END
+fragment_all_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_all_group.xml
+END
+item_more_friend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_more_friend.xml
+END
+activity_report_shoplocation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_report_shoplocation.xml
+END
+activity_account_receive.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_account_receive.xml
+END
+activity_invite_guider_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_invite_guider_one.xml
+END
+fragment_fengwen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_fengwen.xml
+END
+activity_forget_pwd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_forget_pwd.xml
+END
+apply_activity_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/apply_activity_item.xml
+END
+activity_publish_group_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_publish_group_detial.xml
+END
+dialog_show_big_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_show_big_image.xml
+END
+huati_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/huati_list_item.xml
+END
+activity_update_shopname.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_update_shopname.xml
+END
+dialog_comment_commit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_comment_commit.xml
+END
+dialog_all_choice_by_state_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_all_choice_by_state_one.xml
+END
+item_fragment_profit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_fragment_profit.xml
+END
+item_report_searchresult.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_report_searchresult.xml
+END
+activity_my_classes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_my_classes.xml
+END
+activity_full.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_full.xml
+END
+menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/menu_item.xml
+END
+activity_opreat_guide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_opreat_guide.xml
+END
+voucher_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/voucher_list_item.xml
+END
+activity_tuanbi_question.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/activity_tuanbi_question.xml
+END
+item_grid_tuanyuan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_grid_tuanyuan.xml
+END
+activity_invited_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_invited_group.xml
+END
+item_goos_market_child.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_goos_market_child.xml
+END
+messenger_button_send_blue_small.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/messenger_button_send_blue_small.xml
+END
+activity_certification.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/68/trunk/FYK-Android/app/src/main/res/layout/activity_certification.xml
+END
+dialog_select_publish_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_select_publish_group.xml
+END
+app_auth.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/app_auth.xml
+END
+activity_homepage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_homepage.xml
+END
+giftvoucher_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/18/trunk/FYK-Android/app/src/main/res/layout/giftvoucher_activity.xml
+END
+activity_recharge_money.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_recharge_money.xml
+END
+msg_face_gridview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/msg_face_gridview.xml
+END
+activity_feng_mark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/activity_feng_mark.xml
+END
+activity_invite_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_invite_record.xml
+END
+fragment_doggerel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_doggerel.xml
+END
+face_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/face_item.xml
+END
+info_mark_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/info_mark_list_item.xml
+END
+activity_apply_classes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_apply_classes.xml
+END
+dialog_delete_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_delete_show.xml
+END
+dialog_lack_conis.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/dialog_lack_conis.xml
+END
+dialog_reply_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_reply_comment.xml
+END
+fragment_praised_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/fragment_praised_comment.xml
+END
+layout_navigation_title_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/layout_navigation_title_one.xml
+END
+item_college_driect_classes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_college_driect_classes.xml
+END
+item_brand_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_brand_order.xml
+END
+dialog_cancle_report.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_cancle_report.xml
+END
+pop_gettuanbi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/pop_gettuanbi.xml
+END
+item_group_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_group_index.xml
+END
+dialog_hint_daoyou.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_hint_daoyou.xml
+END
+em_recorder_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/em_recorder_activity.xml
+END
+umeng_socialize_simple_spinner_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_simple_spinner_item.xml
+END
+mark_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/mark_list_item.xml
+END
+activity_games_web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/19/trunk/FYK-Android/app/src/main/res/layout/activity_games_web.xml
+END
+comment_popupwindow_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/comment_popupwindow_view.xml
+END
+direct_send_voice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/direct_send_voice.xml
+END
+layout_mayknowperson.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/layout_mayknowperson.xml
+END
+recommend_fragment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/recommend_fragment_item.xml
+END
+activity_navigation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_navigation.xml
+END
+actor_tag_item_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/actor_tag_item_list.xml
+END
+my_activity_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/my_activity_item.xml
+END
+com_facebook_activity_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/com_facebook_activity_layout.xml
+END
+item_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_menu.xml
+END
+dialog_make_anytime.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_make_anytime.xml
+END
+activity_webview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/activity_webview.xml
+END
+reward_popwindow_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/reward_popwindow_view.xml
+END
+list_dir_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/list_dir_item.xml
+END
+activity_send_sms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_send_sms.xml
+END
+fragment_send_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_send_group.xml
+END
+activity_cash_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_cash_record.xml
+END
+item_carry_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_carry_record.xml
+END
+joke_pic_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/19/trunk/FYK-Android/app/src/main/res/layout/joke_pic_list_item.xml
+END
+dialog_delete_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_delete_group.xml
+END
+picture_grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/picture_grid_item.xml
+END
+dialog_ios_7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_ios_7.xml
+END
+item_task_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_task_detial.xml
+END
+item_hot_teacher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_hot_teacher.xml
+END
+activity_my_tuanbi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_my_tuanbi.xml
+END
+item_gender_select_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_gender_select_popup.xml
+END
+umeng_socialize_post_share.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_post_share.xml
+END
+teacher_course_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/teacher_course_item.xml
+END
+download_calss_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/download_calss_item.xml
+END
+activity_explain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_explain.xml
+END
+activity_report_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_report_search.xml
+END
+item_circle_user.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_circle_user.xml
+END
+pull_to_refresh_header_horizontal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/pull_to_refresh_header_horizontal.xml
+END
+fragment_live.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_live.xml
+END
+activity_teacherlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/res/layout/activity_teacherlist.xml
+END
+mylevel_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/mylevel_header.xml
+END
+activity_tuanbi_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/62/trunk/FYK-Android/app/src/main/res/layout/activity_tuanbi_shop.xml
+END
+activity_withdraws.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_withdraws.xml
+END
+item_gridview_hot_city_two.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_gridview_hot_city_two.xml
+END
+activity_reminder_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_reminder_header.xml
+END
+guide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/guide.xml
+END
+head_online_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/head_online_view.xml
+END
+dialog_index_share_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_index_share_shop.xml
+END
+banned_list_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/banned_list_dialog.xml
+END
+fragment_exchange.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_exchange.xml
+END
+games_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/games_list_item.xml
+END
+activity_my_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/68/trunk/FYK-Android/app/src/main/res/layout/activity_my_activity.xml
+END
+view_progress_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/view_progress_dialog.xml
+END
+activity_apply_course.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/res/layout/activity_apply_course.xml
+END
+show_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/show_image.xml
+END
+activity_code_extension.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_code_extension.xml
+END
+activity_about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/activity_about.xml
+END
+fragment_recomment_bee.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_recomment_bee.xml
+END
+item_sent_group_recorder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_sent_group_recorder.xml
+END
+activity_apply_success.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/activity_apply_success.xml
+END
+dialog_lack_tuanbi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/dialog_lack_tuanbi.xml
+END
+activity_sms_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_sms_detial.xml
+END
+activity_register_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/41/trunk/FYK-Android/app/src/main/res/layout/activity_register_one.xml
+END
+doggerel_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/doggerel_list_item.xml
+END
+listen_batch_calss_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/listen_batch_calss_item.xml
+END
+activity_teacher_seat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_teacher_seat.xml
+END
+my_fragment_ease.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/my_fragment_ease.xml
+END
+activity_act_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_act_detail.xml
+END
+activity_report_searchshop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_report_searchshop.xml
+END
+activity_circle_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_circle_list.xml
+END
+popwindow_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/popwindow_menu.xml
+END
+umeng_socialize_failed_load_page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_failed_load_page.xml
+END
+activity_sms_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_sms_record.xml
+END
+umeng_socialize_base_alert_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_base_alert_dialog.xml
+END
+messenger_button_send_blue_large.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/messenger_button_send_blue_large.xml
+END
+fragment_course_intr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/fragment_course_intr.xml
+END
+umeng_socialize_full_alert_dialog_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_full_alert_dialog_item.xml
+END
+item_grid_invite_recoder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_grid_invite_recoder.xml
+END
+driect_send_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/driect_send_text.xml
+END
+dialog_show_shili.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_show_shili.xml
+END
+details_item_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/details_item_menu.xml
+END
+tittle_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/tittle_bar.xml
+END
+activity_banner_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_banner_header.xml
+END
+dialog_share_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_share_new.xml
+END
+dialog_paly_net.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_paly_net.xml
+END
+activity_chat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_chat.xml
+END
+item_gridview_classify_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_gridview_classify_one.xml
+END
+activity_notice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_notice.xml
+END
+item_group_signup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_group_signup.xml
+END
+activity_usevoucher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/22/trunk/FYK-Android/app/src/main/res/layout/activity_usevoucher.xml
+END
+activity_selete_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/27/trunk/FYK-Android/app/src/main/res/layout/activity_selete_header.xml
+END
+item_child_fragment_profit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_child_fragment_profit.xml
+END
+activity_shop_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_shop_detial.xml
+END
+umeng_socialize_base_alert_dialog_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_base_alert_dialog_button.xml
+END
+dialog_dashang_reminder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_dashang_reminder.xml
+END
+activity_live_chat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/res/layout/activity_live_chat.xml
+END
+item_comment_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_comment_list.xml
+END
+item_in_city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_in_city.xml
+END
+dialog_yesorno.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/39/trunk/FYK-Android/app/src/main/res/layout/dialog_yesorno.xml
+END
+fragment_merchant_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/fragment_merchant_view.xml
+END
+new_activity_dynamic_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/85/trunk/FYK-Android/app/src/main/res/layout/new_activity_dynamic_details.xml
+END
+item_college_interpretation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_college_interpretation.xml
+END
+activity_personal_sign.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/activity_personal_sign.xml
+END
+dialog_custome_share.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_custome_share.xml
+END
+fragment_listen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_listen.xml
+END
+activity_serach_fenwen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_serach_fenwen.xml
+END
+item_all_topic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_all_topic.xml
+END
+activity_guider_college.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_guider_college.xml
+END
+fragment_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_detial.xml
+END
+popwindow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/popwindow.xml
+END
+umeng_socialize_bind_select_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_bind_select_dialog.xml
+END
+popup_classlabel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/41/trunk/FYK-Android/app/src/main/res/layout/popup_classlabel.xml
+END
+fagment_cut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fagment_cut.xml
+END
+activity_seecertification.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/activity_seecertification.xml
+END
+teacher_dynamic_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/teacher_dynamic_item.xml
+END
+activity_publish_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_publish_group.xml
+END
+banned_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/banned_item_view.xml
+END
+activity_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_register.xml
+END
+live_fragment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/live_fragment_item.xml
+END
+fragment_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_record.xml
+END
+activity_cut_pic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_cut_pic.xml
+END
+activity_circle_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_circle_index.xml
+END
+dialog_show_idcard.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/dialog_show_idcard.xml
+END
+activity_update_pwd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_update_pwd.xml
+END
+activity_account_update.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_account_update.xml
+END
+activity_circle_unmessage_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_circle_unmessage_list.xml
+END
+item_city_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_city_list.xml
+END
+activity_recommendteacher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/65/trunk/FYK-Android/app/src/main/res/layout/activity_recommendteacher.xml
+END
+item_publish_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_publish_one.xml
+END
+activity_college.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/res/layout/activity_college.xml
+END
+activity_sms_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_sms_add.xml
+END
+guider_five.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/35/trunk/FYK-Android/app/src/main/res/layout/guider_five.xml
+END
+dialog_withwards_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_withwards_show.xml
+END
+activity_exchange_present.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/activity_exchange_present.xml
+END
+fragment_classify.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_classify.xml
+END
+activity_more_reminder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_more_reminder.xml
+END
+item_class_back.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_class_back.xml
+END
+introdut_show_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/introdut_show_layout.xml
+END
+item_teahcer_child_hot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_teahcer_child_hot.xml
+END
+activity_cut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_cut.xml
+END
+activity_signature_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_signature_view.xml
+END
+search_teacher_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/search_teacher_header.xml
+END
+item_select_local_address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_select_local_address.xml
+END
+dialog_select_themetype.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_select_themetype.xml
+END
+iteme_teacherseat_comming_soon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/iteme_teacherseat_comming_soon.xml
+END
+mytask_head_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/mytask_head_view.xml
+END
+activity_my_profit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_my_profit.xml
+END
+layout_evaluate_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/layout_evaluate_bottom.xml
+END
+course_comment_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/course_comment_header.xml
+END
+activity_zuzhi_actbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/59/trunk/FYK-Android/app/src/main/res/layout/activity_zuzhi_actbm.xml
+END
+new_activity_head_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/new_activity_head_details.xml
+END
+activity_series_class.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_series_class.xml
+END
+my_activity_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/54/trunk/FYK-Android/app/src/main/res/layout/my_activity_button.xml
+END
+ad_cycle_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/ad_cycle_view.xml
+END
+record_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/record_dialog.xml
+END
+wheel_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/wheel_view.xml
+END
+activity_paysuccess.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/22/trunk/FYK-Android/app/src/main/res/layout/activity_paysuccess.xml
+END
+activity_select_hotcity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_select_hotcity.xml
+END
+item_rank_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_rank_list.xml
+END
+activity_course_intr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_course_intr.xml
+END
+teacher_search_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/teacher_search_list_item.xml
+END
+messenger_button_send_blue_round.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/messenger_button_send_blue_round.xml
+END
+activity_exchangelog_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/activity_exchangelog_detial.xml
+END
+fragment_course.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_course.xml
+END
+item_classify_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_classify_list.xml
+END
+guide_two.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/guide_two.xml
+END
+my_class_alldel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/my_class_alldel.xml
+END
+activity_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/41/trunk/FYK-Android/app/src/main/res/layout/activity_setting.xml
+END
+com_facebook_tooltip_bubble.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/com_facebook_tooltip_bubble.xml
+END
+item_recharge_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_recharge_record.xml
+END
+activity_huati_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_huati_header.xml
+END
+activity_register_authentication.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_register_authentication.xml
+END
+activity_index_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_index_activity.xml
+END
+fragment_discuss.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/fragment_discuss.xml
+END
+dialog_banned_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_banned_list.xml
+END
+dialog_quit_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/40/trunk/FYK-Android/app/src/main/res/layout/dialog_quit_show.xml
+END
+item_select_address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_select_address.xml
+END
+open_calss_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/open_calss_item.xml
+END
+collect_list_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/collect_list_view.xml
+END
+activity_college_ad_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_college_ad_top.xml
+END
+dialog_all_choice_by_price.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_all_choice_by_price.xml
+END
+item_push_speed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_push_speed.xml
+END
+activity_xiaobian_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_xiaobian_header.xml
+END
+im_copy_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/im_copy_dialog.xml
+END
+activity_class_label.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_class_label.xml
+END
+item_child_seaout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_child_seaout.xml
+END
+item_college_teacher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_college_teacher.xml
+END
+activity_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_order.xml
+END
+item_teacherseat_load_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_teacherseat_load_more.xml
+END
+pay_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Android/!svn/ver/25/trunk/FYK-Android/app/src/main/res/layout/pay_result.xml
+END
+zanlist_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/43/trunk/FYK-Android/app/src/main/res/layout/zanlist_item_view.xml
+END
+umeng_socialize_oauth_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_oauth_dialog.xml
+END
+dialog_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/res/layout/dialog_text.xml
+END
+apply_collection_dynamic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/60/trunk/FYK-Android/app/src/main/res/layout/apply_collection_dynamic.xml
+END
+umeng_socialize_full_alert_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_full_alert_dialog.xml
+END
+dialog_select_time.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_select_time.xml
+END
+activity_no_title_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_no_title_list.xml
+END
+activity_skills_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_skills_header.xml
+END
+image_detail_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/image_detail_fragment.xml
+END
+image_report_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/image_report_pager.xml
+END
+fragment_mayknowperson.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_mayknowperson.xml
+END
+custom_date_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/custom_date_picker.xml
+END
+direct_send_video.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/direct_send_video.xml
+END
+activity_fabu_act.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/74/trunk/FYK-Android/app/src/main/res/layout/activity_fabu_act.xml
+END
+direct_receive_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/direct_receive_text.xml
+END
+umeng_bak_platform_item_simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_bak_platform_item_simple.xml
+END
+activity_batch_download.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/activity_batch_download.xml
+END
+activity_guide_college_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_guide_college_detial.xml
+END
+dialog_qiandao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_qiandao.xml
+END
+activity_commit_success.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_commit_success.xml
+END
+footer_online_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/footer_online_view.xml
+END
+item_notice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_notice.xml
+END
+dialog_select_language.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_select_language.xml
+END
+act_bm_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/59/trunk/FYK-Android/app/src/main/res/layout/act_bm_item.xml
+END
+fragment_find.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/28/trunk/FYK-Android/app/src/main/res/layout/fragment_find.xml
+END
+item_item_my_task_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_item_my_task_one.xml
+END
+item_fragment_appliaction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/item_fragment_appliaction.xml
+END
+activity_games.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/19/trunk/FYK-Android/app/src/main/res/layout/activity_games.xml
+END
+activity_shop_manger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_shop_manger.xml
+END
+fragment_invite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_invite.xml
+END
+activity_publish_fenwen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_publish_fenwen.xml
+END
+item_my_task_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_my_task_one.xml
+END
+dialog_show_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_show_shop.xml
+END
+view_customer_classify.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/view_customer_classify.xml
+END
+activity_mylevel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_mylevel.xml
+END
+activity_tool.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/61/trunk/FYK-Android/app/src/main/res/layout/activity_tool.xml
+END
+item_send_sms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_send_sms.xml
+END
+tv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/tv.xml
+END
+expression_gridview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/expression_gridview.xml
+END
+course_big_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/22/trunk/FYK-Android/app/src/main/res/layout/course_big_footer.xml
+END
+direct_chat_row_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/direct_chat_row_one.xml
+END
+series_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/series_list_item.xml
+END
+my_class_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/my_class_button.xml
+END
+activity_more_friend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_more_friend.xml
+END
+dialog_themetype_item_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_themetype_item_grid.xml
+END
+item_cost_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_cost_detial.xml
+END
+item_select_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_select_group.xml
+END
+activity_official_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_official_detail.xml
+END
+use_voucher_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/use_voucher_fragment.xml
+END
+dialog_select_sex.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_select_sex.xml
+END
+dialog_select_year.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_select_year.xml
+END
+fragment_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/fragment_activity.xml
+END
+direct_receiced_voice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/direct_receiced_voice.xml
+END
+umeng_socialize_full_curtain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_full_curtain.xml
+END
+app_demo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/app_demo.xml
+END
+item_recomment_classes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_recomment_classes.xml
+END
+fragment_profit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_profit.xml
+END
+activity_scan_download.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_scan_download.xml
+END
+item_news.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/item_news.xml
+END
+activity_guide_card_manger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_guide_card_manger.xml
+END
+dialog_tingkequan_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_tingkequan_bg.xml
+END
+activity_push_speed_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_push_speed_detial.xml
+END
+item_exchange_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_exchange_record.xml
+END
+activity_splash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_splash.xml
+END
+activity_personal_central.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_personal_central.xml
+END
+item_gridview_seaout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_gridview_seaout.xml
+END
+super_video_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/super_video_view.xml
+END
+activity_college_manger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_college_manger.xml
+END
+activity_rank_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_rank_info.xml
+END
+activity_ad_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_ad_top.xml
+END
+app_share_auth.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/app_share_auth.xml
+END
+activity_cut_head_img.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_cut_head_img.xml
+END
+activity_tuanbi_rule.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_tuanbi_rule.xml
+END
+row_expression.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/row_expression.xml
+END
+customer_notitfication_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/customer_notitfication_layout.xml
+END
+activity_register_success.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_register_success.xml
+END
+item_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_order.xml
+END
+layout_navigation_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/57/trunk/FYK-Android/app/src/main/res/layout/layout_navigation_title.xml
+END
+profile_zoom_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/profile_zoom_view.xml
+END
+item_gridview_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/item_gridview_image.xml
+END
+direct_chat_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/direct_chat_row.xml
+END
+item_gridview_hot_city_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_gridview_hot_city_one.xml
+END
+activity_income_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_income_detial.xml
+END
+item_mytalklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_mytalklist.xml
+END
+classify_item1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/res/layout/classify_item1.xml
+END
+item_select_all_by_day.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_select_all_by_day.xml
+END
+activity_my_collection.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/68/trunk/FYK-Android/app/src/main/res/layout/activity_my_collection.xml
+END
+item_personal_classes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_personal_classes.xml
+END
+level_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/level_list_item.xml
+END
+activity_new_guiders.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_new_guiders.xml
+END
+item_report.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_report.xml
+END
+fragment_markets.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_markets.xml
+END
+activity_brand_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_brand_order.xml
+END
+dialog_show_guider.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/dialog_show_guider.xml
+END
+activity_teacher_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_teacher_header.xml
+END
+activity_group_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_group_index.xml
+END
+view_update_notify.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/view_update_notify.xml
+END
+comment_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/comment_list_item.xml
+END
+text_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/text_layout.xml
+END
+activity_publish_feng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/62/trunk/FYK-Android/app/src/main/res/layout/activity_publish_feng.xml
+END
+activity_bind_code.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_bind_code.xml
+END
+image_detail_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/image_detail_pager.xml
+END
+item_persoanl_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/item_persoanl_comment.xml
+END
+teacher_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/teacher_list_item.xml
+END
+messenger_button_send_white_small.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/messenger_button_send_white_small.xml
+END
+progress_hud2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/progress_hud2.xml
+END
+dialog_zanshang_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/dialog_zanshang_show.xml
+END
+fragment_recommend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_recommend.xml
+END
+activity_task_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_task_detial.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_main.xml
+END
+item_gridview_hot_city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_gridview_hot_city.xml
+END
+joke_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/joke_list_item.xml
+END
+report_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/report_shop.xml
+END
+activity_dynamic_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_dynamic_details.xml
+END
+dialog_signature_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_signature_view.xml
+END
+activity_group_member_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_group_member_item.xml
+END
+faxian_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/faxian_list_item.xml
+END
+dialog_regist_click.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/res/layout/dialog_regist_click.xml
+END
+activity_my_task.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_my_task.xml
+END
+none_data_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/none_data_layout.xml
+END
+discuss_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/43/trunk/FYK-Android/app/src/main/res/layout/discuss_list_item.xml
+END
+item_gridview_city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_gridview_city.xml
+END
+dialog_find_by_classify.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_find_by_classify.xml
+END
+hot_course_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/hot_course_item.xml
+END
+grid_teacher_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/grid_teacher_list_item.xml
+END
+pull_to_refresh_header_vertical.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/pull_to_refresh_header_vertical.xml
+END
+activity_sms_model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_sms_model.xml
+END
+activity_personal_center.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/res/layout/activity_personal_center.xml
+END
+activity_college_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_college_new.xml
+END
+activity_select_address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_select_address.xml
+END
+vw_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/vw_header.xml
+END
+activity_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/86/trunk/FYK-Android/app/src/main/res/layout/activity_home.xml
+END
+item_guonei.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_guonei.xml
+END
+progress_hud.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/progress_hud.xml
+END
+fragment_praised_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fragment_praised_view.xml
+END
+item_exchange_tuanbi_recoder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/36/trunk/FYK-Android/app/src/main/res/layout/item_exchange_tuanbi_recoder.xml
+END
+item_circle_recommend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/item_circle_recommend.xml
+END
+item_task_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_task_list.xml
+END
+login_em_sucess.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/login_em_sucess.xml
+END
+activity_report_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_report_list.xml
+END
+voucher_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/voucher_header.xml
+END
+listview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/listview_item.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/38/trunk/FYK-Android/app/src/main/res/layout/activity_login.xml
+END
+activity_report_amap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_report_amap.xml
+END
+fengwen_comment_list_item_sublevel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/fengwen_comment_list_item_sublevel.xml
+END
+activity_setting_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_setting_layout.xml
+END
+activity_main_three.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_main_three.xml
+END
+activity_none_comment_list_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_none_comment_list_one.xml
+END
+item_cash_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_cash_record.xml
+END
+pay_external.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/pay_external.xml
+END
+activity_teacher_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/82/trunk/FYK-Android/app/src/main/res/layout/activity_teacher_home.xml
+END
+dialog_exchange_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_exchange_show.xml
+END
+dailog_evaluate_classes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/dailog_evaluate_classes.xml
+END
+item_famous_teacher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_famous_teacher.xml
+END
+popup_seledu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/65/trunk/FYK-Android/app/src/main/res/layout/popup_seledu.xml
+END
+dailog_all_choice_by_time.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dailog_all_choice_by_time.xml
+END
+list_dir.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/list_dir.xml
+END
+vw_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Android/!svn/ver/87/trunk/FYK-Android/app/src/main/res/layout/vw_footer.xml
+END
+dialog_hint_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_hint_view.xml
+END
+topic_layout_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/topic_layout_title.xml
+END
+activity_edit_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_edit_group.xml
+END
+classify_item2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/classify_item2.xml
+END
+item_in_city_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_in_city_one.xml
+END
+item_sms_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_sms_record.xml
+END
+title_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/title_layout.xml
+END
+dialog_loding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_loding.xml
+END
+item_goods_market.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_goods_market.xml
+END
+activity_my_fengwen_acitivity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_my_fengwen_acitivity.xml
+END
+dialog_exchange.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_exchange.xml
+END
+dialog_red_bag.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_red_bag.xml
+END
+report_children_searchshop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/report_children_searchshop.xml
+END
+dialog_feng_oneclick.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/56/trunk/FYK-Android/app/src/main/res/layout/dialog_feng_oneclick.xml
+END
+activity_cost_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_cost_detail.xml
+END
+dashang_reminder_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dashang_reminder_item.xml
+END
+activity_report_search_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_report_search_result.xml
+END
+activity_baobei_search_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_baobei_search_result.xml
+END
+activity_exchange_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/76/trunk/FYK-Android/app/src/main/res/layout/activity_exchange_detial.xml
+END
+custome_guider_infowindow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/custome_guider_infowindow.xml
+END
+com_facebook_login_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/com_facebook_login_fragment.xml
+END
+login_em_fail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/login_em_fail.xml
+END
+include_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/include_title.xml
+END
+alert_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/alert_dialog.xml
+END
+activity_none_comment_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_none_comment_list.xml
+END
+activity_my_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_my_shop.xml
+END
+wheel_view_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/23/trunk/FYK-Android/app/src/main/res/layout/wheel_view_layout.xml
+END
+dialog_all_choice_by_state.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/dialog_all_choice_by_state.xml
+END
+activity_exchange_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_exchange_record.xml
+END
+activity_apply_teacher.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/79/trunk/FYK-Android/app/src/main/res/layout/activity_apply_teacher.xml
+END
+dialog_act_oneclick.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/66/trunk/FYK-Android/app/src/main/res/layout/dialog_act_oneclick.xml
+END
+activity_guider_personal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_guider_personal.xml
+END
+guide_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/guide_one.xml
+END
+layout_dynic_comment_empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/layout_dynic_comment_empty.xml
+END
+activity_zan.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/res/layout/activity_zan.xml
+END
+activity_order_centra_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_order_centra_detial.xml
+END
+messenger_button_send_white_large.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/messenger_button_send_white_large.xml
+END
+hsview_recom_course.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/hsview_recom_course.xml
+END
+umeng_socialize_titile_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_socialize_titile_bar.xml
+END
+activity_teacher_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Android/!svn/ver/53/trunk/FYK-Android/app/src/main/res/layout/activity_teacher_search.xml
+END
+item_grid_my_team.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_grid_my_team.xml
+END
+myfocus_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Android/!svn/ver/30/trunk/FYK-Android/app/src/main/res/layout/myfocus_list_item.xml
+END
+layout_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/layout_more.xml
+END
+item_invitation_record.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_invitation_record.xml
+END
+item_report_children.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/item_report_children.xml
+END
+activity_joke.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/19/trunk/FYK-Android/app/src/main/res/layout/activity_joke.xml
+END
+umeng_bak_at_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/umeng_bak_at_list.xml
+END
+city_popwindow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/city_popwindow.xml
+END
+activity_income_manger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/activity_income_manger.xml
+END
+skills_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Android/!svn/ver/31/trunk/FYK-Android/app/src/main/res/layout/skills_item.xml
+END
+activity_notice_detial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/res/layout/activity_notice_detial.xml
+END

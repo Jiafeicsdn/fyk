@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfcfd"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.lvgou.distribution.utils.RoundedImageView
+            android:id="@+id/im_picture"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/teacher_default_head"
+            app:riv_corner_radius="70dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im_picture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp">
+
+            <TextView
+                android:id="@+id/tv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="当前等级:"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/im_nowlevel"
+                android:layout_width="24dp"
+                android:layout_height="10dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@id/tv_level"
+                android:background="@mipmap/onelevel_light_icon" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_level_shuoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:text="下一等级任务："
+            android:textColor="#555555"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_level_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_level_shuoming"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/one_point"
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_ovil_light" />
+
+                <TextView
+                    android:id="@+id/tv_onetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="团币充值82折"
+                    android:textColor="#BABABA"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:id="@+id/two_point"
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_ovil_light" />
+
+                <TextView
+                    android:id="@+id/tv_twotext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="团币充值82折"
+                    android:textColor="#BABABA"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:id="@+id/three_point"
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_ovil_light" />
+
+                <TextView
+                    android:id="@+id/tv_threetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="团币充值82折"
+                    android:textColor="#BABABA"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:id="@+id/four_point"
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_ovil_light" />
+
+                <TextView
+                    android:id="@+id/tv_fourtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="团币充值82折"
+                    android:textColor="#BABABA"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/ll_level_intro"
+            android:background="#f4f3f8"/>
+
+        <TextView
+            android:id="@+id/tv_duizhaobiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_line"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="成长等级对照表如下:"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_level_intro"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/tv_duizhaobiao"
+            android:text="(灰色代表未达要求)"
+            android:textColor="#cccccc"
+            android:textSize="12sp" />-->
+
+        <RelativeLayout
+            android:id="@+id/rl_level_title"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_below="@id/tv_duizhaobiao"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="9dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#e5e5e5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="等级"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="135dp"
+                android:text="特权"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_text1"
+                android:text=" (以下均有下载特权"
+                android:textColor="#cccccc"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="#e5e5e5" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

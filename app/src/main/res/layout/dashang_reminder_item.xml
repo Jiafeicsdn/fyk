@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fbfcfd"
+    android:layout_height="72dp">
+
+    <FrameLayout
+        android:id="@+id/fm_head_layout"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        >
+
+        <com.lvgou.distribution.view.CircleImageView
+            android:id="@+id/img_head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/personal_head_icon" />
+        <ImageView
+            android:id="@+id/img_teacher_label"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="8dp"
+            android:scaleType="fitXY"
+            android:background="@mipmap/icon_certified" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e7a739"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="13dp"
+        android:textSize="14sp"
+        android:text="库克"
+        android:layout_toRightOf="@id/fm_head_layout"/>
+
+    <ImageView
+        android:id="@+id/img_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="17dp"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/tv_name"
+        android:src="@mipmap/icon_man" />
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#c4c4c5"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="13dp"
+        android:layout_below="@id/tv_name"
+        android:textSize="8sp"
+        android:text="1分钟前"
+        android:layout_toRightOf="@id/fm_head_layout"/>
+    <TextView
+        android:id="@+id/tv_tuanbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="团币"
+        android:textColor="#999999"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_tuanbi_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tv_tuanbi"
+        android:textColor="#fc4d30"
+        android:textSize="12sp"
+        android:layout_centerVertical="true"
+        android:text="756"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="赞赏"
+        android:textColor="#999999"
+        android:textSize="12sp"
+        android:layout_toLeftOf="@+id/tv_tuanbi_number"
+        android:layout_centerVertical="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e5e5e5"/>
+
+
+</RelativeLayout>

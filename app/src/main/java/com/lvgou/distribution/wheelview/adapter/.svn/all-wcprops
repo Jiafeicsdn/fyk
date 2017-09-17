@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/wheelview/adapter
+END
+WheelViewAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/wheelview/adapter/WheelViewAdapter.java
+END
+ArrayWheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/wheelview/adapter/ArrayWheelAdapter.java
+END
+AdapterWheel.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/wheelview/adapter/AdapterWheel.java
+END
+NumericWheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/wheelview/adapter/NumericWheelAdapter.java
+END
+AbstractWheelAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/wheelview/adapter/AbstractWheelAdapter.java
+END
+AbstractWheelTextAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/wheelview/adapter/AbstractWheelTextAdapter.java
+END

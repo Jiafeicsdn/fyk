@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/backround">
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:text="课后评分:"
+        android:textColor="@color/bg_new_guide_black"
+        android:textSize="@dimen/fifteen" />
+
+    <RatingBar
+        android:id="@+id/room_ratingbar"
+        style="@style/evaluateRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_toRightOf="@+id/tv_01"
+        android:numStars="5"
+        android:rating="5"
+        android:stepSize="1" />
+
+    <TextView
+        android:id="@+id/tv_commit"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/margin_ten"
+        android:layout_weight="0.5"
+        android:background="@color/bg_baoming_yellow"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@color/bg_about_black"
+        android:textSize="@dimen/fourteen" />
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_fifteen"
+        android:layout_toLeftOf="@+id/tv_commit"
+        android:text="极好"
+        android:textColor="@color/bg_bottom_gray"
+        android:textSize="@dimen/fifteen" />
+</RelativeLayout>

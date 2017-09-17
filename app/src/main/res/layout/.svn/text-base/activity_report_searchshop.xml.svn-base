@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white">
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/rl_back" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_avatar"
+            android:layout_marginRight="@dimen/size_avatar"
+            android:layout_marginTop="@dimen/margin_ten">
+
+            <EditText
+                android:id="@+id/et_search02"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/et_search_shape"
+                android:gravity="center"
+                android:hint="例:杭州丝绸博物馆"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:textColorHint="@color/bg_goods_search_text"
+                android:textSize="@dimen/twelve" />
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                android:background="@mipmap/bg_guonei_search" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_amap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/a_nearly_shop"
+                android:textColor="@color/bg_text_black"
+                android:textSize="@dimen/sixteen" />
+        </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常报备的店："
+        android:background="#0000ff"
+        />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

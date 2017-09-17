@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity
+END
+GroupMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/GroupMessage.java
+END
+ActionTypeJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/ActionTypeJsonConverter.java
+END
+RemovedFromGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/RemovedFromGroup.java
+END
+ActionNotificationJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/ActionNotificationJsonConverter.java
+END
+TextGroupMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/TextGroupMessage.java
+END
+MessageTypeJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/MessageTypeJsonConverter.java
+END
+ShortVideoGroupMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/ShortVideoGroupMessage.java
+END
+RemovedFromGroupNotification.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/RemovedFromGroupNotification.java
+END
+Direct.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/Direct.java
+END
+EMError.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/EMError.java
+END
+JoinGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/JoinGroup.java
+END
+ActionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/ActionType.java
+END
+ActionDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/ActionDescription.java
+END
+MessageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/MessageHandler.java
+END
+JoinGroupNotification.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/JoinGroupNotification.java
+END
+GroupMessageJsonConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/GroupMessageJsonConverter.java
+END
+ActionNotification.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/ActionNotification.java
+END
+DirectRowVoiceEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/DirectRowVoiceEntity.java
+END
+MessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/MessageType.java
+END
+SingleMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/SingleMessage.java
+END
+ReceiceRowTextEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/ReceiceRowTextEntity.java
+END
+DirectRowPictureEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/DirectRowPictureEntity.java
+END
+TextSingleMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/TextSingleMessage.java
+END
+ShortVideoSingleMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/driect/entity/ShortVideoSingleMessage.java
+END

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_twelve"
+            android:text=""
+            android:textColor="@color/bg_income_blue"
+            android:textSize="@dimen/fourteen" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_marginTop="@dimen/margin_twelve"
+            android:layout_toRightOf="@+id/tv_status"
+            android:text=""
+            android:textColor="@color/bg_text_black"
+            android:textSize="@dimen/fourteen" />
+
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_status"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="5dp"
+            android:text="下单流水:"
+            android:textColor="@color/bg_push_time"
+            android:textSize="@dimen/fourteen" />
+
+        <TextView
+            android:id="@+id/tv_order_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_status"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tv_01"
+            android:text=""
+            android:textColor="@color/bg_push_time"
+            android:textSize="@dimen/fourteen" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_01"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/bg_main_gray"
+            android:textSize="@dimen/fourteen" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@mipmap/income_left" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@color/bg_line" />
+</LinearLayout>

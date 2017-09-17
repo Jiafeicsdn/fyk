@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfcfd"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/rl_back" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@id/rl_back"
+            android:background="@color/bg_line" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/bg_text_black"
+            android:textSize="@dimen/sixteen" />
+
+        <RelativeLayout
+            android:id="@+id/rl_tuanbi_detail"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tv_tuanbi_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="团币明细"
+                android:textColor="#777777"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sl_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tv_tuanbi_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:text="0"
+                    android:textColor="#fc4d30"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_question"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@id/tv_tuanbi_num"
+                    android:background="@drawable/text_ovil_gray"
+                    android:gravity="center"
+                    android:text="\?"
+                    android:textColor="#ffffff" />
+
+
+                <TextView
+                    android:id="@+id/tv_shengyu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_tuanbi_num"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="剩余团币"
+                    android:textColor="#a3a3a3"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_recharge"
+                    android:layout_width="200dp"
+                    android:layout_height="29dp"
+                    android:layout_below="@id/tv_shengyu"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bg_tuabi_recharge"
+                    android:gravity="center"
+                    android:text="充值团币"
+                    android:textColor="#fc4d30"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="32dp"
+                android:background="#f4f3f8" />
+
+            <RelativeLayout
+                android:id="@+id/rl_sctx"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_sctx_num"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_text_ovil"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#d5aa5f"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:text="上传头像"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_sctx_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="未完成"
+                    android:textColor="#a5a5a5"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/view_sctx"
+                    android:layout_width="1px"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp"
+                    android:background="#a3a3a3" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_smrz"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_smrz_num"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_text_ovil"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#d5aa5f"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:text="实名认证"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_smrz_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="未完成"
+                    android:textColor="#a5a5a5"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/view_smrz"
+                    android:layout_width="1px"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp"
+                    android:background="#a3a3a3" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_fbfq"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_fbfq_num"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_text_ovil"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#d5aa5f"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:text="发布蜂圈动态"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_fbfq_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="未完成"
+                    android:textColor="#a5a5a5"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/view_fbfq"
+                    android:layout_width="1px"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp"
+                    android:background="#a3a3a3" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_fqzf"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_fqzf_num"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_text_ovil"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#d5aa5f"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:text="蜂圈分享"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/view_fqzf"
+                    android:layout_width="1px"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp"
+                    android:background="#a3a3a3" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+
+                <TextView
+                    android:id="@+id/tv_fqzf_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="未完成"
+                    android:textColor="#a5a5a5"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_fxxy"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_fxxy_num"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_text_ovil"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#d5aa5f"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:text="分享学院课程"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_fxxy_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="未完成"
+                    android:textColor="#a5a5a5"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/view_fxxy"
+                    android:layout_width="1px"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp"
+                    android:background="#a3a3a3" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_kcpf"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_kcpf_num"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_text_ovil"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#d5aa5f"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:text="课程评分"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_kcpf_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="未完成"
+                    android:textColor="#a5a5a5"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/view_kcpf"
+                    android:layout_width="1px"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp"
+                    android:background="#a3a3a3" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_tttj_num"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_text_ovil"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#d5aa5f"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:text="头条推荐"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_tttj_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="未完成"
+                    android:textColor="#a5a5a5"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/view_tttj"
+                    android:layout_width="1px"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp"
+                    android:background="#a3a3a3" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_tjjs"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/tv_tjjs_num"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/bg_text_ovil"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#d5aa5f"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="65dp"
+                    android:text="推荐讲师"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_tjjs_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="未完成"
+                    android:textColor="#a5a5a5"
+                    android:textSize="13sp" />
+
+                <View
+                    android:id="@+id/view_tjjs"
+                    android:layout_width="1px"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="80dp"
+                    android:background="#a3a3a3" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e5e5e5" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

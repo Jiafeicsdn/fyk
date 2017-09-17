@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/bg_white">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/rl_back" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/myactivity_radius"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_my_apply"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/myact_left_radius"
+                android:gravity="center"
+                android:text="我报名的"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_my_create"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:gravity="center"
+                android:text="我创建的"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_scroll_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title"
+        android:visibility="visible">
+
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/tl_4"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="#ffffff"
+            tl:tl_indicator_color="#444444"
+            tl:tl_indicator_height="6dp"
+            tl:tl_indicator_width="25dp"
+            tl:tl_tab_space_equal="true"
+            tl:tl_textSelectColor="#000000"
+            tl:tl_textUnselectColor="#999999"
+            tl:tl_textsize="14sp"
+            tl:tl_underline_color="#f0f0f0"
+            tl:tl_underline_height="2dp"
+
+            />
+        <!--    tl:tl_indicator_margin_left="25dp"
+            tl:tl_indicator_margin_right="25dp"-->
+        <!-- tl:tl_tab_width="60dp"-->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tl_4"
+            android:background="#00000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_scroll_button2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title"
+        android:visibility="gone">
+
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/tl_2"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="#ffffff"
+            tl:tl_indicator_color="#444444"
+            tl:tl_indicator_corner_radius="10dp"
+            tl:tl_indicator_height="6dp"
+            tl:tl_indicator_width="25dp"
+            tl:tl_tab_space_equal="true"
+            tl:tl_textSelectColor="#000000"
+            tl:tl_textUnselectColor="#999999"
+            tl:tl_textsize="14sp"
+            tl:tl_underline_color="#f0f0f0"
+            tl:tl_underline_height="2dp"
+
+            />
+        <!--    tl:tl_indicator_margin_left="25dp"
+            tl:tl_indicator_margin_right="25dp"-->
+        <!-- tl:tl_tab_width="60dp"-->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tl_2"
+            android:background="#00000000" />
+    </RelativeLayout>
+
+</RelativeLayout>

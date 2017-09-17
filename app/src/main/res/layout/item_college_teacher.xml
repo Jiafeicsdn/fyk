@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backround">
+
+    <RelativeLayout
+        android:id="@+id/rl_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white">
+
+        <RelativeLayout
+            android:id="@+id/rl_01"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_twenty">
+
+            <ImageView
+                android:id="@+id/img_teacher_head"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="1dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/img_teacher_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/jiangshi_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_marginTop="@dimen/margin_twenty_five"
+            android:layout_toRightOf="@+id/rl_01">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:textColor="@color/bg_balck_three"
+                android:textSize="@dimen/fifteen" />
+
+            <ImageView
+                android:id="@+id/img_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin_eight"
+                android:layout_toRightOf="@+id/tv_name"
+                android:background="@mipmap/bg_authentication"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_02"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_marginTop="@dimen/margin_eight"
+            android:layout_toRightOf="@+id/rl_01"
+            android:text="课程:"
+            android:textColor="@color/bg_gray_one"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/tv_classes_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_02"
+            android:layout_marginLeft="@dimen/margin_eight"
+            android:layout_marginTop="@dimen/margin_eight"
+            android:layout_toRightOf="@+id/tv_01"
+            android:text=""
+            android:textColor="@color/bg_gray_one"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_02"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_eight"
+            android:layout_toRightOf="@+id/tv_classes_num"
+            android:text="学员:"
+            android:textColor="@color/bg_gray_one"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/tv_student_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_02"
+            android:layout_marginLeft="@dimen/margin_eight"
+            android:layout_marginTop="@dimen/margin_eight"
+            android:layout_toRightOf="@+id/tv_02"
+            android:text=""
+            android:textColor="@color/bg_gray_one"
+            android:textSize="@dimen/twelve" />
+
+        <TextView
+            android:id="@+id/tv_to_main"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@drawable/bg_conner_teacher_mian_shape"
+            android:gravity="center"
+            android:text="进入主页"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/twelve" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rl_01"
+            android:layout_marginTop="@dimen/margin_fifteen" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/teacher_horizontal_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/rl_03"
+        android:background="@color/bg_white"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/hsview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"></LinearLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="@dimen/margin_ten"
+        android:layout_height="1dp"
+        android:layout_below="@+id/teacher_horizontal_scrollView"
+        android:layout_marginTop="@dimen/margin_ten" />
+</RelativeLayout>

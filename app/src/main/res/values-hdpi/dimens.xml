@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--c常用字体大小size -->
+    <dimen name="ten">10sp</dimen>
+    <dimen name="twelve">12sp</dimen>
+    <dimen name="thirteen">13sp</dimen>
+    <dimen name="fourteen">14sp</dimen>
+    <dimen name="fifteen">15sp</dimen>
+    <dimen name="sixteen">16sp</dimen>
+    <dimen name="eighteen">18sp</dimen>
+    <dimen name="twenty">20sp</dimen>
+    <dimen name="twenty_five">25sp</dimen>
+    <dimen name="twenty_eight">28sp</dimen>
+    <dimen name="thirty">30sp</dimen>
+    <dimen name="thirty_two">32sp</dimen>
+    <dimen name="thirty_five">35sp</dimen>
+    <!--左右边距 -->
+    <dimen name="margin_eight">5dp</dimen>
+    <dimen name="margin_ten">7dp</dimen>
+    <dimen name="margin_twelve">9dp</dimen>
+    <dimen name="margin_fifteen">12dp</dimen>
+    <dimen name="margin_fifteenline">35dp</dimen>
+    <dimen name="margin_eighteen">15dp</dimen>
+    <dimen name="margin_twenty">17dp</dimen>
+    <dimen name="margin_twenty_three">20dp</dimen>
+    <dimen name="margin_twenty_four">21sp</dimen>
+    <dimen name="margin_twenty_five">22dp</dimen>
+    <dimen name="margin_thirty">27dp</dimen>
+    <dimen name="margin_thirty_five">32dp</dimen>
+    <dimen name="margin_forty">37dp</dimen>
+    <dimen name="margin_forty_five">42dp</dimen>
+    <dimen name="margin_fifty_five">52dp</dimen>
+    <dimen name="margin_seventy_eight">26dp</dimen>
+    <dimen name="margin_seventy">67dp</dimen>
+    <dimen name="margin_seventy_five">72dp</dimen>
+    <dimen name="margin_fifty">47dp</dimen>
+    <dimen name="margin_chartview">94dp</dimen>
+    <dimen name="margin_big_top">122dp</dimen>
+    <dimen name="margin_big_top_less">117dp</dimen>
+</resources>

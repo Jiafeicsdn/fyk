@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white_one">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:background="@drawable/bg_picture_conner_shape">
+
+        <ImageView
+            android:id="@+id/img_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="1dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_twelve"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:layout_toRightOf="@+id/rl_01"
+        android:text="讲师:"
+        android:textColor="@color/bg_balck_three"
+        android:textSize="@dimen/fifteen" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_eight"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:layout_toRightOf="@+id/tv_01"
+        android:text="爱丽丝"
+        android:textColor="@color/bg_balck_three"
+        android:textSize="@dimen/fifteen" />
+
+    <TextView
+        android:id="@+id/tv_production"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_01"
+        android:layout_marginLeft="@dimen/margin_twelve"
+        android:layout_marginRight="@dimen/margin_thirty"
+        android:layout_marginTop="@dimen/margin_eight"
+        android:layout_toRightOf="@+id/rl_01"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="测试测试岁"
+        android:textColor="@color/bg_gray_two"
+        android:textSize="@dimen/fourteen" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_production"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:layout_toRightOf="@+id/rl_01">
+
+
+        <ImageView
+            android:id="@+id/img_class_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_twelve"
+            android:background="@mipmap/class_start" />
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/img_class_icon"
+            android:text="未学习"
+            android:textColor="@color/bg_daoliu_yellow_one"
+            android:textSize="@dimen/thirteen" />
+
+        <RelativeLayout
+            android:id="@+id/rl_daojishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/img_class_icon"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="开课:"
+                android:textColor="@color/bg_daoliu_yellow_one"
+                android:textSize="@dimen/thirteen" />
+
+            <TextView
+                android:id="@+id/tv_daojishi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_002"
+                android:text=""
+                android:textColor="@color/bg_daoliu_yellow_one"
+                android:textSize="@dimen/thirteen" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_evaluate"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_twenty_five"
+            android:background="@drawable/bg_conner_evaluate_class_shape"
+            android:gravity="center"
+            android:text="课后评价"
+            android:textColor="@color/bg_balck_three"
+            android:textSize="@dimen/twelve"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_ten"
+                android:text="评分:"
+                android:textColor="@color/bg_balck_three"
+                android:textSize="@dimen/thirteen" />
+
+            <ImageView
+                android:id="@+id/img_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:background="@mipmap/get_star_already"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/img_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:background="@mipmap/get_star_already"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/img_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:background="@mipmap/get_star_already"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/img_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:background="@mipmap/get_star_already"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/img_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/get_star_already"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rl_01"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:background="@color/bg_line_one" />
+</RelativeLayout>

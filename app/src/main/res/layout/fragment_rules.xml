@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround">
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_twenty"
+        android:text="使用团币兑换蜂优客红包"
+        android:textColor="@color/bg_task_rules"
+        android:textSize="@dimen/thirteen" />
+
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_01"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:text="完成我的任务,快速获取团币。"
+        android:textColor="@color/bg_main_marquee"
+        android:textSize="@dimen/twelve" />
+
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_02"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="5dp"
+        android:text="使用团币兑换蜂优客红包。"
+        android:textColor="@color/bg_main_marquee"
+        android:textSize="@dimen/twelve" />
+
+    <TextView
+        android:id="@+id/tv_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_03"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="5dp"
+        android:text="每10个团币兑换1元红包,红包可在"
+        android:textColor="@color/bg_main_marquee"
+        android:textSize="@dimen/twelve" />
+
+    <TextView
+        android:id="@+id/tv_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_04"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="5dp"
+        android:text="蜂优客下单支付时减免。"
+        android:textColor="@color/bg_main_marquee"
+        android:textSize="@dimen/twelve" />
+
+    <TextView
+        android:id="@+id/tv_exchange"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_04"
+        android:layout_marginLeft="@dimen/margin_thirty"
+        android:layout_marginRight="@dimen/margin_ten"
+        android:background="@drawable/bg_deep_red_shape"
+        android:gravity="center"
+        android:text="立即兑换"
+        android:textColor="@color/bg_white"
+        android:textSize="@dimen/twelve" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_05"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_twenty"
+        android:background="@color/bg_line" />
+</RelativeLayout>
+
+

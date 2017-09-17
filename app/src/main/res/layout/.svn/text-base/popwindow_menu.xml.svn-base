@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/margin_fifteen"
+    android:layout_marginTop="@dimen/margin_thirty_five"
+    android:background="@mipmap/customer_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_online_custom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:background="@mipmap/customer_lianxi" />
+
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_toRightOf="@+id/img_01"
+            android:text="在线联系"
+            android:textColor="@color/bg_white"
+            android:textSize="@dimen/fourteen" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rl_online_custom"
+        android:background="@color/half_transparent_white" />
+
+    <RelativeLayout
+        android:id="@+id/rl_rexian"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:background="@mipmap/customer_phone" />
+
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_toRightOf="@+id/img_02"
+            android:text="客服热线"
+            android:textColor="@color/bg_white"
+            android:textSize="@dimen/fourteen" />
+    </RelativeLayout>
+</LinearLayout>

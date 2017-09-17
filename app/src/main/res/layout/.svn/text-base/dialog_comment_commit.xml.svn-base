@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_dialog_ios_7_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent_black"
+    android:clickable="true"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_ios_7_cotent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/backround"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:layout_marginTop="@dimen/margin_twenty"
+            android:background="@drawable/et_login_shape"
+            android:gravity="left|top"
+            android:hint="在这里写点什么吧"
+            android:inputType="text"
+            android:paddingLeft="@dimen/margin_ten"
+            android:paddingTop="@dimen/margin_ten"
+            android:textSize="@dimen/sixteen" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_commit"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/margin_fifteen"
+                android:layout_marginRight="@dimen/margin_ten"
+                android:layout_marginTop="@dimen/margin_fifteen"
+                android:background="@drawable/bg_deep_red_shape"
+                android:text="发布评论"
+                android:textColor="@color/bg_text_white"
+                android:textSize="@dimen/eighteen" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

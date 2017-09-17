@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:text="杭州天堂伞"
+            android:textColor="@color/bg_goods_manger_black"
+            android:textSize="@dimen/sixteen" />
+
+        <RelativeLayout
+            android:id="@+id/rl_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/tv_name">
+
+            <ImageView
+                android:id="@+id/img_te"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:background="@mipmap/goods_te"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_jian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/img_te"
+                android:background="@mipmap/goods_jian"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_huo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/img_jian"
+                android:background="@mipmap/huobao" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_remove_in"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="@dimen/margin_fifteen"
+            android:background="@drawable/bg_red_shape"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_ten"
+            android:paddingRight="@dimen/margin_ten"
+            android:text="移出货架"
+            android:textColor="@color/bg_my_task_num_color"
+            android:textSize="@dimen/twelve" />
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_remove_in"
+            android:layout_marginTop="@dimen/margin_eight"
+            android:background="@color/bg_line" />
+    </RelativeLayout>
+
+
+    <com.lvgou.distribution.view.MyListView
+        android:id="@+id/rl_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rl_01"
+        android:divider="@color/bg_white"
+        android:dividerHeight="0dp"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/rl_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/rl_list"
+        android:background="@color/backround"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_load_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="点击查看更多..."
+            android:textColor="@color/bg_push_time"
+            android:textSize="@dimen/twelve" />
+    </RelativeLayout>
+</RelativeLayout>
+

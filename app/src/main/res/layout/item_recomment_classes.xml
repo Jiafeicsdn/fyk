@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="@dimen/margin_fifteen"
+        android:layout_marginTop="@dimen/margin_fifteen">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="1dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_production"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_01"
+        android:layout_marginLeft="@dimen/margin_eighteen"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:textColor="@color/bg_gray_two"
+        android:textSize="@dimen/twelve" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_production"
+        android:layout_marginLeft="@dimen/margin_eighteen"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/img_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/icon_num_new" />
+
+        <TextView
+            android:id="@+id/tv_seek_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/img_01"
+            android:text=""
+            android:textColor="@color/bg_gray_two"
+            android:textSize="@dimen/twelve" />
+    </RelativeLayout>
+</RelativeLayout>

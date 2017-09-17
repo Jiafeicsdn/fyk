@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backround"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/bg_white">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_fifteen"
+            android:text="店铺名称:"
+            android:textColor="@color/bg_text_black"
+            android:textSize="@dimen/fourteen" />
+
+        <EditText
+            android:id="@+id/et_shop_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_ten"
+            android:layout_toRightOf="@+id/tv_1"
+            android:background="@color/bg_white"
+            android:gravity="center_vertical"
+            android:hint="请输入店铺名称"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="15"
+            android:textColorHint="@color/bg_text_grey"
+            android:textSize="@dimen/fourteen" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/margin_ten"
+        android:layout_marginRight="@dimen/margin_ten"
+        android:layout_marginTop="@dimen/margin_fifteen"
+        android:background="@drawable/btn_orange_shpae"
+        android:text="保存"
+        android:textColor="@color/bg_button_text_black"
+        android:textSize="@dimen/fifteen" />
+</LinearLayout>

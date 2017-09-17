@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/video
+END
+VideoSuperPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/video/VideoSuperPlayer.java
+END
+TextureVideoView.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/29/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/video/TextureVideoView.java
+END
+FullVideoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/video/FullVideoActivity.java
+END
+MediaHelp.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/video/MediaHelp.java
+END
+VideoMediaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/video/VideoMediaController.java
+END

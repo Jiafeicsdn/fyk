@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backround"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_layout" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_line" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/rl_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/bg_white"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5">
+
+                        <TextView
+                            android:id="@+id/tv_01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="@dimen/margin_fifteen"
+                            android:text="短信模版"
+                            android:textColor="@color/bg_push_time"
+                            android:textSize="@dimen/fourteen" />
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4">
+
+                        <TextView
+                            android:id="@+id/tv_model_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_weight="3"
+                            android:enabled="true"
+                            android:singleLine="true"
+                            android:text="选择模版"
+                            android:textColor="@color/bg_text_black"
+                            android:textSize="@dimen/fourteen" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/margin_ten"
+                            android:background="@mipmap/main_small_right" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bg_line"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/bg_white"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:text="团队分组"
+                        android:textColor="@color/bg_text_black"
+                        android:textSize="@dimen/fourteen" />
+
+                    <EditText
+                        android:id="@+id/et_new"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_twenty"
+                        android:layout_toLeftOf="@+id/rl_select"
+                        android:layout_toRightOf="@+id/tv_02"
+                        android:background="@color/bg_white"
+                        android:hint="新建团队或者选择"
+                        android:inputType="text"
+                        android:textSize="@dimen/fourteen" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_select"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/margin_ten"
+                            android:background="@mipmap/main_big_right" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/bg_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:background="@color/bg_white">
+
+                    <EditText
+                        android:id="@+id/et_sms_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginRight="@dimen/margin_ten"
+                        android:background="@color/bg_white"
+                        android:gravity="top|left"
+                        android:hint="请输入短信内容..."
+                        android:inputType="text"
+                        android:paddingTop="@dimen/margin_ten"
+                        android:scrollHorizontally="false"
+                        android:singleLine="false"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="@color/backround"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_hand"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/bg_sms_backround">
+
+                        <TextView
+                            android:id="@+id/tv_hand"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="手动输入"
+                            android:textColor="@color/bg_new_guide_black"
+                            android:textSize="@dimen/fourteen" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_camera"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/bg_white">
+
+                        <TextView
+                            android:id="@+id/tv_picture"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="拍照上传"
+                            android:textColor="@color/bg_new_guide_black"
+                            android:textSize="@dimen/fourteen" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/img_clean"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@mipmap/clean_icon" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_tishi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_white"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_0001"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:text="注意事项:"
+                        android:textColor="@color/bg_push_time" />
+
+                    <TextView
+                        android:id="@+id/tv_0002"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_ten"
+                        android:layout_marginTop="@dimen/margin_twenty"
+                        android:layout_toRightOf="@+id/tv_0001"
+                        android:text="1.无法识别手写手机号码"
+                        android:textColor="@color/bg_push_time" />
+
+                    <TextView
+                        android:id="@+id/tv_0003"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_0002"
+                        android:layout_marginLeft="@dimen/margin_ten"
+                        android:layout_marginTop="@dimen/margin_eight"
+                        android:layout_toRightOf="@+id/tv_0001"
+                        android:text="2.请将打印的手机号码字体尽量放大"
+                        android:textColor="@color/bg_push_time" />
+
+                    <TextView
+                        android:id="@+id/tv_0004"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_0003"
+                        android:layout_marginLeft="@dimen/margin_ten"
+                        android:layout_marginTop="@dimen/margin_eight"
+                        android:layout_toRightOf="@+id/tv_0001"
+                        android:text="3.拍照是尽量清晰可见"
+                        android:textColor="@color/bg_push_time" />
+
+                    <TextView
+                        android:id="@+id/tv_exchange_tuanbi"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/tv_0004"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="@dimen/margin_fifteen"
+                        android:layout_marginTop="@dimen/margin_fifteen"
+                        android:background="@drawable/bg_light_yellow_shape"
+                        android:gravity="center"
+                        android:text="拍照上传"
+                        android:textColor="@color/bg_light_name"
+                        android:textSize="@dimen/thirteen" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/tv_exchange_tuanbi"
+                        android:layout_marginTop="@dimen/margin_thirty"
+                        android:background="@color/bg_line" />
+                </RelativeLayout>
+
+                 <ScrollView
+                    android:id="@+id/scroll_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <LinearLayout
+                        android:id="@+id/rl_gridview"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/bg_white">
+
+                        <com.lvgou.distribution.view.MyGridView
+                            android:id="@+id/gv_test"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="@dimen/margin_ten"
+                            android:layout_marginTop="@dimen/margin_ten"
+                            android:columnWidth="5dp"
+                            android:numColumns="3"
+                            android:padding="10dp" />
+                    </LinearLayout>
+                </ScrollView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_qita"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_fifteen"
+                        android:background="@mipmap/cb_default"
+                        android:button="@null" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/cb_qita"
+                        android:text="短信内容末尾跟上店铺地址(可不选)"
+                        android:textColor="@color/bg_push_time"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_send"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginRight="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:background="@drawable/bg_radius_apply"
+                    android:gravity="center"
+                    android:text="发送"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/sixteen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_fifteen"
+                    android:text="温馨提示:  晚22:00之后发短信, 需次日9:00才可收到"
+                    android:textColor="#fc4d30"
+                    android:textSize="@dimen/twelve" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <include layout="@layout/dialog_ios_7" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="22.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22.5dp">
+        <View
+            android:id="@+id/view_select"
+            android:layout_width="4dp"
+            android:layout_height="17dp"
+            android:layout_centerVertical="true"
+            android:background="#d5aa5f"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="导游基础"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

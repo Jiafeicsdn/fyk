@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/contact
+END
+SortModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/contact/SortModel.java
+END
+CharacterParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/contact/CharacterParser.java
+END
+SideBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/contact/SideBar.java
+END
+GroupMemberBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/contact/GroupMemberBean.java
+END
+SortGroupMemberAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Android/!svn/ver/67/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/contact/SortGroupMemberAdapter.java
+END
+PinyinComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Android/!svn/ver/2/trunk/FYK-Android/app/src/main/java/com/lvgou/distribution/contact/PinyinComparator.java
+END

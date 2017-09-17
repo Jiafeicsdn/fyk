@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_top_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/bg_white">
+
+            <RelativeLayout
+                android:id="@+id/rl_back"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/rl_back" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_collect"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:layout_toLeftOf="@+id/ll_zan">
+                <ImageView
+                    android:id="@+id/img_collect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/uncollect_icon" />
+                <TextView
+                    android:id="@+id/txt_collect_numer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="-8dp"
+                    android:textColor="#a3a3a3"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <!--<ImageView
+                android:id="@+id/img_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="24dp"
+                android:layout_toLeftOf="@+id/ll_zan"
+                android:padding="10dp"
+                android:src="@mipmap/uncollect_icon" />-->
+
+            <LinearLayout
+                android:id="@+id/ll_zan"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+<<<<<<< .mine
+                android:layout_marginRight="20dp"
+=======
+>>>>>>> .r63
+                android:layout_toLeftOf="@+id/img_share"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/img_zan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/unzan_icon" />
+
+                <TextView
+                    android:id="@+id/txt_zan_numer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="-8dp"
+                    android:textColor="#a3a3a3"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:src="@mipmap/share_icon" />
+        </RelativeLayout>
+
+
+        <com.lvgou.distribution.view.DetailsLayout
+            android:layout_width="match_parent"
+            android:layout_height="4000dp">
+
+            <LinearLayout
+                android:id="@+id/layout_topView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <include layout="@layout/item_news" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="喜欢就赏一下吧～"
+                    android:textColor="#000000"/>
+
+                <!--<ImageView
+                    android:id="@+id/img_reward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_reward" />-->
+                <TextView
+                    android:id="@+id/img_reward"
+                    android:layout_width="82dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bg_zanshang"
+                    android:gravity="center"
+                    android:text="赞赏"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <!-- <TextView
+                     android:id="@+id/txt_geted_tuanbi"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="15dp"
+                     android:text="@string/text_geted_tuanbi"
+                     android:textColor="@color/text_color_ff9900" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/txt_reward_people_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+
+                        android:text="@string/text_zaned_numer"
+                        android:textColor="#bababa" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f3f4f8" />
+            </LinearLayout>
+
+            <com.lvgou.distribution.view.HorizontalListView
+                android:id="@+id/id_horizontalmenu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/bg_white"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:focusable="true"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_line" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@id/id_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="80dp" />
+        </com.lvgou.distribution.view.DetailsLayout>
+
+        <!--<include layout="@layout/dialog_zhuanfa_tuankuang" />-->
+
+        <!--<include layout="@layout/dialog_comment_show_one" />-->
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ll_bottom"
+        layout="@layout/layout_bottom_publish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+    <include
+        android:id="@+id/ll_comment_view"
+        layout="@layout/comment_popupwindow_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom" />
+
+    <include layout="@layout/dialog_share_new" />
+</FrameLayout>
+

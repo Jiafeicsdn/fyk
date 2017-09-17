@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backround"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_operation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/rl_back"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/rl_back"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/rl_back" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_operation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_thirty_five"
+                    android:text="操作指南"
+                    android:textColor="@color/bg_code_number"
+                    android:textSize="@dimen/fifteen" />
+
+                <View
+                    android:id="@+id/view_operation"
+                    android:layout_width="70dp"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_thirty"
+                    android:background="@color/bg_code_number" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_shopping"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/rl_operation"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_shopping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_thirty_five"
+                    android:text="购物须知"
+                    android:textColor="@color/bg_new_guide_black"
+                    android:textSize="@dimen/fifteen" />
+
+                <View
+                    android:id="@+id/view_shopping"
+                    android:layout_width="70dp"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/margin_thirty"
+                    android:background="@color/bg_code_number"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_share"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_ten">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_ten"
+                        android:background="@mipmap/goods_share" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_line" />
+        <!-- 操作指南布局开始-->
+        <LinearLayout
+            android:id="@+id/ll_opreation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/bg_white"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_function"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tv_function"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="APP功能介绍"
+                        android:textColor="@color/bg_code_number"
+                        android:textSize="@dimen/fourteen" />
+
+                    <View
+                        android:id="@+id/view_function"
+                        android:layout_width="110dp"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/bg_code_number" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_operation_guide"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tv_operation_guide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="APP操作指南"
+                        android:textColor="@color/bg_new_guide_black"
+                        android:textSize="@dimen/fourteen" />
+
+                    <View
+                        android:id="@+id/view_operation_guide"
+                        android:layout_width="110dp"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/bg_code_number"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_line" />
+
+            <!-- APP功能介绍布局开始-->
+            <LinearLayout
+                android:id="@+id/ll_function"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="153dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_shopping_manger"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/new_guider_big">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="商品管理"
+                                android:textColor="@color/bg_white"
+                                android:textSize="@dimen/fourteen" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twelve" />
+
+                        <RelativeLayout
+                            android:id="@+id/rl_order_manger"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/new_guider_big">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="订单管理"
+                                android:textColor="@color/bg_white"
+                                android:textSize="@dimen/fourteen" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/twelve"
+                        android:layout_height="match_parent" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_push_speed"
+                        android:layout_width="0dp"
+                        android:layout_height="153dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/new_guider_huge">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="爆品速推"
+                            android:textColor="@color/bg_white"
+                            android:textSize="@dimen/fourteen" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_sms_free"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:layout_marginTop="@dimen/twelve"
+                    android:background="@mipmap/new_guider_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="免费短信"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:layout_marginTop="@dimen/twelve"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_my_task"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@mipmap/new_guider_big">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="我的任务"
+                            android:textColor="@color/bg_white"
+                            android:textSize="@dimen/fourteen" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="@dimen/twelve"
+                        android:layout_height="match_parent" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_more"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@mipmap/new_guider_big">
+
+                        <TextView
+                            android:id="@+id/tv_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="更多功能敬请期待"
+                            android:textColor="@color/bg_push_time"
+                            android:textSize="@dimen/fourteen" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_1"
+                            android:layout_centerHorizontal="true"
+                            android:text="..."
+                            android:textColor="@color/bg_code_number"
+                            android:textSize="@dimen/sixteen"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- APP功能介绍布局结束-->
+
+            <!-- APP操作指南布局开始-->
+            <LinearLayout
+                android:id="@+id/ll_opreation_guide"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:id="@+id/rl_create_shop"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:layout_marginTop="@dimen/twelve"
+                    android:background="@mipmap/new_guider_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="新手如何创建店铺?"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/twelve" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="153dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_push_goods"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/new_guider_big">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="如何推送店铺及单品？"
+                                android:textColor="@color/bg_white"
+                                android:textSize="@dimen/fourteen" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/twelve" />
+
+                        <RelativeLayout
+                            android:id="@+id/rl_query_logistics"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/new_guider_big">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="如何查询物流信息？"
+                                android:textColor="@color/bg_white"
+                                android:textSize="@dimen/fourteen" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/twelve"
+                        android:layout_height="match_parent" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_withdrawals"
+                        android:layout_width="0dp"
+                        android:layout_height="153dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/new_guider_huge">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="佣金及提现"
+                            android:textColor="@color/bg_white"
+                            android:textSize="@dimen/fourteen" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/twelve" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_order_process"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@mipmap/new_guider_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="游客下单流程"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/twelve" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_update_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="@dimen/margin_ten"
+                    android:layout_marginRight="@dimen/margin_ten"
+                    android:background="@mipmap/new_guider_small">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="修改店铺名称及头像"
+                        android:textColor="@color/bg_white"
+                        android:textSize="@dimen/fourteen" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- APP操作指南布局结束-->
+        </LinearLayout>
+        <!-- 操作指南布局结束-->
+
+        <!-- 购物需知布局开始-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/ll_shopping_know"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@color/bg_white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/margin_thirty_five"
+                    android:layout_marginLeft="@dimen/margin_fifteen"
+                    android:layout_marginRight="@dimen/margin_fifteen"
+                    android:layout_marginTop="@dimen/margin_twenty"
+                    android:background="@mipmap/new_content" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <include layout="@layout/dialog_share_new" />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/widget
+END
+IjkVideoView.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/widget/IjkVideoView.java
+END
+MediaPlayerCompat.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/widget/MediaPlayerCompat.java
+END
+MeasureHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/widget/MeasureHelper.java
+END
+IRenderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/widget/IRenderView.java
+END
+SurfaceRenderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/widget/SurfaceRenderView.java
+END
+TextureRenderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/widget/TextureRenderView.java
+END
+IMediaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/Android/!svn/ver/2/trunk/FYK-Android/ijkplayerlibrary/src/main/java/tv/danmaku/ijk/media/player/widget/IMediaController.java
+END
